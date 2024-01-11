@@ -12,6 +12,10 @@ if status is-interactive
 
 end
 
+alias mvnr="mvn compile && mvn exec:java $1"
+alias ...="cd ../.."
+alias nvim="bash $HOME/.local/bin/nvim.sh"
+
 starship init fish | source
 
 # function fish_prompt

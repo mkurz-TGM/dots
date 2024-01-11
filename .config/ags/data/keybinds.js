@@ -103,9 +103,10 @@ export const keybindList = [[
         "binds": [
             { "keys": ["", "+", "T"], "action": "Launch terminal: foot" },
             { "keys": ["", "+", "W"], "action": "Launch browser: Firefox" },
-            { "keys": ["", "+", "C"], "action": "Launch editor: vscode" },
+            { "keys": ["", "+", "C"], "action": "Launch editor: vscodium" },
             { "keys": ["", "+", "X"], "action": "Launch editor: GNOME Text Editor" },
-            { "keys": ["", "+", "I"], "action": "Launch settings: GNOME Control center" }
+            { "keys": ["", "+", "I"], "action": "Launch settings: GNOME Control center" },
+            { "keys": ["Ctrl", "", "+", "W"], "action": "Launch Webcord"}
         ],
         "appeartick": 3
     },
