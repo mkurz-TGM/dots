@@ -88,6 +88,7 @@
         "BLACK_700": "#33302F",
         "BLACK_900": "#2B2928",
 <<<<<<< HEAD
+<<<<<<< HEAD
         "accent_bg_color": "#7dd0ff",
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
@@ -96,6 +97,11 @@
         "accent_fg_color": "#471868",
         "accent_color": "#e4b5ff",
 >>>>>>> bf0d710 (ags: sync)
+=======
+        "accent_bg_color": "#acc7ff",
+        "accent_fg_color": "#002e6c",
+        "accent_color": "#acc7ff",
+>>>>>>> 1f76dd9 (Doxed foot)
         "destructive_bg_color": "#ffb4a9",
         "destructive_fg_color": "#680003",
         "destructive_color": "#ffb4a9",
@@ -105,6 +111,7 @@
         "warning_fg_color": "rgba(0, 0, 0, 0.87)",
         "error_bg_color": "#ffb4a9",
         "error_fg_color": "#680003",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "window_bg_color": "#0F1012",
         "window_fg_color": "#e1e2e5",
@@ -127,19 +134,32 @@
         "window_fg_color": "#e7e0e5",
         "view_bg_color": "#1d1b1e",
         "view_fg_color": "#e7e0e5",
+=======
+        "window_bg_color": "#101011",
+        "window_fg_color": "#e4e2e6",
+        "view_bg_color": "#1b1b1d",
+        "view_fg_color": "#e4e2e6",
+>>>>>>> 1f76dd9 (Doxed foot)
         "headerbar_bg_color": "mix(@dialog_bg_color, @window_bg_color, 0.5)",
-        "headerbar_fg_color": "#eedcf5",
-        "headerbar_border_color": "#4f4256",
+        "headerbar_fg_color": "#dae2f9",
+        "headerbar_border_color": "#3f4759",
         "headerbar_backdrop_color": "@headerbar_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.09)",
-        "card_bg_color": "#111012",
-        "card_fg_color": "#eedcf5",
+        "card_bg_color": "#101011",
+        "card_fg_color": "#dae2f9",
         "card_shade_color": "rgba(0, 0, 0, 0.09)",
+<<<<<<< HEAD
         "dialog_bg_color": "#4f4256",
         "dialog_fg_color": "#eedcf5",
         "popover_bg_color": "#4f4256",
         "popover_fg_color": "#eedcf5",
 >>>>>>> bf0d710 (ags: sync)
+=======
+        "dialog_bg_color": "#3f4759",
+        "dialog_fg_color": "#dae2f9",
+        "popover_bg_color": "#3f4759",
+        "popover_fg_color": "#dae2f9",
+>>>>>>> 1f76dd9 (Doxed foot)
         "thumbnail_bg_color": "#1a1b26",
         "thumbnail_fg_color": "#AEE5FA",
         "shade_color": "rgba(0, 0, 0, 0.36)",

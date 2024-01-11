@@ -42,6 +42,7 @@
 
 .txt {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 
 .txt-primary {
@@ -54,16 +55,23 @@
   color: #c1c7ce; }
 =======
   color: #e7e0e5; }
+=======
+  color: #e4e2e6; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .txt-primary {
-  color: #eccbff; }
+  color: #c5d8ff; }
 
 .txt-onSecondaryContainer {
-  color: #eedcf5; }
+  color: #dae2f9; }
 
 .txt-onSurfaceVariant {
+<<<<<<< HEAD
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .txt-shadow {
   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.69);
@@ -118,6 +126,7 @@
 
 .txt-subtext {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a1a2a5; }
 
 .txt-action {
@@ -128,6 +137,12 @@
 .txt-action {
   color: #c7c1c5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #a1a3a4; }
+
+.txt-action {
+  color: #c1c3c4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .txt-semibold {
   font-weight: 500; }
@@ -164,10 +179,14 @@
 
 .separator-line {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #8b9298;
 =======
   background-color: #968e98;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #899294;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-width: 0.068rem;
   min-height: 0.068rem; }
 
@@ -175,10 +194,14 @@
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #8b9298;
 =======
   background-color: #968e98;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #899294;
+>>>>>>> 1f76dd9 (Doxed foot)
   margin: 0rem 0.682rem;
   min-width: 0.273rem;
   min-height: 0.273rem; }
@@ -437,6 +460,7 @@
 
 * {
 <<<<<<< HEAD
+<<<<<<< HEAD
   caret-color: #a4deff; }
   * selection {
     background-color: #b6c9d8;
@@ -447,6 +471,12 @@
     background-color: #d2c1d9;
     color: #372c3e; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  caret-color: #85e3f4; }
+  * selection {
+    background-color: #b1cbd1;
+    color: #1c3439; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 @keyframes appear {
   from {
@@ -455,6 +485,7 @@
     opacity: 1; } }
 
 menu {
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(54, 58, 61, 0.121);
   border-left: 1px solid rgba(54, 58, 61, 0.121);
@@ -472,6 +503,15 @@ menu {
   background: #38343a;
   color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(54, 58, 60, 0.121);
+  border-left: 1px solid rgba(54, 58, 60, 0.121);
+  border-right: 1px solid rgba(40, 44, 46, 0.1105);
+  border-bottom: 1px solid rgba(40, 44, 46, 0.1105);
+  padding: 0.681rem;
+  background: #2f3638;
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   animation-name: appear;
@@ -495,6 +535,7 @@ menu > menuitem {
 menu > menuitem:hover,
 menu > menuitem:focus {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #3f4549; }
 
 menu > menuitem:active {
@@ -505,6 +546,12 @@ menu > menuitem:active {
 menu > menuitem:active {
   background-color: #565158; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #3d4547; }
+
+menu > menuitem:active {
+  background-color: #4c5355; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 radio {
   border-radius: 9999px;
@@ -513,14 +560,19 @@ radio {
   min-width: 15px;
   min-height: 15px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #8b9298; }
 =======
   border: 0.068rem solid #968e98; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border: 0.068rem solid #899294; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 radio:checked {
   min-width: 8px;
   min-height: 8px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #00344b;
   border: 0.477rem solid #a4deff; }
@@ -528,6 +580,10 @@ radio:checked {
   background-color: #471868;
   border: 0.477rem solid #eccbff; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #00363f;
+  border: 0.477rem solid #85e3f4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 tooltip {
   animation-name: appear;
@@ -537,6 +593,7 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a;
   color: #c1c7ce;
   border: 1px solid #c1c7ce; }
@@ -545,6 +602,11 @@ tooltip {
   color: #cdc3ce;
   border: 1px solid #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #2f3638;
+  color: #bfc8ca;
+  border: 1px solid #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .configtoggle-box {
   padding: 0.205rem 0.341rem;
@@ -552,15 +614,20 @@ tooltip {
 
 .configtoggle-box:focus {
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.136rem solid #696c6f; }
 =======
   border: 0.136rem solid #6f6a6f; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border: 0.136rem solid #696c6e; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .switch-bg {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #131618;
   border: 0.136rem solid #e1e2e5;
@@ -568,10 +635,15 @@ tooltip {
   background-color: #171518;
   border: 0.136rem solid #e7e0e5;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #121618;
+  border: 0.136rem solid #e1e3e4;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-width: 2.864rem;
   min-height: 1.637rem; }
 
 .switch-bg-true {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff;
   border: 0.136rem solid #a4deff; }
@@ -579,11 +651,16 @@ tooltip {
   background-color: #eccbff;
   border: 0.136rem solid #eccbff; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #85e3f4;
+  border: 0.136rem solid #85e3f4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .switch-fg {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #e1e2e5;
   color: #191d20;
@@ -591,11 +668,16 @@ tooltip {
   background-color: #e7e0e5;
   color: #1f1c20;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #e1e3e4;
+  color: #191d1f;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-width: 0.819rem;
   min-height: 0.819rem;
   margin-left: 0.477rem; }
 
 .switch-fg-true {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #00344b;
   color: #a4deff;
@@ -603,6 +685,10 @@ tooltip {
   background-color: #471868;
   color: #eccbff;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #00363f;
+  color: #85e3f4;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-width: 1.431rem;
   min-height: 1.431rem;
   margin-left: 1.431rem; }
@@ -616,10 +702,14 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #8b9298; }
 =======
   border: 0.068rem solid #968e98; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border: 0.068rem solid #899294; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .segment-container > *:first-child {
   border-top-left-radius: 9999px;
@@ -627,10 +717,14 @@ tooltip {
 
 .segment-container > * {
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-right: 0.068rem solid #8b9298;
 =======
   border-right: 0.068rem solid #968e98;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-right: 0.068rem solid #899294;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.341rem 0.682rem; }
 
 .segment-container > *:last-child {
@@ -640,16 +734,21 @@ tooltip {
 
 .segment-btn {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .segment-btn:focus,
 .segment-btn:hover {
   background-color: rgba(128, 128, 128, 0.3); }
 
 .segment-btn-enabled {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
@@ -667,6 +766,15 @@ tooltip {
   background-color: #4f4256;
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+
+.segment-btn-enabled:hover,
+.segment-btn-enabled:focus {
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .gap-v-5 {
   min-height: 0.341rem; }
@@ -691,10 +799,14 @@ tooltip {
 
 .bar-bg {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-height: 2.727rem; }
 
 .bar-sidespace {
@@ -705,10 +817,14 @@ tooltip {
 
 .bar-group {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.45); }
 =======
   background-color: rgba(56, 52, 58, 0.45); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.45); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-group-pad {
   padding: 0.205rem; }
@@ -768,6 +884,7 @@ tooltip {
 .bar-ws {
   min-width: 1.774rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #616365;
   color: #6c6d70; }
 
@@ -781,15 +898,24 @@ tooltip {
 =======
   color: #656265;
   color: #706d70; }
+=======
+  color: #616465;
+  color: #6b6e6f; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-ws-active {
-  background-color: #4f4256;
-  color: #eedcf5; }
+  background-color: #334a4f;
+  color: #cde7ed; }
 
 .bar-ws-occupied {
+<<<<<<< HEAD
   background-color: #38343a;
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #2f3638;
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-separator {
   border-radius: 9999px;
@@ -797,10 +923,14 @@ tooltip {
   min-width: 0.341rem;
   min-height: 0.341rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(45, 49, 52, 0.31);
 =======
   background-color: rgba(51, 48, 52, 0.31);
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(45, 49, 51, 0.31);
+>>>>>>> 1f76dd9 (Doxed foot)
   margin: 0rem 0.341rem; }
 
 .bar-clock-box {
@@ -814,10 +944,14 @@ tooltip {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
   font-size: 1rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-batt {
   border-radius: 9999px;
@@ -826,12 +960,17 @@ tooltip {
   min-width: 1.77rem;
   border-radius: 10rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
   background-color: #4f4256;
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-sidemodule {
   min-width: 26rem; }
@@ -850,12 +989,17 @@ tooltip {
   min-height: 1.636rem;
   padding: 0rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
   background-color: #4f4256;
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-batt-circprog-low {
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
@@ -878,12 +1022,17 @@ tooltip {
   min-width: 1.77rem;
   border-radius: 10rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
   background-color: #4f4256;
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-music-circprog {
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
@@ -891,17 +1040,6 @@ tooltip {
   min-height: 1.636rem;
   padding: 0rem;
 <<<<<<< HEAD
-  background-color: #374955;
-  color: #d2e5f4; }
-=======
-  background-color: #4f4256;
-  color: #eedcf5; }
->>>>>>> bf0d710 (ags: sync)
-
-.bar-music-playstate-playing {
-  min-height: 1.77rem;
-  min-width: 1.77rem;
-  border-radius: 10rem;
 <<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
@@ -909,6 +1047,27 @@ tooltip {
   background-color: #4f4256;
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
+
+.bar-music-playstate-playing {
+  min-height: 1.77rem;
+  min-width: 1.77rem;
+  border-radius: 10rem;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: #374955;
+  color: #d2e5f4; }
+=======
+  background-color: #4f4256;
+  color: #eedcf5; }
+>>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-music-playstate-txt {
   transition: 100ms cubic-bezier(0.05, 0.7, 0.1, 1);
@@ -977,10 +1136,14 @@ tooltip {
     margin: 0rem 0.137rem;
     border-radius: 10rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #d2e5f4; }
 =======
     background-color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+    background-color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-prog-batt-low progress {
   background-color: #930006; }
@@ -997,15 +1160,20 @@ tooltip {
   min-width: 0.681rem;
   min-height: 0.681rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #c1c7ce; }
 =======
   background-color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-batt-chargestate-charging-smaller {
   border-radius: 10rem;
   min-width: 0.409rem;
   min-height: 0.409rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #c1c7ce; }
 =======
@@ -1022,6 +1190,12 @@ tooltip {
 =======
   background-color: #0f0e10;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #bfc8ca; }
+
+.corner {
+  background-color: #0b0f10;
+>>>>>>> 1f76dd9 (Doxed foot)
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem; }
 
@@ -1034,10 +1208,14 @@ tooltip {
   margin-top: -0.136rem;
   margin-bottom: -0.341rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a1a2a5; }
 =======
   color: #a6a1a5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #a1a3a4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-space-button {
   padding: 0.341rem; }
@@ -1081,6 +1259,7 @@ tooltip {
 
 .bar-statusicons-hover {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #212325; }
 
 .bar-statusicons-active {
@@ -1091,12 +1270,19 @@ tooltip {
 .bar-statusicons-active {
   background-color: #3a383b; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #202425; }
+
+.bar-statusicons-active {
+  background-color: #36393a; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-util-btn {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-height: 1.77rem;
   min-width: 1.77rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #31363a; }
 
@@ -1108,18 +1294,26 @@ tooltip {
   background-color: #4e5358; }
 =======
   background-color: #38343a; }
+=======
+  background-color: #2f3638; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bar-util-btn:hover,
 .bar-util-btn:focus {
-  background-color: #474249; }
+  background-color: #3d4547; }
 
 .bar-util-btn:active {
+<<<<<<< HEAD
   background-color: #565158; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #4c5355; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .cheatsheet-bg {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
@@ -1139,6 +1333,16 @@ tooltip {
   margin-bottom: 0.682rem;
   background-color: #0f0e10;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(161, 163, 165, 0.19);
+  border-left: 1px solid rgba(161, 163, 165, 0.19);
+  border-right: 1px solid rgba(125, 128, 130, 0.145);
+  border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
+  margin: 0.476rem;
+  margin-bottom: 0.682rem;
+  background-color: #0b0f10;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 1.364rem; }
 
 .cheatsheet-key {
@@ -1150,6 +1354,7 @@ tooltip {
   border-radius: 0.409rem;
   -gtk-outline-radius: 0.409rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a4deff;
   border: 0.068rem solid #a4deff;
   box-shadow: 0rem 0.136rem 0rem #a4deff;
@@ -1158,6 +1363,11 @@ tooltip {
   border: 0.068rem solid #eccbff;
   box-shadow: 0rem 0.136rem 0rem #eccbff;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #85e3f4;
+  border: 0.068rem solid #85e3f4;
+  box-shadow: 0rem 0.136rem 0rem #85e3f4;
+>>>>>>> 1f76dd9 (Doxed foot)
   font-weight: 500; }
 
 .cheatsheet-key-notkey {
@@ -1165,10 +1375,14 @@ tooltip {
   padding: 0.136rem 0.205rem;
   margin: 0.17rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #c3e7ff; }
 =======
   color: #f4d9ff; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #9cefff; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .cheatsheet-closebtn {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -1202,19 +1416,27 @@ tooltip {
   font-family: 'Gabarito';
   font-size: 5.795rem;
 <<<<<<< HEAD
-  color: #e1e2e5; }
-=======
-  color: #e7e0e5; }
->>>>>>> bf0d710 (ags: sync)
-
-.bg-time-date {
-  font-family: 'Gabarito';
-  font-size: 2.591rem;
 <<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
+
+.bg-time-date {
+  font-family: 'Gabarito';
+  font-size: 2.591rem;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  color: #e1e2e5; }
+=======
+  color: #e7e0e5; }
+>>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bg-distro-box {
   border-radius: 1.705rem;
@@ -1226,19 +1448,27 @@ tooltip {
   font-family: 'Gabarito';
   font-size: 1.432rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bg-distro-name {
   font-family: 'Gabarito';
   font-size: 1.432rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bg-graph {
   color: rgba(255, 255, 255, 0.5);
@@ -1248,15 +1478,20 @@ tooltip {
 .bg-quicklaunch-title {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #c1c7ce; }
 =======
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bg-quicklaunch-btn {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #31363a;
   color: #c1c7ce;
@@ -1266,12 +1501,18 @@ tooltip {
   color: #cdc3ce;
   border: 0.068rem solid #a6a1a5;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #2f3638;
+  color: #bfc8ca;
+  border: 0.068rem solid #a1a3a4;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-width: 4.432rem;
   min-height: 2.045rem;
   padding: 0.273rem 0.682rem; }
 
 .bg-quicklaunch-btn:hover,
 .bg-quicklaunch-btn:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #383d41; }
 
@@ -1283,6 +1524,12 @@ tooltip {
 .bg-quicklaunch-btn:active {
   background-color: #474249; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #363d3f; }
+
+.bg-quicklaunch-btn:active {
+  background-color: #3d4547; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .bg-system-bg {
   border-radius: 1.159rem;
@@ -1295,10 +1542,14 @@ tooltip {
   font-size: 0px;
   padding: 0rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a; }
 =======
   background-color: #38343a; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #2f3638; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .dock-bg {
   border-radius: 1.705rem;
@@ -1306,10 +1557,14 @@ tooltip {
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.682rem; }
 
 .dock-app-btn {
@@ -1319,6 +1574,7 @@ tooltip {
 
 .dock-app-btn:hover,
 .dock-app-btn:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(35, 39, 42, 0.31); }
 
@@ -1330,6 +1586,12 @@ tooltip {
 .dock-app-btn:active {
   background-color: rgba(61, 57, 62, 0.31); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(35, 39, 41, 0.31); }
+
+.dock-app-btn:active {
+  background-color: rgba(55, 59, 61, 0.31); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .dock-app-icon {
   min-width: 3.409rem;
@@ -1338,16 +1600,21 @@ tooltip {
 .dock-separator {
   min-width: 0.068rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a; }
 =======
   background-color: #38343a; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #2f3638; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-bg {
   min-width: 8.864rem;
   min-height: 3.409rem; }
 
 .osd-value {
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
@@ -1365,6 +1632,15 @@ tooltip {
   margin: 0.476rem;
   background-color: #0f0e10;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(161, 163, 165, 0.19);
+  border-left: 1px solid rgba(161, 163, 165, 0.19);
+  border-right: 1px solid rgba(125, 128, 130, 0.145);
+  border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
+  margin: 0.476rem;
+  background-color: #0b0f10;
+>>>>>>> 1f76dd9 (Doxed foot)
   border-radius: 1.023rem;
   padding: 0.625rem 1.023rem;
   padding-top: 0.313rem; }
@@ -1380,16 +1656,21 @@ tooltip {
     min-width: 0.068rem;
     border-radius: 10rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #374955; }
 =======
     background-color: #4f4256; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+    background-color: #334a4f; }
+>>>>>>> 1f76dd9 (Doxed foot)
   .osd-progress progress {
     transition: 200ms cubic-bezier(0.1, 1, 0, 1);
     min-height: 0.680rem;
     min-width: 0.680rem;
     margin: 0rem 0.137rem;
     border-radius: 10rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
     background-color: #d2e5f4; }
 
@@ -1401,15 +1682,25 @@ tooltip {
 .osd-icon {
   color: #f4d9ff; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+    background-color: #cde7ed; }
+
+.osd-icon {
+  color: #9cefff; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-label {
   font-size: 1.023rem;
   font-weight: 500;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5;
 =======
   color: #e7e0e5;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4;
+>>>>>>> 1f76dd9 (Doxed foot)
   margin-top: 0.341rem; }
 
 .osd-value-txt {
@@ -1417,10 +1708,14 @@ tooltip {
   font-size: 1.688rem;
   font-weight: 500;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-notifs {
   padding-top: 0.313rem; }
@@ -1428,10 +1723,14 @@ tooltip {
 .osd-colorscheme {
   border-radius: 1.023rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 1.023rem;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem; }
@@ -1449,6 +1748,7 @@ tooltip {
     margin: 0.409rem; }
 
 .osd-color-primary {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b; }
@@ -1493,45 +1793,53 @@ tooltip {
 =======
   background-color: #eccbff;
   color: #471868; }
+=======
+  background-color: #85e3f4;
+  color: #00363f; }
+>>>>>>> 1f76dd9 (Doxed foot)
   .osd-color-primary box {
-    background-color: #471868; }
+    background-color: #00363f; }
 
 .osd-color-primaryContainer {
-  background-color: #6f478d;
-  color: #f4d9ff; }
+  background-color: #1a606b;
+  color: #9cefff; }
   .osd-color-primaryContainer box {
-    background-color: #f4d9ff; }
+    background-color: #9cefff; }
 
 .osd-color-secondary {
-  background-color: #d2c1d9;
-  color: #372c3e; }
+  background-color: #b1cbd1;
+  color: #1c3439; }
   .osd-color-secondary box {
-    background-color: #372c3e; }
+    background-color: #1c3439; }
 
 .osd-color-secondaryContainer {
-  background-color: #4f4256;
-  color: #eedcf5; }
+  background-color: #334a4f;
+  color: #cde7ed; }
   .osd-color-secondaryContainer box {
-    background-color: #eedcf5; }
+    background-color: #cde7ed; }
 
 .osd-color-surfaceVariant {
-  background-color: #38343a;
-  color: #cdc3ce; }
+  background-color: #2f3638;
+  color: #bfc8ca; }
   .osd-color-surfaceVariant box {
-    background-color: #cdc3ce; }
+    background-color: #bfc8ca; }
 
 .osd-color-surface {
-  background-color: #1f1c20;
-  color: #e7e0e5; }
+  background-color: #191d1f;
+  color: #e1e3e4; }
   .osd-color-surface box {
-    background-color: #e7e0e5; }
+    background-color: #e1e3e4; }
 
 .osd-color-background {
-  background-color: #0f0e10;
-  color: #e7e0e5; }
+  background-color: #0b0f10;
+  color: #e1e3e4; }
   .osd-color-background box {
+<<<<<<< HEAD
     background-color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+    background-color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-show {
   transition: 200ms cubic-bezier(0.1, 1, 0, 1); }
@@ -1547,6 +1855,7 @@ tooltip {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -1557,12 +1866,19 @@ tooltip {
   border-right: 1px solid rgba(131, 126, 131, 0.145);
   border-bottom: 1px solid rgba(131, 126, 131, 0.145);
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(161, 163, 165, 0.19);
+  border-left: 1px solid rgba(161, 163, 165, 0.19);
+  border-right: 1px solid rgba(125, 128, 130, 0.145);
+  border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+>>>>>>> 1f76dd9 (Doxed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   min-width: 13.636rem;
   min-height: 3.409rem;
   padding: 0rem 1.364rem;
   padding-right: 2.864rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #0c0e10;
   color: #e1e2e5;
@@ -1580,18 +1896,26 @@ tooltip {
 =======
   background-color: #0f0e10;
   color: #e7e0e5;
+=======
+  background-color: #0b0f10;
+  color: #e1e3e4;
+>>>>>>> 1f76dd9 (Doxed foot)
   caret-color: transparent; }
   .overview-search-box selection {
-    background-color: #d2c1d9;
-    color: #372c3e; }
+    background-color: #b1cbd1;
+    color: #1c3439; }
 
 .overview-search-box-extended {
   min-width: 25.909rem;
-  caret-color: #eedcf5; }
+  caret-color: #cde7ed; }
 
 .overview-search-prompt {
+<<<<<<< HEAD
   color: #a6a1a5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #a1a3a4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .overview-search-icon {
   margin: 0rem 1.023rem; }
@@ -1608,6 +1932,7 @@ tooltip {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -1618,10 +1943,17 @@ tooltip {
   border-right: 1px solid rgba(131, 126, 131, 0.145);
   border-bottom: 1px solid rgba(131, 126, 131, 0.145);
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(161, 163, 165, 0.19);
+  border-left: 1px solid rgba(161, 163, 165, 0.19);
+  border-right: 1px solid rgba(125, 128, 130, 0.145);
+  border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+>>>>>>> 1f76dd9 (Doxed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   min-width: 28.773rem;
   padding: 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #0c0e10;
   color: #e1e2e5; }
@@ -1629,6 +1961,10 @@ tooltip {
   background-color: #0f0e10;
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .overview-search-results-icon {
   margin: 0rem 0.682rem;
@@ -1663,6 +1999,7 @@ tooltip {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -1683,11 +2020,23 @@ tooltip {
   background-color: #0f0e10;
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(161, 163, 165, 0.19);
+  border-left: 1px solid rgba(161, 163, 165, 0.19);
+  border-right: 1px solid rgba(125, 128, 130, 0.145);
+  border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
+  margin: 0.476rem;
+  padding: 0.341rem;
+  background-color: #0b0f10;
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .overview-tasks-workspace {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   margin: 0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(46, 49, 52, 0.1147); }
 
@@ -1701,11 +2050,19 @@ tooltip {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   color: rgba(217, 210, 215, 0.31); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(46, 49, 51, 0.1147); }
+
+.overview-tasks-workspace-number {
+  font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
+  color: rgba(211, 213, 214, 0.31); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .overview-tasks-window {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #d2e5f4;
@@ -1724,17 +2081,26 @@ tooltip {
   background-color: rgba(56, 52, 58, 0.31);
   color: #eedcf5;
   border: 0.068rem solid rgba(238, 220, 245, 0.07); }
+=======
+  background-color: rgba(51, 74, 79, 0.5);
+  color: #cde7ed;
+  border: 0.068rem solid rgba(205, 231, 237, 0.07); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .overview-tasks-window:hover,
 .overview-tasks-window:focus {
-  background-color: rgba(100, 85, 109, 0.525); }
+  background-color: rgba(62, 95, 102, 0.525); }
 
 .overview-tasks-window:active {
-  background-color: rgba(118, 100, 128, 0.55); }
+  background-color: rgba(72, 112, 120, 0.55); }
 
 .overview-tasks-window-selected {
+<<<<<<< HEAD
   background-color: rgba(118, 100, 128, 0.55); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(72, 112, 120, 0.55); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .overview-tasks-window-dragging {
   opacity: 0.2; }
@@ -1742,6 +2108,7 @@ tooltip {
 .osk-window {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
@@ -1759,6 +2126,15 @@ tooltip {
   margin: 0.476rem;
   background-color: #0f0e10; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(161, 163, 165, 0.19);
+  border-left: 1px solid rgba(161, 163, 165, 0.19);
+  border-right: 1px solid rgba(125, 128, 130, 0.145);
+  border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
+  margin: 0.476rem;
+  background-color: #0b0f10; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osk-body {
   padding: 1.023rem;
@@ -1776,10 +2152,14 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a;
 =======
   background-color: #38343a;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #2f3638;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-height: 0.273rem;
   min-width: 10.227rem;
   margin-top: 0.545rem;
@@ -1788,12 +2168,17 @@ tooltip {
 .osk-key {
   border-radius: 0.682rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #c1c7ce;
 =======
   background-color: rgba(56, 52, 58, 0.31);
   color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.31);
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.188rem;
   font-weight: 500;
   font-size: 1.091rem; }
@@ -1836,18 +2221,24 @@ tooltip {
 .osk-control-button {
   border-radius: 0.682rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #c1c7ce;
 =======
   background-color: rgba(56, 52, 58, 0.31);
   color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.31);
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   font-weight: 500;
   font-size: 1.091rem;
   padding: 0.682rem; }
 
 .osk-control-button:hover,
 .osk-control-button:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(63, 69, 73, 0.31); }
 
@@ -1859,10 +2250,17 @@ tooltip {
 .osk-control-button:active {
   background-color: rgba(101, 95, 102, 0.31);
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(61, 69, 71, 0.31); }
+
+.osk-control-button:active {
+  background-color: rgba(90, 98, 100, 0.31);
+>>>>>>> 1f76dd9 (Doxed foot)
   font-size: 1.091rem; }
 
 .sidebar-right {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
@@ -1874,15 +2272,25 @@ tooltip {
   border-right: 1px solid rgba(131, 126, 131, 0.145);
   border-bottom: 1px solid rgba(131, 126, 131, 0.145);
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(161, 163, 165, 0.19);
+  border-left: 1px solid rgba(161, 163, 165, 0.19);
+  border-right: 1px solid rgba(125, 128, 130, 0.145);
+  border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+>>>>>>> 1f76dd9 (Doxed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   border-radius: 1.297rem;
   min-width: 27.818rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 1.023rem; }
 
 .sideright-show {
@@ -1895,6 +2303,7 @@ tooltip {
 .sidebar-left {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -1905,15 +2314,25 @@ tooltip {
   border-right: 1px solid rgba(131, 126, 131, 0.145);
   border-bottom: 1px solid rgba(131, 126, 131, 0.145);
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border-top: 1px solid rgba(161, 163, 165, 0.19);
+  border-left: 1px solid rgba(161, 163, 165, 0.19);
+  border-right: 1px solid rgba(125, 128, 130, 0.145);
+  border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+>>>>>>> 1f76dd9 (Doxed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   border-radius: 1.297rem;
   min-width: 27.818rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 1.023rem; }
 
 .sideleft-show {
@@ -1928,19 +2347,27 @@ tooltip {
   -gtk-outline-radius: 1.159rem;
   padding: 0.341rem;
 <<<<<<< HEAD
-  background-color: rgba(25, 29, 32, 0.31); }
-=======
-  background-color: rgba(31, 28, 32, 0.31); }
->>>>>>> bf0d710 (ags: sync)
-
-.sidebar-group-nopad {
-  border-radius: 1.159rem;
-  -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(25, 29, 31, 0.31); }
+>>>>>>> 1f76dd9 (Doxed foot)
+
+.sidebar-group-nopad {
+  border-radius: 1.159rem;
+  -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: rgba(25, 29, 32, 0.31); }
+=======
+  background-color: rgba(31, 28, 32, 0.31); }
+>>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(25, 29, 31, 0.31); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-group-invisible {
   padding: 0.341rem; }
@@ -1953,20 +2380,28 @@ tooltip {
   -gtk-outline-radius: 9999px;
   padding: 0.341rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(25, 29, 31, 0.31); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-iconbutton {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5;
 =======
   color: #e7e0e5;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-width: 2.727rem;
   min-height: 2.727rem; }
 
@@ -1981,6 +2416,7 @@ tooltip {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   padding: 0rem 0.818rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -1997,6 +2433,15 @@ tooltip {
   background-color: #4f4256;
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+
+.sidebar-button-nopad {
+  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-button:hover,
 .sidebar-button:focus {
@@ -2030,6 +2475,7 @@ tooltip {
 
 .sidebar-button-active {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b; }
 
@@ -2042,23 +2488,35 @@ tooltip {
 =======
   background-color: #eccbff;
   color: #471868; }
+=======
+  background-color: #85e3f4;
+  color: #00363f; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-button-active:hover,
 .sidebar-button-active:focus {
-  background-color: rgba(228, 198, 246, 0.79); }
+  background-color: rgba(133, 220, 236, 0.79); }
 
 .sidebar-button-active:active {
+<<<<<<< HEAD
   background-color: rgba(213, 187, 228, 0.58); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(132, 206, 220, 0.58); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-buttons-separator {
   min-width: 0.068rem;
   min-height: 0.068rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #c1c7ce; }
 =======
   background-color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-navrail {
   padding: 0rem 1.159rem; }
@@ -2077,6 +2535,7 @@ tooltip {
 
 .sidebar-navrail-btn-active > box > label:first-child {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -2093,6 +2552,15 @@ tooltip {
   background-color: rgba(80, 67, 87, 0.93);
   color: rgba(236, 218, 243, 0.93); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+
+.sidebar-navrail-btn-active:hover > box > label:first-child,
+.sidebar-navrail-btn-active:focus > box > label:first-child {
+  background-color: rgba(52, 75, 80, 0.93);
+  color: rgba(204, 229, 235, 0.93); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-sysinfo-grouppad {
   padding: 1.159rem; }
@@ -2103,12 +2571,17 @@ tooltip {
   min-height: 4.091rem;
   padding: 0.409rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
   background-color: #4f4256;
   color: #eedcf5;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed;
+>>>>>>> 1f76dd9 (Doxed foot)
   font-size: 0px; }
 
 .sidebar-memory-swap-circprog {
@@ -2118,18 +2591,6 @@ tooltip {
   padding: 0.409rem;
   margin: 0.918rem;
 <<<<<<< HEAD
-  background-color: #374955;
-  color: #d2e5f4;
-=======
-  background-color: #4f4256;
-  color: #eedcf5;
->>>>>>> bf0d710 (ags: sync)
-  font-size: 0px; }
-
-.sidebar-cpu-circprog {
-  min-width: 0.818rem;
-  min-height: 3.409rem;
-  padding: 0.409rem;
 <<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
@@ -2137,6 +2598,28 @@ tooltip {
   background-color: #4f4256;
   color: #eedcf5;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed;
+>>>>>>> 1f76dd9 (Doxed foot)
+  font-size: 0px; }
+
+.sidebar-cpu-circprog {
+  min-width: 0.818rem;
+  min-height: 3.409rem;
+  padding: 0.409rem;
+<<<<<<< HEAD
+<<<<<<< HEAD
+  background-color: #374955;
+  color: #d2e5f4;
+=======
+  background-color: #4f4256;
+  color: #eedcf5;
+>>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed;
+>>>>>>> 1f76dd9 (Doxed foot)
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
   font-size: 0px; }
 
@@ -2152,6 +2635,7 @@ tooltip {
   min-width: 0.273rem;
   min-height: 2.045rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(193, 199, 206, 0.31); }
 
 .sidebar-scrollbar slider:hover,
@@ -2162,14 +2646,21 @@ tooltip {
   background-color: #797f84; }
 =======
   background-color: rgba(205, 195, 206, 0.31); }
+=======
+  background-color: rgba(191, 200, 202, 0.31); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-scrollbar slider:hover,
 .sidebar-scrollbar slider:focus {
-  background-color: rgba(205, 195, 206, 0.448); }
+  background-color: rgba(191, 200, 202, 0.448); }
 
 .sidebar-scrollbar slider:active {
+<<<<<<< HEAD
   background-color: #837c84; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #777f81; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-calendar-btn {
   border-radius: 9999px;
@@ -2178,10 +2669,14 @@ tooltip {
   min-height: 2.523rem;
   min-width: 2.523rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-calendar-btn:hover,
 .sidebar-calendar-btn:focus {
@@ -2195,6 +2690,7 @@ tooltip {
   margin-right: -10.341rem; }
 
 .sidebar-calendar-btn-today {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b; }
@@ -2211,17 +2707,25 @@ tooltip {
 =======
   background-color: #eccbff;
   color: #471868; }
+=======
+  background-color: #85e3f4;
+  color: #00363f; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-calendar-btn-today:hover,
 .sidebar-calendar-btn-today:focus {
-  background-color: rgba(228, 198, 246, 0.79); }
+  background-color: rgba(133, 220, 236, 0.79); }
 
 .sidebar-calendar-btn-today:active {
-  background-color: rgba(213, 187, 228, 0.58); }
+  background-color: rgba(132, 206, 220, 0.58); }
 
 .sidebar-calendar-btn-othermonth {
+<<<<<<< HEAD
   color: #837e83; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #7d8082; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-calendar-header {
   margin: 0.341rem; }
@@ -2231,16 +2735,22 @@ tooltip {
   -gtk-outline-radius: 9999px;
   padding: 0rem 0.682rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #c1c7ce; }
 =======
   background-color: rgba(56, 52, 58, 0.31);
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.31);
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-calendar-monthyear-btn:hover,
 .sidebar-calendar-monthyear-btn:focus {
   background-color: rgba(128, 128, 128, 0.3);
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #bac0c7; }
 
@@ -2254,6 +2764,13 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7);
   color: #b7aeb8; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #b8c1c3; }
+
+.sidebar-calendar-monthyear-btn:active {
+  background-color: rgba(128, 128, 128, 0.7);
+  color: #a9b2b4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-calendar-monthshift-btn {
   border-radius: 9999px;
@@ -2261,6 +2778,7 @@ tooltip {
   min-width: 2.045rem;
   min-height: 2.045rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #c1c7ce; }
 
@@ -2274,15 +2792,23 @@ tooltip {
 =======
   background-color: rgba(56, 52, 58, 0.31);
   color: #cdc3ce; }
+=======
+  background-color: rgba(47, 54, 56, 0.31);
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-calendar-monthshift-btn:hover {
   background-color: rgba(128, 128, 128, 0.3);
-  color: #c6bcc7; }
+  color: #b8c1c3; }
 
 .sidebar-calendar-monthshift-btn:active {
   background-color: rgba(128, 128, 128, 0.7);
+<<<<<<< HEAD
   color: #b7aeb8; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #a9b2b4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-selector-tab {
   border-radius: 0.818rem;
@@ -2290,10 +2816,14 @@ tooltip {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   min-height: 2.5rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-selector-tab:hover,
 .sidebar-selector-tab:focus {
@@ -2304,10 +2834,14 @@ tooltip {
 
 .sidebar-selector-tab-active > box > label {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a4deff; }
 =======
   color: #eccbff; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #85e3f4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-selector-highlight-offset {
   margin-top: -0.205rem;
@@ -2316,10 +2850,14 @@ tooltip {
 .sidebar-selector-highlight {
   transition: 180ms ease-in-out;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a4deff;
 =======
   color: #eccbff;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #85e3f4;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-height: 0.205rem; }
 
 .sidebar-todo-item {
@@ -2327,10 +2865,14 @@ tooltip {
 
 .sidebar-todo-item-even {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.1); }
 =======
   background-color: rgba(56, 52, 58, 0.1); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.1); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-todo-item-action {
   border-radius: 9999px;
@@ -2350,10 +2892,14 @@ tooltip {
 
 .sidebar-todo-crosser-crossed {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #e1e2e5; }
 =======
   background-color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-todo-crosser-removed {
   background-color: #ffb4a9; }
@@ -2362,6 +2908,7 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4;
   margin: 0.341rem;
   padding: 0.205rem 0.545rem;
@@ -2375,17 +2922,24 @@ tooltip {
   background-color: #566875; }
 =======
   color: #eedcf5;
+=======
+  color: #cde7ed;
+>>>>>>> 1f76dd9 (Doxed foot)
   margin: 0.341rem;
   padding: 0.205rem 0.545rem;
-  border: 0.068rem solid #e7e0e5; }
+  border: 0.068rem solid #e1e3e4; }
 
 .sidebar-todo-newz,
 .sidebar-todo-new:focus {
-  background-color: #54475b; }
+  background-color: #384f54; }
 
 .sidebar-todo-new:active {
+<<<<<<< HEAD
   background-color: #6f6176; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #52696f; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-todo-add {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -2393,6 +2947,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #d2e5f4;
   border: 0.068rem solid #e1e2e5; }
@@ -2406,14 +2961,22 @@ tooltip {
 =======
   color: #eedcf5;
   border: 0.068rem solid #e7e0e5; }
+=======
+  color: #cde7ed;
+  border: 0.068rem solid #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-todo-add:hover,
 .sidebar-todo-add:focus {
-  background-color: #54475b; }
+  background-color: #384f54; }
 
 .sidebar-todo-add:active {
+<<<<<<< HEAD
   background-color: #6f6176; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #52696f; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-todo-add-available {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -2421,6 +2984,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b;
@@ -2436,19 +3000,29 @@ tooltip {
   background-color: #eccbff;
   color: #471868;
   border: 0.068rem solid #eccbff; }
+=======
+  background-color: #85e3f4;
+  color: #00363f;
+  border: 0.068rem solid #85e3f4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-todo-add-available:hover,
 .sidebar-todo-add-available:focus {
-  background-color: #e7c6fa; }
+  background-color: #81deef; }
 
 .sidebar-todo-add-available:active {
+<<<<<<< HEAD
   background-color: #cba7e1; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #6ac0d0; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-todo-entry {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #31363a;
   color: #c1c7ce;
@@ -2458,10 +3032,16 @@ tooltip {
   color: #cdc3ce;
   caret-color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #2f3638;
+  color: #bfc8ca;
+  caret-color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   margin: 0rem 0.341rem;
   min-height: 1.773rem;
   min-width: 0rem;
   padding: 0.205rem 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.068rem solid #797f84; }
 
@@ -2473,26 +3053,40 @@ tooltip {
 .sidebar-todo-entry:focus {
   border: 0.068rem solid #beb5bf; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border: 0.068rem solid #777f81; }
+
+.sidebar-todo-entry:focus {
+  border: 0.068rem solid #b1b9bb; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-module {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   padding: 0.341rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(25, 29, 31, 0.31); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-module-btn-arrow {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   font-family: "Material Symbols Rounded", "Material Symbols Outlined", "Material Symbols Sharp";
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
 =======
   background-color: rgba(56, 52, 58, 0.31);
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.31);
+>>>>>>> 1f76dd9 (Doxed foot)
   min-width: 1.705rem;
   min-height: 1.705rem; }
 
@@ -2501,10 +3095,14 @@ tooltip {
   -gtk-outline-radius: 9999px;
   padding: 0.341rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(25, 29, 31, 0.31); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-apiswitcher-icon {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -2512,6 +3110,7 @@ tooltip {
   -gtk-outline-radius: 9999px;
   min-width: 2.182rem;
   min-height: 2.182rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #e1e2e5; }
 
@@ -2525,6 +3124,13 @@ tooltip {
   background-color: #4f4256;
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+
+.sidebar-chat-apiswitcher-icon-enabled {
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-viewport {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -2533,6 +3139,7 @@ tooltip {
 .sidebar-chat-textarea {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.068rem solid #6b7075;
   padding: 0.682rem; }
@@ -2549,6 +3156,14 @@ tooltip {
   color: #cdc3ce;
   caret-color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border: 0.068rem solid #697072;
+  padding: 0.682rem; }
+
+.sidebar-chat-entry {
+  color: #bfc8ca;
+  caret-color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   min-height: 1.773rem;
   min-width: 0rem; }
 
@@ -2556,6 +3171,7 @@ tooltip {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   border-radius: 0.478rem;
   background-color: #6b7075; }
@@ -2579,25 +3195,33 @@ tooltip {
   background-color: #83bcdb; }
 =======
   border-radius: 0.478rem; }
+=======
+  border-radius: 0.478rem;
+  background-color: #697072; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-send:hover,
 .sidebar-chat-send:focus {
-  background-color: #38343a; }
+  background-color: #6c7476; }
 
 .sidebar-chat-send:active {
-  background-color: #5b565c; }
+  background-color: #7d888b; }
 
 .sidebar-chat-send-available {
-  background-color: #eccbff;
-  color: #471868; }
+  background-color: #85e3f4;
+  color: #00363f; }
 
 .sidebar-chat-send-available:hover,
 .sidebar-chat-send-available:focus {
-  background-color: #e7c6fa; }
+  background-color: #81deef; }
 
 .sidebar-chat-send-available:active {
+<<<<<<< HEAD
   background-color: #cba7e1; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #6ac0d0; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-message {
   margin: 0.682rem; }
@@ -2607,6 +3231,7 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 0.136rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #e1e2e5; }
 
@@ -2620,16 +3245,23 @@ tooltip {
   background-color: #b6c9d8; }
 =======
   background-color: #e7e0e5; }
+=======
+  background-color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-indicator-user {
-  background-color: #e7e0e5; }
+  background-color: #e1e3e4; }
 
 .sidebar-chat-indicator-bot {
-  background-color: #eccbff; }
+  background-color: #85e3f4; }
 
 .sidebar-chat-indicator-System {
+<<<<<<< HEAD
   background-color: #d2c1d9; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #b1cbd1; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-name {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
@@ -2649,6 +3281,7 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(78, 83, 88, 0.31);
   color: #c1c7ce;
   margin: 0rem 0.682rem;
@@ -2659,11 +3292,18 @@ tooltip {
   margin: 0rem 0.682rem;
   border: 0.068rem solid rgba(238, 220, 245, 0.07); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(76, 83, 85, 0.31);
+  color: #bfc8ca;
+  margin: 0rem 0.682rem;
+  border: 0.068rem solid rgba(205, 231, 237, 0.07); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-codeblock-topbar {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   margin: 0.273rem;
   margin-bottom: 0rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(96, 111, 121, 0.517);
   color: #d2e5f4;
@@ -2675,6 +3315,12 @@ tooltip {
   border-radius: 0.886rem;
   border: 0.068rem solid #5f5166;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(93, 112, 116, 0.517);
+  color: #cde7ed;
+  border-radius: 0.886rem;
+  border: 0.068rem solid #425a5f;
+>>>>>>> 1f76dd9 (Doxed foot)
   border-top-left-radius: 0.886rem;
   border-top-right-radius: 0.886rem;
   padding: 0.341rem 0.477rem; }
@@ -2692,6 +3338,7 @@ tooltip {
 .sidebar-chat-codeblock-topbar-btn:hover,
 .sidebar-chat-codeblock-topbar-btn:focus {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #566875; }
 
 .sidebar-chat-codeblock-topbar-btn:active {
@@ -2702,6 +3349,12 @@ tooltip {
 .sidebar-chat-codeblock-topbar-btn:active {
   background-color: #8f8096; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #52696f; }
+
+.sidebar-chat-codeblock-topbar-btn:active {
+  background-color: #71898e; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-codeblock-code {
   font-family: "JetBrains Mono NF", "JetBrains Mono Nerd Font", "JetBrains Mono NL", "SpaceMono NF", "SpaceMono Nerd Font", monospace;
@@ -2710,10 +3363,14 @@ tooltip {
 .sidebar-chat-divider {
   min-height: 1px;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #6b7075;
 =======
   background-color: #746d75;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #697072;
+>>>>>>> 1f76dd9 (Doxed foot)
   margin: 0rem 0.545rem; }
 
 .sidebar-chat-welcome-txt {
@@ -2746,11 +3403,15 @@ tooltip {
 
 .sidebar-chat-chip-action {
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #6b7075; }
 =======
   background-color: #242125;
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  border: 0.068rem solid #697072; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-chip-action:hover,
 .sidebar-chat-chip-action:focus {
@@ -2761,12 +3422,17 @@ tooltip {
 
 .sidebar-chat-chip-action-active {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #6b7075;
   border: 0.068rem solid #6b7075; }
 =======
   color: #746d75;
   border: 0.068rem solid #746d75; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #697072;
+  border: 0.068rem solid #697072; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-chip-toggle {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -2774,12 +3440,17 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   padding: 0.341rem 0.477rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #c1c7ce; }
 =======
   background-color: #242125;
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.31);
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-chat-chip-toggle:focus,
 .sidebar-chat-chip-toggle:hover {
@@ -2795,10 +3466,14 @@ tooltip {
   min-height: 2.386rem;
   min-width: 2.386rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #e1e3e4; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-pin:hover,
 .sidebar-pin:focus {
@@ -2808,6 +3483,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-pin-enabled {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff; }
   .sidebar-pin-enabled label {
@@ -2821,16 +3497,23 @@ tooltip {
   background-color: #83bcdb; }
 =======
   background-color: #eccbff; }
+=======
+  background-color: #85e3f4; }
+>>>>>>> 1f76dd9 (Doxed foot)
   .sidebar-pin-enabled label {
-    color: #471868; }
+    color: #00363f; }
 
 .sidebar-pin-enabled:hover,
 .sidebar-pin-enabled:focus {
-  background-color: #dcb9f0; }
+  background-color: #78d2e2; }
 
 .sidebar-pin-enabled:active {
+<<<<<<< HEAD
   background-color: #cba7e1; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #6ac0d0; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .sidebar-waifu-heading {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
@@ -2874,16 +3557,21 @@ tooltip {
 .session-bg {
   margin-top: -2.727rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(12, 14, 16, 0.64); }
 =======
   background-color: rgba(15, 14, 16, 0.64); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(11, 15, 16, 0.64); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .session-button {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
   min-width: 8.182rem;
   min-height: 8.182rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #31363a;
   color: #c1c7ce;
@@ -2899,16 +3587,25 @@ tooltip {
 =======
   background-color: #38343a;
   color: #cdc3ce;
+=======
+  background-color: #2f3638;
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   font-size: 3rem; }
 
 .session-button-focused {
-  background-color: #4f4256;
-  color: #eedcf5; }
+  background-color: #334a4f;
+  color: #cde7ed; }
 
 .session-button-desc {
+<<<<<<< HEAD
   background-color: #2c282d;
   color: #dad2da;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #242a2c;
+  color: #d0d6d7;
+>>>>>>> 1f76dd9 (Doxed foot)
   border-bottom-left-radius: 1.705rem;
   border-bottom-right-radius: 1.705rem;
   padding: 0.205rem 0.341rem;
@@ -2920,17 +3617,23 @@ tooltip {
   min-width: 8.182rem;
   min-height: 5.455rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a;
   color: #c1c7ce;
 =======
   background-color: #38343a;
   color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #2f3638;
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   font-size: 3rem; }
 
 .notif-low {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.45);
   color: #c1c7ce;
@@ -2938,6 +3641,10 @@ tooltip {
   background-color: rgba(56, 52, 58, 0.45);
   color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.45);
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -2945,12 +3652,17 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.45);
   color: #c1c7ce;
 =======
   background-color: rgba(56, 52, 58, 0.45);
   color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(47, 54, 56, 0.45);
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -2958,12 +3670,17 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
   background-color: #4f4256;
   color: #eedcf5;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -2972,12 +3689,17 @@ tooltip {
   -gtk-outline-radius: 1.159rem;
   min-width: 30.682rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
   color: #c1c7ce;
 =======
   background-color: #0f0e10;
   color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -2986,12 +3708,17 @@ tooltip {
   -gtk-outline-radius: 1.159rem;
   min-width: 30.682rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
   color: #c1c7ce;
 =======
   background-color: #0f0e10;
   color: #cdc3ce;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+  color: #bfc8ca;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -3000,16 +3727,22 @@ tooltip {
   -gtk-outline-radius: 1.159rem;
   min-width: 30.682rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
   background-color: #4f4256;
   color: #eedcf5;
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #334a4f;
+  color: #cde7ed;
+>>>>>>> 1f76dd9 (Doxed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
 .notif-body-low {
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #91979d; }
 
@@ -3020,13 +3753,20 @@ tooltip {
   color: #9fb2c0; }
 =======
   color: #9c949d; }
+=======
+  color: #8f989a; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-body-normal {
-  color: #9c949d; }
+  color: #8f989a; }
 
 .notif-body-critical {
+<<<<<<< HEAD
   color: #baa9c1; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #9ab3b9; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-icon {
   border-radius: 9999px;
@@ -3035,6 +3775,7 @@ tooltip {
   min-height: 3.409rem; }
 
 .notif-icon-material {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
@@ -3053,19 +3794,28 @@ tooltip {
 =======
   background-color: #4f4256;
   color: #eedcf5; }
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-icon-material-low {
-  background-color: #4f4256;
-  color: #eedcf5; }
+  background-color: #334a4f;
+  color: #cde7ed; }
 
 .notif-icon-material-normal {
-  background-color: #4f4256;
-  color: #eedcf5; }
+  background-color: #334a4f;
+  color: #cde7ed; }
 
 .notif-icon-material-critical {
+<<<<<<< HEAD
   background-color: #eedcf5;
   color: #4f4256; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #cde7ed;
+  color: #334a4f; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-expand-btn {
   border-radius: 1.159rem;
@@ -3094,6 +3844,7 @@ tooltip {
 
 .notif-listaction-btn-enabled {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -3106,23 +3857,35 @@ tooltip {
 =======
   background-color: #4f4256;
   color: #eedcf5; }
+=======
+  background-color: #334a4f;
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-listaction-btn-enabled:hover,
 .notif-listaction-btn-enabled:focus {
-  background-color: #5f5166; }
+  background-color: #425a5f; }
 
 .notif-listaction-btn-enabled:active {
+<<<<<<< HEAD
   background-color: #77697e; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #5a7177; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-notif {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(12, 14, 16, 0.46);
 =======
   background-color: rgba(15, 14, 16, 0.46);
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(11, 15, 16, 0.46);
+>>>>>>> 1f76dd9 (Doxed foot)
   min-width: 30.682rem; }
 
 .notif-circprog-low {
@@ -3131,10 +3894,14 @@ tooltip {
   min-height: 3.136rem;
   padding: 0rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-circprog-normal {
   transition: 0ms linear;
@@ -3142,10 +3909,14 @@ tooltip {
   min-height: 3.136rem;
   padding: 0rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #cde7ed; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-circprog-critical {
   transition: 0ms linear;
@@ -3153,10 +3924,14 @@ tooltip {
   min-height: 3.136rem;
   padding: 0rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #374955; }
 =======
   color: #4f4256; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #334a4f; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-actions {
   min-height: 2.045rem; }
@@ -3167,12 +3942,17 @@ tooltip {
 
 .notif-action-low {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 46, 49, 0.31);
   color: #c1c7ce; }
 =======
   background-color: rgba(48, 45, 49, 0.31);
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(42, 46, 48, 0.31);
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-action-low:focus,
 .notif-action-low:hover {
@@ -3183,12 +3963,17 @@ tooltip {
 
 .notif-action-normal {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 46, 49, 0.31);
   color: #c1c7ce; }
 =======
   background-color: rgba(48, 45, 49, 0.31);
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(42, 46, 48, 0.31);
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-action-normal:focus,
 .notif-action-normal:hover {
@@ -3198,6 +3983,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .notif-action-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #475965;
   color: #c1c7ce; }
@@ -3211,12 +3997,17 @@ tooltip {
 =======
   background-color: #5f5166;
   color: #cdc3ce; }
+=======
+  background-color: #425a5f;
+  color: #bfc8ca; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .notif-action-critical:focus,
 .notif-action-critical:hover {
-  background-color: #6c5e73; }
+  background-color: #4f666b; }
 
 .notif-action-critical:active {
+<<<<<<< HEAD
   background-color: #74657b; }
 >>>>>>> bf0d710 (ags: sync)
 
@@ -3233,6 +4024,9 @@ tooltip {
   to {
     margin-bottom: 0rem;
     margin-top: 0rem; } }
+=======
+  background-color: #566e73; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3243,6 +4037,7 @@ tooltip {
   -gtk-outline-radius: 1.159rem;
   min-width: 29.659rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
   padding: 0rem 1.023rem;
   background: linear-gradient(127deg, rgba(39, 43, 47, 0.7), rgba(39, 43, 47, 0.55) 70.71%), linear-gradient(217deg, rgba(65, 72, 77, 0.7), rgba(65, 72, 77, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #374955 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(55, 73, 85, 0.7), rgba(55, 73, 85, 0.55) 70.71%), linear-gradient(#0c0e10, #0c0e10); }
@@ -3251,6 +4046,11 @@ tooltip {
   padding: 0rem 1.023rem;
   background: linear-gradient(127deg, rgba(45, 42, 47, 0.7), rgba(45, 42, 47, 0.55) 70.71%), linear-gradient(217deg, rgba(75, 69, 77, 0.7), rgba(75, 69, 77, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #4f4256 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(79, 66, 86, 0.7), rgba(79, 66, 86, 0.55) 70.71%), linear-gradient(#0f0e10, #0f0e10); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: #0b0f10;
+  padding: 0rem 1.023rem;
+  background: linear-gradient(127deg, rgba(37, 44, 45, 0.7), rgba(37, 44, 45, 0.55) 70.71%), linear-gradient(217deg, rgba(63, 72, 74, 0.7), rgba(63, 72, 74, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #334a4f 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(51, 74, 79, 0.7), rgba(51, 74, 79, 0.55) 70.71%), linear-gradient(#0b0f10, #0b0f10); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-cover-fallback {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3259,12 +4059,17 @@ tooltip {
   min-width: 7.5rem;
   min-height: 7.5rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31);
   color: #d1d3d6; }
 =======
   background-color: rgba(31, 28, 32, 0.31);
   color: #d7d1d6; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(25, 29, 31, 0.31);
+  color: #d1d4d5; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-cover {
   border-radius: 0.818rem;
@@ -3291,20 +4096,28 @@ tooltip {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
   font-size: 1.364rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d1d3d6; }
 =======
   color: #d7d1d6; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #d1d4d5; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-artists {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   font-size: 0.955rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: rgba(196, 199, 202, 0.9); }
 =======
   color: rgba(202, 197, 202, 0.9); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: rgba(196, 200, 201, 0.9); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-pill {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3314,12 +4127,17 @@ tooltip {
   min-width: 1.833rem;
   padding: 0.273rem 0.682rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 49, 55, 0.5);
   color: #d1d3d6; }
 =======
   background-color: rgba(52, 47, 55, 0.5);
   color: #d7d1d6; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(40, 50, 52, 0.5);
+  color: #d1d4d5; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-controls {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3329,12 +4147,17 @@ tooltip {
   min-width: 1.833rem;
   padding: 0.205rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 49, 55, 0.5);
   color: #d1d3d6; }
 =======
   background-color: rgba(52, 47, 55, 0.5);
   color: #d7d1d6; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(40, 50, 52, 0.5);
+  color: #d1d4d5; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-controlbtn {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3346,6 +4169,7 @@ tooltip {
 .osd-music-controlbtn:hover,
 .osd-music-controlbtn:focus {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(84, 90, 95, 0.55); }
 
 .osd-music-controlbtn:active {
@@ -3356,6 +4180,12 @@ tooltip {
 .osd-music-controlbtn:active {
   background-color: rgba(108, 103, 110, 0.575); }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(82, 91, 92, 0.55); }
+
+.osd-music-controlbtn:active {
+  background-color: rgba(99, 106, 108, 0.575); }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-controlbtn-txt {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3370,10 +4200,14 @@ tooltip {
   min-height: 3.068rem;
   padding: 0.273rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d1d3d6; }
 =======
   color: #d7d1d6; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  color: #d1d4d5; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-playstate {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3381,12 +4215,17 @@ tooltip {
   min-width: 3.068rem;
   border-radius: 10rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 49, 55, 0.5);
   color: #d1d3d6; }
 =======
   background-color: rgba(52, 47, 55, 0.5);
   color: #d7d1d6; }
 >>>>>>> bf0d710 (ags: sync)
+=======
+  background-color: rgba(40, 50, 52, 0.5);
+  color: #d1d4d5; }
+>>>>>>> 1f76dd9 (Doxed foot)
 
 .osd-music-playstate-btn > label {
   transition: 50ms cubic-bezier(0.05, 0.7, 0.1, 1);
