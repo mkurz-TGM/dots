@@ -1,8 +1,8 @@
 const { Gtk } = imports.gi;
 import Widget from 'resource:///com/github/Aylur/ags/widget.js';
 
-import ModuleSpaceLeft from "./spaceleft.js";
-import ModuleSpaceRight from "./spaceright.js";
+import { ModuleLeftSpace } from "./leftspace.js";
+import { ModuleRightSpace } from "./rightspace.js";
 import { ModuleMusic } from "./music.js";
 import { ModuleSystem } from "./system.js";
 import { RoundedCorner, dummyRegion, enableClickthrough } from "../../lib/roundedcorner.js";
