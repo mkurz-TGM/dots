@@ -4,11 +4,11 @@ import WallpaperImage from './wallpaper.js';
 import TimeAndLaunchesWidget from './timeandlaunches.js'
 import SystemWidget from './system.js'
 
-export default (monitor) => Widget.Window({
-    name: `desktopbackground${monitor}`,
-    // anchor: ['top', 'bottom', 'left', 'right'],
-    layer: 'background',
-    exclusivity: 'ignore',
+export default () => Widget.Window({
+    name: 'desktopbackground',
+    anchor: ['top', 'bottom', 'left', 'right'],
+    layer: 'bottom',
+    exclusivity: 'normal',
     visible: true,
     // child: WallpaperImage(monitor),
     child: Widget.Overlay({

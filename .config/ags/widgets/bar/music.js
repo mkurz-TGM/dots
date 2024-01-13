@@ -32,16 +32,16 @@ const TrackProgress = () => {
     })
 }
 
-const switchToRelativeWorkspace = async (self, num) => {
+const moveToRelativeWorkspace = async (self, num) => {
     try {
         const Hyprland = (await import('resource:///com/github/Aylur/ags/service/hyprland.js')).default;
         Hyprland.sendMessage(`dispatch workspace ${num > 0 ? '+' : ''}${num}`);
     } catch {
-        execAsync([`${App.configDir}/scripts/sway/swayToRelativeWs.sh`, `${num}`]).catch(print);
+        console.log(`TODO: Sway workspace ${num > 0 ? '+' : ''}${num}`);
     }
 }
 
-export default () => {
+export const ModuleMusic = () => {
     // TODO: use cairo to make button bounce smaller on click, if that's possible
     const playingState = Widget.Box({ // Wrap a box cuz overlay can't have margins itself
         homogeneous: true,
@@ -85,8 +85,8 @@ export default () => {
         })
     })
     return Widget.EventBox({
-        onScrollUp: (self) => switchToRelativeWorkspace(self, -1),
-        onScrollDown: (self) => switchToRelativeWorkspace(self, +1),
+        onScrollUp: (self) => moveToRelativeWorkspace(self, -1),
+        onScrollDown: (self) => moveToRelativeWorkspace(self, +1),
         onPrimaryClickRelease: () => showMusicControls.setValue(!showMusicControls.value),
         onSecondaryClickRelease: () => execAsync(['bash', '-c', 'playerctl next || playerctl position `bc <<< "100 * $(playerctl metadata mpris:length) / 1000000 / 100"` &']),
         onMiddleClickRelease: () => execAsync('playerctl play-pause').catch(print),
