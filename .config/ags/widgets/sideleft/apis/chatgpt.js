@@ -33,14 +33,12 @@ const ChatGPTInfo = () => {
     const openAiLogo = Icon({
         hpack: 'center',
         className: 'sidebar-chat-welcome-logo',
-        icon: `openai-symbolic`,
-        setup: (self) => Utils.timeout(513, () => { // stupid condition race
+        icon: `${App.configDir}/assets/openai-logomark.svg`,
+        setup: (self) => Utils.timeout(1, () => {
             const styleContext = self.get_style_context();
             const width = styleContext.get_property('min-width', Gtk.StateFlags.NORMAL);
             const height = styleContext.get_property('min-height', Gtk.StateFlags.NORMAL);
-            // console.log(Math.round(Math.max(width, height, 1)));
-            self.size = Math.max(width, height, 1) * 116 / 180;
-            // ↑ Why such a specific proportion? See https://openai.com/brand#logos
+            self.size = Math.max(width, height, 1) * 116 / 180; // Why such a specific proportion? See https://openai.com/brand#logos
         })
     });
     return Box({
@@ -52,7 +50,7 @@ const ChatGPTInfo = () => {
                 className: 'txt txt-title-small sidebar-chat-welcome-txt',
                 wrap: true,
                 justify: Gtk.Justification.CENTER,
-                label: 'Assistant (ChatGPT 3.5)',
+                label: 'ChatGPT',
             }),
             Box({
                 className: 'spacing-h-5',

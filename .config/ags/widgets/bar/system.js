@@ -167,18 +167,18 @@ const BarGroup = ({ child }) => Widget.Box({
     ]
 });
 
-const switchToRelativeWorkspace = async (self, num) => {
+const moveToRelativeWorkspace = async (self, num) => {
     try {
         const Hyprland = (await import('resource:///com/github/Aylur/ags/service/hyprland.js')).default;
         Hyprland.sendMessage(`dispatch workspace ${num > 0 ? '+' : ''}${num}`);
     } catch {
-        execAsync([`${App.configDir}/scripts/sway/swayToRelativeWs.sh`, `${num}`]).catch(print);
+        console.log(`TODO: Sway workspace ${num > 0 ? '+' : ''}${num}`);
     }
 }
 
-export default () => Widget.EventBox({
-    onScrollUp: (self) => switchToRelativeWorkspace(self, -1),
-    onScrollDown: (self) => switchToRelativeWorkspace(self, +1),
+export const ModuleSystem = () => Widget.EventBox({
+    onScrollUp: (self) => moveToRelativeWorkspace(self, -1),
+    onScrollDown: (self) => moveToRelativeWorkspace(self, +1),
     onPrimaryClick: () => App.toggleWindow('sideright'),
     child: Widget.Box({
         className: 'spacing-h-5',
