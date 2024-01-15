@@ -3,7 +3,7 @@
   border: 0rem; }
 
 window {
-  background-color: rgba(16, 16, 18, 0.4);
+  background-color: rgba(16, 16, 17, 0.4);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -19,9 +19,9 @@ window {
   margin: -20rem; }
 
 #input-field {
-  background-color: #444559;
-  color: #e0e0f9;
-  caret-color: #e0e0f9;
+  background-color: #3f4759;
+  color: #dae2f9;
+  caret-color: #dae2f9;
   border-radius: 999px;
   font-size: 1.3rem;
   padding: 0.341rem 1.364rem;
@@ -44,14 +44,14 @@ window {
   padding: 0.5rem;
   margin: 0.6rem;
   margin-top: -35rem;
-  color: #e0e0f9;
+  color: #dae2f9;
   text-shadow: 1px 1px 2px rgba(22, 22, 30, 0.5); }
 
 #poweroff-button,
 #reboot-button,
 #suspend-button {
-  background-color: #444559;
-  color: #e0e0f9;
+  background-color: #3f4759;
+  color: #dae2f9;
   min-width: 3rem;
   min-height: 3rem;
   margin: 0.341rem;
@@ -63,9 +63,9 @@ window {
 #poweroff-button:focus,
 #reboot-button:focus,
 #suspend-button:focus {
-  background-color: #696a7a; }
+  background-color: #656c7a; }
 
 #poweroff-button:active,
 #reboot-button:active,
 #suspend-button:active {
-  background-color: #7c7d8b; }
+  background-color: #797e8b; }
