@@ -43,6 +43,7 @@
 .txt {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 
 .txt-primary {
@@ -58,20 +59,27 @@
 =======
   color: #e4e2e6; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .txt-primary {
-  color: #c5d8ff; }
+  color: #d0d4ff; }
 
 .txt-onSecondaryContainer {
-  color: #dae2f9; }
+  color: #e0e0f9; }
 
 .txt-onSurfaceVariant {
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #cdc3ce; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .txt-shadow {
   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.69);
@@ -141,8 +149,12 @@
   color: #a1a3a4; }
 
 .txt-action {
+<<<<<<< HEAD
   color: #c1c3c4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #c4c1c6; }
+>>>>>>> df621ae (Fixed foot)
 
 .txt-semibold {
   font-weight: 500; }
@@ -180,6 +192,7 @@
 .separator-line {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #8b9298;
 =======
   background-color: #968e98;
@@ -187,6 +200,9 @@
 =======
   background-color: #899294;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #91909a;
+>>>>>>> df621ae (Fixed foot)
   min-width: 0.068rem;
   min-height: 0.068rem; }
 
@@ -195,6 +211,7 @@
   -gtk-outline-radius: 9999px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #8b9298;
 =======
   background-color: #968e98;
@@ -202,6 +219,9 @@
 =======
   background-color: #899294;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #91909a;
+>>>>>>> df621ae (Fixed foot)
   margin: 0rem 0.682rem;
   min-width: 0.273rem;
   min-height: 0.273rem; }
@@ -461,6 +481,7 @@
 * {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   caret-color: #a4deff; }
   * selection {
     background-color: #b6c9d8;
@@ -477,6 +498,12 @@
     background-color: #b1cbd1;
     color: #1c3439; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  caret-color: #d0d4ff; }
+  * selection {
+    background-color: #c4c4dc;
+    color: #2d2f42; }
+>>>>>>> df621ae (Fixed foot)
 
 @keyframes appear {
   from {
@@ -485,6 +512,7 @@
     opacity: 1; } }
 
 menu {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(54, 58, 61, 0.121);
@@ -512,6 +540,15 @@ menu {
   background: #2f3638;
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border-top: 1px solid rgba(57, 57, 63, 0.121);
+  border-left: 1px solid rgba(57, 57, 63, 0.121);
+  border-right: 1px solid rgba(43, 43, 49, 0.1105);
+  border-bottom: 1px solid rgba(43, 43, 49, 0.1105);
+  padding: 0.681rem;
+  background: #35353b;
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   animation-name: appear;
@@ -536,6 +573,7 @@ menu > menuitem:hover,
 menu > menuitem:focus {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #3f4549; }
 
 menu > menuitem:active {
@@ -552,6 +590,12 @@ menu > menuitem:active {
 menu > menuitem:active {
   background-color: #4c5355; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #44434a; }
+
+menu > menuitem:active {
+  background-color: #525259; }
+>>>>>>> df621ae (Fixed foot)
 
 radio {
   border-radius: 9999px;
@@ -561,6 +605,7 @@ radio {
   min-height: 15px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #8b9298; }
 =======
   border: 0.068rem solid #968e98; }
@@ -568,10 +613,14 @@ radio {
 =======
   border: 0.068rem solid #899294; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border: 0.068rem solid #91909a; }
+>>>>>>> df621ae (Fixed foot)
 
 radio:checked {
   min-width: 8px;
   min-height: 8px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #00344b;
@@ -584,6 +633,10 @@ radio:checked {
   background-color: #00363f;
   border: 0.477rem solid #85e3f4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #162088;
+  border: 0.477rem solid #d0d4ff; }
+>>>>>>> df621ae (Fixed foot)
 
 tooltip {
   animation-name: appear;
@@ -592,6 +645,7 @@ tooltip {
   animation-iteration-count: 1;
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #31363a;
@@ -607,12 +661,18 @@ tooltip {
   color: #bfc8ca;
   border: 1px solid #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b;
+  color: #c7c5cf;
+  border: 1px solid #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .configtoggle-box {
   padding: 0.205rem 0.341rem;
   border: 0.136rem solid transparent; }
 
 .configtoggle-box:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.136rem solid #696c6f; }
@@ -622,11 +682,15 @@ tooltip {
 =======
   border: 0.136rem solid #696c6e; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border: 0.136rem solid #6c6b70; }
+>>>>>>> df621ae (Fixed foot)
 
 .switch-bg {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #131618;
@@ -639,10 +703,15 @@ tooltip {
   background-color: #121618;
   border: 0.136rem solid #e1e3e4;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #151519;
+  border: 0.136rem solid #e4e1e6;
+>>>>>>> df621ae (Fixed foot)
   min-width: 2.864rem;
   min-height: 1.637rem; }
 
 .switch-bg-true {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff;
@@ -655,11 +724,16 @@ tooltip {
   background-color: #85e3f4;
   border: 0.136rem solid #85e3f4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #d0d4ff;
+  border: 0.136rem solid #d0d4ff; }
+>>>>>>> df621ae (Fixed foot)
 
 .switch-fg {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #e1e2e5;
@@ -672,11 +746,16 @@ tooltip {
   background-color: #e1e3e4;
   color: #191d1f;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #e4e1e6;
+  color: #1c1c22;
+>>>>>>> df621ae (Fixed foot)
   min-width: 0.819rem;
   min-height: 0.819rem;
   margin-left: 0.477rem; }
 
 .switch-fg-true {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #00344b;
@@ -689,6 +768,10 @@ tooltip {
   background-color: #00363f;
   color: #85e3f4;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #162088;
+  color: #d0d4ff;
+>>>>>>> df621ae (Fixed foot)
   min-width: 1.431rem;
   min-height: 1.431rem;
   margin-left: 1.431rem; }
@@ -703,6 +786,7 @@ tooltip {
   -gtk-outline-radius: 9999px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #8b9298; }
 =======
   border: 0.068rem solid #968e98; }
@@ -710,12 +794,16 @@ tooltip {
 =======
   border: 0.068rem solid #899294; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border: 0.068rem solid #91909a; }
+>>>>>>> df621ae (Fixed foot)
 
 .segment-container > *:first-child {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px; }
 
 .segment-container > * {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-right: 0.068rem solid #8b9298;
@@ -725,6 +813,9 @@ tooltip {
 =======
   border-right: 0.068rem solid #899294;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border-right: 0.068rem solid #91909a;
+>>>>>>> df621ae (Fixed foot)
   padding: 0.341rem 0.682rem; }
 
 .segment-container > *:last-child {
@@ -735,6 +826,7 @@ tooltip {
 .segment-btn {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -742,6 +834,9 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .segment-btn:focus,
 .segment-btn:hover {
@@ -750,6 +845,7 @@ tooltip {
 .segment-btn-enabled {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -775,6 +871,15 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+
+.segment-btn-enabled:hover,
+.segment-btn-enabled:focus {
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .gap-v-5 {
   min-height: 0.341rem; }
@@ -818,6 +923,7 @@ tooltip {
 .bar-group {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.45); }
 =======
   background-color: rgba(56, 52, 58, 0.45); }
@@ -825,6 +931,9 @@ tooltip {
 =======
   background-color: rgba(47, 54, 56, 0.45); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.45); }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-group-pad {
   padding: 0.205rem; }
@@ -885,6 +994,7 @@ tooltip {
   min-width: 1.774rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #616365;
   color: #6c6d70; }
 
@@ -902,12 +1012,17 @@ tooltip {
   color: #616465;
   color: #6b6e6f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #646266;
+  color: #6e6d70; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-ws-active {
-  background-color: #334a4f;
-  color: #cde7ed; }
+  background-color: #444559;
+  color: #e0e0f9; }
 
 .bar-ws-occupied {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #38343a;
   color: #cdc3ce; }
@@ -916,12 +1031,17 @@ tooltip {
   background-color: #2f3638;
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b;
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-separator {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 0.341rem;
   min-height: 0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(45, 49, 52, 0.31);
@@ -931,6 +1051,9 @@ tooltip {
 =======
   background-color: rgba(45, 49, 51, 0.31);
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(48, 48, 54, 0.31);
+>>>>>>> df621ae (Fixed foot)
   margin: 0rem 0.341rem; }
 
 .bar-clock-box {
@@ -945,6 +1068,7 @@ tooltip {
   font-size: 1rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -952,6 +1076,9 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-batt {
   border-radius: 9999px;
@@ -959,6 +1086,7 @@ tooltip {
   min-height: 1.77rem;
   min-width: 1.77rem;
   border-radius: 10rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #374955;
@@ -971,6 +1099,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-sidemodule {
   min-width: 26rem; }
@@ -990,6 +1122,7 @@ tooltip {
   padding: 0rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1000,6 +1133,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-batt-circprog-low {
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
@@ -1023,6 +1160,7 @@ tooltip {
   border-radius: 10rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1033,6 +1171,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-music-circprog {
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
@@ -1041,6 +1183,7 @@ tooltip {
   padding: 0rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1051,6 +1194,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-music-playstate-playing {
   min-height: 1.77rem;
@@ -1058,6 +1205,7 @@ tooltip {
   border-radius: 10rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1068,6 +1216,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-music-playstate-txt {
   transition: 100ms cubic-bezier(0.05, 0.7, 0.1, 1);
@@ -1137,6 +1289,7 @@ tooltip {
     border-radius: 10rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #d2e5f4; }
 =======
     background-color: #eedcf5; }
@@ -1144,6 +1297,9 @@ tooltip {
 =======
     background-color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+    background-color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-prog-batt-low progress {
   background-color: #930006; }
@@ -1161,6 +1317,7 @@ tooltip {
   min-height: 0.681rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #c1c7ce; }
 =======
   background-color: #cdc3ce; }
@@ -1168,11 +1325,15 @@ tooltip {
 =======
   background-color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-batt-chargestate-charging-smaller {
   border-radius: 10rem;
   min-width: 0.409rem;
   min-height: 0.409rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #c1c7ce; }
@@ -1192,6 +1353,9 @@ tooltip {
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #bfc8ca; }
+=======
+  background-color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .corner {
   background-color: #0b0f10;
@@ -1284,6 +1448,7 @@ tooltip {
   min-width: 1.77rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a; }
 
 .bar-util-btn:hover,
@@ -1297,22 +1462,30 @@ tooltip {
 =======
   background-color: #2f3638; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b; }
+>>>>>>> df621ae (Fixed foot)
 
 .bar-util-btn:hover,
 .bar-util-btn:focus {
-  background-color: #3d4547; }
+  background-color: #44434a; }
 
 .bar-util-btn:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #565158; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #4c5355; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #525259; }
+>>>>>>> df621ae (Fixed foot)
 
 .cheatsheet-bg {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
@@ -1338,6 +1511,12 @@ tooltip {
   border-left: 1px solid rgba(161, 163, 165, 0.19);
   border-right: 1px solid rgba(125, 128, 130, 0.145);
   border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+=======
+  border-top: 1px solid rgba(164, 162, 167, 0.19);
+  border-left: 1px solid rgba(164, 162, 167, 0.19);
+  border-right: 1px solid rgba(128, 127, 132, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+>>>>>>> df621ae (Fixed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   margin-bottom: 0.682rem;
@@ -1355,6 +1534,7 @@ tooltip {
   -gtk-outline-radius: 0.409rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a4deff;
   border: 0.068rem solid #a4deff;
   box-shadow: 0rem 0.136rem 0rem #a4deff;
@@ -1368,12 +1548,18 @@ tooltip {
   border: 0.068rem solid #85e3f4;
   box-shadow: 0rem 0.136rem 0rem #85e3f4;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #d0d4ff;
+  border: 0.068rem solid #d0d4ff;
+  box-shadow: 0rem 0.136rem 0rem #d0d4ff;
+>>>>>>> df621ae (Fixed foot)
   font-weight: 500; }
 
 .cheatsheet-key-notkey {
   min-height: 1.364rem;
   padding: 0.136rem 0.205rem;
   margin: 0.17rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #c3e7ff; }
@@ -1383,6 +1569,9 @@ tooltip {
 =======
   color: #9cefff; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #dee0ff; }
+>>>>>>> df621ae (Fixed foot)
 
 .cheatsheet-closebtn {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -1417,6 +1606,7 @@ tooltip {
   font-size: 5.795rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -1424,12 +1614,16 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .bg-time-date {
   font-family: 'Gabarito';
   font-size: 2.591rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -1437,6 +1631,9 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .bg-distro-box {
   border-radius: 1.705rem;
@@ -1449,6 +1646,7 @@ tooltip {
   font-size: 1.432rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -1456,10 +1654,14 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .bg-distro-name {
   font-family: 'Gabarito';
   font-size: 1.432rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #d2e5f4; }
@@ -1469,6 +1671,9 @@ tooltip {
 =======
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .bg-graph {
   color: rgba(255, 255, 255, 0.5);
@@ -1479,6 +1684,7 @@ tooltip {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #c1c7ce; }
 =======
   color: #cdc3ce; }
@@ -1486,11 +1692,15 @@ tooltip {
 =======
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .bg-quicklaunch-btn {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #31363a;
@@ -1506,12 +1716,18 @@ tooltip {
   color: #bfc8ca;
   border: 0.068rem solid #a1a3a4;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b;
+  color: #c7c5cf;
+  border: 0.068rem solid #a4a2a6;
+>>>>>>> df621ae (Fixed foot)
   min-width: 4.432rem;
   min-height: 2.045rem;
   padding: 0.273rem 0.682rem; }
 
 .bg-quicklaunch-btn:hover,
 .bg-quicklaunch-btn:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #383d41; }
@@ -1530,6 +1746,12 @@ tooltip {
 .bg-quicklaunch-btn:active {
   background-color: #3d4547; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #3c3c42; }
+
+.bg-quicklaunch-btn:active {
+  background-color: #44434a; }
+>>>>>>> df621ae (Fixed foot)
 
 .bg-system-bg {
   border-radius: 1.159rem;
@@ -1543,6 +1765,7 @@ tooltip {
   padding: 0rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a; }
 =======
   background-color: #38343a; }
@@ -1550,6 +1773,9 @@ tooltip {
 =======
   background-color: #2f3638; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b; }
+>>>>>>> df621ae (Fixed foot)
 
 .dock-bg {
   border-radius: 1.705rem;
@@ -1576,6 +1802,7 @@ tooltip {
 .dock-app-btn:focus {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(35, 39, 42, 0.31); }
 
 .dock-app-btn:active {
@@ -1592,6 +1819,12 @@ tooltip {
 .dock-app-btn:active {
   background-color: rgba(55, 59, 61, 0.31); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(38, 38, 44, 0.31); }
+
+.dock-app-btn:active {
+  background-color: rgba(58, 58, 63, 0.31); }
+>>>>>>> df621ae (Fixed foot)
 
 .dock-app-icon {
   min-width: 3.409rem;
@@ -1601,6 +1834,7 @@ tooltip {
   min-width: 0.068rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a; }
 =======
   background-color: #38343a; }
@@ -1608,12 +1842,16 @@ tooltip {
 =======
   background-color: #2f3638; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-bg {
   min-width: 8.864rem;
   min-height: 3.409rem; }
 
 .osd-value {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
@@ -1637,6 +1875,12 @@ tooltip {
   border-left: 1px solid rgba(161, 163, 165, 0.19);
   border-right: 1px solid rgba(125, 128, 130, 0.145);
   border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+=======
+  border-top: 1px solid rgba(164, 162, 167, 0.19);
+  border-left: 1px solid rgba(164, 162, 167, 0.19);
+  border-right: 1px solid rgba(128, 127, 132, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+>>>>>>> df621ae (Fixed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   background-color: #0b0f10;
@@ -1657,6 +1901,7 @@ tooltip {
     border-radius: 10rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #374955; }
 =======
     background-color: #4f4256; }
@@ -1664,12 +1909,16 @@ tooltip {
 =======
     background-color: #334a4f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+    background-color: #444559; }
+>>>>>>> df621ae (Fixed foot)
   .osd-progress progress {
     transition: 200ms cubic-bezier(0.1, 1, 0, 1);
     min-height: 0.680rem;
     min-width: 0.680rem;
     margin: 0rem 0.137rem;
     border-radius: 10rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     background-color: #d2e5f4; }
@@ -1688,10 +1937,17 @@ tooltip {
 .osd-icon {
   color: #9cefff; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+    background-color: #e0e0f9; }
+
+.osd-icon {
+  color: #dee0ff; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-label {
   font-size: 1.023rem;
   font-weight: 500;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #e1e2e5;
@@ -1701,12 +1957,16 @@ tooltip {
 =======
   color: #e1e3e4;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6;
+>>>>>>> df621ae (Fixed foot)
   margin-top: 0.341rem; }
 
 .osd-value-txt {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
   font-size: 1.688rem;
   font-weight: 500;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #e1e2e5; }
@@ -1716,6 +1976,9 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-notifs {
   padding-top: 0.313rem; }
@@ -1748,6 +2011,7 @@ tooltip {
     margin: 0.409rem; }
 
 .osd-color-primary {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff;
@@ -1797,49 +2061,57 @@ tooltip {
   background-color: #85e3f4;
   color: #00363f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #d0d4ff;
+  color: #162088; }
+>>>>>>> df621ae (Fixed foot)
   .osd-color-primary box {
-    background-color: #00363f; }
+    background-color: #162088; }
 
 .osd-color-primaryContainer {
-  background-color: #1a606b;
-  color: #9cefff; }
+  background-color: #464fa9;
+  color: #dee0ff; }
   .osd-color-primaryContainer box {
-    background-color: #9cefff; }
+    background-color: #dee0ff; }
 
 .osd-color-secondary {
-  background-color: #b1cbd1;
-  color: #1c3439; }
+  background-color: #c4c4dc;
+  color: #2d2f42; }
   .osd-color-secondary box {
-    background-color: #1c3439; }
+    background-color: #2d2f42; }
 
 .osd-color-secondaryContainer {
-  background-color: #334a4f;
-  color: #cde7ed; }
+  background-color: #444559;
+  color: #e0e0f9; }
   .osd-color-secondaryContainer box {
-    background-color: #cde7ed; }
+    background-color: #e0e0f9; }
 
 .osd-color-surfaceVariant {
-  background-color: #2f3638;
-  color: #bfc8ca; }
+  background-color: #35353b;
+  color: #c7c5cf; }
   .osd-color-surfaceVariant box {
-    background-color: #bfc8ca; }
+    background-color: #c7c5cf; }
 
 .osd-color-surface {
-  background-color: #191d1f;
-  color: #e1e3e4; }
+  background-color: #1c1c22;
+  color: #e4e1e6; }
   .osd-color-surface box {
-    background-color: #e1e3e4; }
+    background-color: #e4e1e6; }
 
 .osd-color-background {
-  background-color: #0b0f10;
-  color: #e1e3e4; }
+  background-color: #0e0e10;
+  color: #e4e1e6; }
   .osd-color-background box {
+<<<<<<< HEAD
 <<<<<<< HEAD
     background-color: #e7e0e5; }
 >>>>>>> bf0d710 (ags: sync)
 =======
     background-color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+    background-color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-show {
   transition: 200ms cubic-bezier(0.1, 1, 0, 1); }
@@ -1854,6 +2126,7 @@ tooltip {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
@@ -1872,12 +2145,19 @@ tooltip {
   border-right: 1px solid rgba(125, 128, 130, 0.145);
   border-bottom: 1px solid rgba(125, 128, 130, 0.145);
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border-top: 1px solid rgba(164, 162, 167, 0.19);
+  border-left: 1px solid rgba(164, 162, 167, 0.19);
+  border-right: 1px solid rgba(128, 127, 132, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+>>>>>>> df621ae (Fixed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   min-width: 13.636rem;
   min-height: 3.409rem;
   padding: 0rem 1.364rem;
   padding-right: 2.864rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #0c0e10;
@@ -1900,14 +2180,18 @@ tooltip {
   background-color: #0b0f10;
   color: #e1e3e4;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #0e0e10;
+  color: #e4e1e6;
+>>>>>>> df621ae (Fixed foot)
   caret-color: transparent; }
   .overview-search-box selection {
-    background-color: #b1cbd1;
-    color: #1c3439; }
+    background-color: #c4c4dc;
+    color: #2d2f42; }
 
 .overview-search-box-extended {
   min-width: 25.909rem;
-  caret-color: #cde7ed; }
+  caret-color: #e0e0f9; }
 
 .overview-search-prompt {
 <<<<<<< HEAD
@@ -1933,6 +2217,7 @@ tooltip {
   -gtk-outline-radius: 1.705rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -1949,10 +2234,17 @@ tooltip {
   border-right: 1px solid rgba(125, 128, 130, 0.145);
   border-bottom: 1px solid rgba(125, 128, 130, 0.145);
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border-top: 1px solid rgba(164, 162, 167, 0.19);
+  border-left: 1px solid rgba(164, 162, 167, 0.19);
+  border-right: 1px solid rgba(128, 127, 132, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+>>>>>>> df621ae (Fixed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   min-width: 28.773rem;
   padding: 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #0c0e10;
@@ -1965,6 +2257,10 @@ tooltip {
   background-color: #0b0f10;
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #0e0e10;
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .overview-search-results-icon {
   margin: 0rem 0.682rem;
@@ -2000,6 +2296,7 @@ tooltip {
   -gtk-outline-radius: 1.705rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -2031,11 +2328,23 @@ tooltip {
   background-color: #0b0f10;
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border-top: 1px solid rgba(164, 162, 167, 0.19);
+  border-left: 1px solid rgba(164, 162, 167, 0.19);
+  border-right: 1px solid rgba(128, 127, 132, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
+  margin: 0.476rem;
+  padding: 0.341rem;
+  background-color: #0e0e10;
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .overview-tasks-workspace {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   margin: 0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(46, 49, 52, 0.1147); }
@@ -2057,11 +2366,19 @@ tooltip {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   color: rgba(211, 213, 214, 0.31); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(49, 48, 54, 0.1147); }
+
+.overview-tasks-workspace-number {
+  font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
+  color: rgba(214, 211, 216, 0.31); }
+>>>>>>> df621ae (Fixed foot)
 
 .overview-tasks-window {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
@@ -2086,21 +2403,30 @@ tooltip {
   color: #cde7ed;
   border: 0.068rem solid rgba(205, 231, 237, 0.07); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(68, 69, 89, 0.5);
+  color: #e0e0f9;
+  border: 0.068rem solid rgba(224, 224, 249, 0.07); }
+>>>>>>> df621ae (Fixed foot)
 
 .overview-tasks-window:hover,
 .overview-tasks-window:focus {
-  background-color: rgba(62, 95, 102, 0.525); }
+  background-color: rgba(87, 89, 112, 0.525); }
 
 .overview-tasks-window:active {
-  background-color: rgba(72, 112, 120, 0.55); }
+  background-color: rgba(103, 105, 131, 0.55); }
 
 .overview-tasks-window-selected {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(118, 100, 128, 0.55); }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: rgba(72, 112, 120, 0.55); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(103, 105, 131, 0.55); }
+>>>>>>> df621ae (Fixed foot)
 
 .overview-tasks-window-dragging {
   opacity: 0.2; }
@@ -2108,6 +2434,7 @@ tooltip {
 .osk-window {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
@@ -2131,6 +2458,12 @@ tooltip {
   border-left: 1px solid rgba(161, 163, 165, 0.19);
   border-right: 1px solid rgba(125, 128, 130, 0.145);
   border-bottom: 1px solid rgba(125, 128, 130, 0.145);
+=======
+  border-top: 1px solid rgba(164, 162, 167, 0.19);
+  border-left: 1px solid rgba(164, 162, 167, 0.19);
+  border-right: 1px solid rgba(128, 127, 132, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+>>>>>>> df621ae (Fixed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   background-color: #0b0f10; }
@@ -2153,6 +2486,7 @@ tooltip {
   -gtk-outline-radius: 9999px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a;
 =======
   background-color: #38343a;
@@ -2160,6 +2494,9 @@ tooltip {
 =======
   background-color: #2f3638;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b;
+>>>>>>> df621ae (Fixed foot)
   min-height: 0.273rem;
   min-width: 10.227rem;
   margin-top: 0.545rem;
@@ -2167,6 +2504,7 @@ tooltip {
 
 .osk-key {
   border-radius: 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
@@ -2179,6 +2517,10 @@ tooltip {
   background-color: rgba(47, 54, 56, 0.31);
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.31);
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   padding: 0.188rem;
   font-weight: 500;
   font-size: 1.091rem; }
@@ -2222,6 +2564,7 @@ tooltip {
   border-radius: 0.682rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #c1c7ce;
 =======
@@ -2232,12 +2575,17 @@ tooltip {
   background-color: rgba(47, 54, 56, 0.31);
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.31);
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   font-weight: 500;
   font-size: 1.091rem;
   padding: 0.682rem; }
 
 .osk-control-button:hover,
 .osk-control-button:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(63, 69, 73, 0.31); }
@@ -2256,10 +2604,17 @@ tooltip {
 .osk-control-button:active {
   background-color: rgba(90, 98, 100, 0.31);
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(68, 67, 74, 0.31); }
+
+.osk-control-button:active {
+  background-color: rgba(97, 96, 103, 0.31);
+>>>>>>> df621ae (Fixed foot)
   font-size: 1.091rem; }
 
 .sidebar-right {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
@@ -2278,6 +2633,12 @@ tooltip {
   border-right: 1px solid rgba(125, 128, 130, 0.145);
   border-bottom: 1px solid rgba(125, 128, 130, 0.145);
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border-top: 1px solid rgba(164, 162, 167, 0.19);
+  border-left: 1px solid rgba(164, 162, 167, 0.19);
+  border-right: 1px solid rgba(128, 127, 132, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+>>>>>>> df621ae (Fixed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   border-radius: 1.297rem;
@@ -2304,6 +2665,7 @@ tooltip {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -2320,6 +2682,12 @@ tooltip {
   border-right: 1px solid rgba(125, 128, 130, 0.145);
   border-bottom: 1px solid rgba(125, 128, 130, 0.145);
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border-top: 1px solid rgba(164, 162, 167, 0.19);
+  border-left: 1px solid rgba(164, 162, 167, 0.19);
+  border-right: 1px solid rgba(128, 127, 132, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+>>>>>>> df621ae (Fixed foot)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   border-radius: 1.297rem;
@@ -2348,6 +2716,7 @@ tooltip {
   padding: 0.341rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
@@ -2355,12 +2724,16 @@ tooltip {
 =======
   background-color: rgba(25, 29, 31, 0.31); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(28, 28, 34, 0.31); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-group-nopad {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
@@ -2368,6 +2741,9 @@ tooltip {
 =======
   background-color: rgba(25, 29, 31, 0.31); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(28, 28, 34, 0.31); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-group-invisible {
   padding: 0.341rem; }
@@ -2381,6 +2757,7 @@ tooltip {
   padding: 0.341rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
@@ -2388,11 +2765,15 @@ tooltip {
 =======
   background-color: rgba(25, 29, 31, 0.31); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(28, 28, 34, 0.31); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-iconbutton {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #e1e2e5;
@@ -2402,6 +2783,9 @@ tooltip {
 =======
   color: #e1e3e4;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6;
+>>>>>>> df621ae (Fixed foot)
   min-width: 2.727rem;
   min-height: 2.727rem; }
 
@@ -2417,6 +2801,7 @@ tooltip {
   padding: 0rem 0.818rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -2442,6 +2827,15 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+
+.sidebar-button-nopad {
+  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-button:hover,
 .sidebar-button:focus {
@@ -2476,6 +2870,7 @@ tooltip {
 .sidebar-button-active {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b; }
 
@@ -2492,22 +2887,31 @@ tooltip {
   background-color: #85e3f4;
   color: #00363f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #d0d4ff;
+  color: #162088; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-button-active:hover,
 .sidebar-button-active:focus {
-  background-color: rgba(133, 220, 236, 0.79); }
+  background-color: rgba(202, 206, 246, 0.79); }
 
 .sidebar-button-active:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(213, 187, 228, 0.58); }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: rgba(132, 206, 220, 0.58); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(191, 194, 228, 0.58); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-buttons-separator {
   min-width: 0.068rem;
   min-height: 0.068rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #c1c7ce; }
@@ -2517,6 +2921,9 @@ tooltip {
 =======
   background-color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-navrail {
   padding: 0rem 1.159rem; }
@@ -2534,6 +2941,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-navrail-btn-active > box > label:first-child {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #374955;
@@ -2561,6 +2969,15 @@ tooltip {
   background-color: rgba(52, 75, 80, 0.93);
   color: rgba(204, 229, 235, 0.93); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+
+.sidebar-navrail-btn-active:hover > box > label:first-child,
+.sidebar-navrail-btn-active:focus > box > label:first-child {
+  background-color: rgba(69, 70, 90, 0.93);
+  color: rgba(222, 222, 247, 0.93); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-sysinfo-grouppad {
   padding: 1.159rem; }
@@ -2572,6 +2989,7 @@ tooltip {
   padding: 0.409rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -2582,6 +3000,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9;
+>>>>>>> df621ae (Fixed foot)
   font-size: 0px; }
 
 .sidebar-memory-swap-circprog {
@@ -2592,6 +3014,7 @@ tooltip {
   margin: 0.918rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -2602,6 +3025,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9;
+>>>>>>> df621ae (Fixed foot)
   font-size: 0px; }
 
 .sidebar-cpu-circprog {
@@ -2610,6 +3037,7 @@ tooltip {
   padding: 0.409rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -2620,6 +3048,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9;
+>>>>>>> df621ae (Fixed foot)
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
   font-size: 0px; }
 
@@ -2636,6 +3068,7 @@ tooltip {
   min-height: 2.045rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(193, 199, 206, 0.31); }
 
 .sidebar-scrollbar slider:hover,
@@ -2649,18 +3082,25 @@ tooltip {
 =======
   background-color: rgba(191, 200, 202, 0.31); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(199, 197, 207, 0.31); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-scrollbar slider:hover,
 .sidebar-scrollbar slider:focus {
-  background-color: rgba(191, 200, 202, 0.448); }
+  background-color: rgba(199, 197, 207, 0.448); }
 
 .sidebar-scrollbar slider:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #837c84; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #777f81; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #7e7d85; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-calendar-btn {
   border-radius: 9999px;
@@ -2670,6 +3110,7 @@ tooltip {
   min-width: 2.523rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -2677,6 +3118,9 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-calendar-btn:hover,
 .sidebar-calendar-btn:focus {
@@ -2690,6 +3134,7 @@ tooltip {
   margin-right: -10.341rem; }
 
 .sidebar-calendar-btn-today {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff;
@@ -2711,21 +3156,29 @@ tooltip {
   background-color: #85e3f4;
   color: #00363f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #d0d4ff;
+  color: #162088; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-calendar-btn-today:hover,
 .sidebar-calendar-btn-today:focus {
-  background-color: rgba(133, 220, 236, 0.79); }
+  background-color: rgba(202, 206, 246, 0.79); }
 
 .sidebar-calendar-btn-today:active {
-  background-color: rgba(132, 206, 220, 0.58); }
+  background-color: rgba(191, 194, 228, 0.58); }
 
 .sidebar-calendar-btn-othermonth {
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #837e83; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   color: #7d8082; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #807f84; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-calendar-header {
   margin: 0.341rem; }
@@ -2734,6 +3187,7 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   padding: 0rem 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
@@ -2746,10 +3200,15 @@ tooltip {
   background-color: rgba(47, 54, 56, 0.31);
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.31);
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-calendar-monthyear-btn:hover,
 .sidebar-calendar-monthyear-btn:focus {
   background-color: rgba(128, 128, 128, 0.3);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #bac0c7; }
@@ -2771,12 +3230,20 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7);
   color: #a9b2b4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #c0bec8; }
+
+.sidebar-calendar-monthyear-btn:active {
+  background-color: rgba(128, 128, 128, 0.7);
+  color: #b1afb9; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-calendar-monthshift-btn {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 2.045rem;
   min-height: 2.045rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
@@ -2796,25 +3263,34 @@ tooltip {
   background-color: rgba(47, 54, 56, 0.31);
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.31);
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-calendar-monthshift-btn:hover {
   background-color: rgba(128, 128, 128, 0.3);
-  color: #b8c1c3; }
+  color: #c0bec8; }
 
 .sidebar-calendar-monthshift-btn:active {
   background-color: rgba(128, 128, 128, 0.7);
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #b7aeb8; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   color: #a9b2b4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #b1afb9; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-selector-tab {
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   min-height: 2.5rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #e1e2e5; }
@@ -2824,6 +3300,9 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-selector-tab:hover,
 .sidebar-selector-tab:focus {
@@ -2835,6 +3314,7 @@ tooltip {
 .sidebar-selector-tab-active > box > label {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a4deff; }
 =======
   color: #eccbff; }
@@ -2842,6 +3322,9 @@ tooltip {
 =======
   color: #85e3f4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #d0d4ff; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-selector-highlight-offset {
   margin-top: -0.205rem;
@@ -2851,6 +3334,7 @@ tooltip {
   transition: 180ms ease-in-out;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a4deff;
 =======
   color: #eccbff;
@@ -2858,12 +3342,16 @@ tooltip {
 =======
   color: #85e3f4;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #d0d4ff;
+>>>>>>> df621ae (Fixed foot)
   min-height: 0.205rem; }
 
 .sidebar-todo-item {
   padding-right: 0.545rem; }
 
 .sidebar-todo-item-even {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.1); }
@@ -2873,6 +3361,9 @@ tooltip {
 =======
   background-color: rgba(47, 54, 56, 0.1); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.1); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-todo-item-action {
   border-radius: 9999px;
@@ -2893,6 +3384,7 @@ tooltip {
 .sidebar-todo-crosser-crossed {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #e1e2e5; }
 =======
   background-color: #e7e0e5; }
@@ -2900,6 +3392,9 @@ tooltip {
 =======
   background-color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-todo-crosser-removed {
   background-color: #ffb4a9; }
@@ -2907,6 +3402,7 @@ tooltip {
 .sidebar-todo-new {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #d2e5f4;
@@ -2925,21 +3421,28 @@ tooltip {
 =======
   color: #cde7ed;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e0e0f9;
+>>>>>>> df621ae (Fixed foot)
   margin: 0.341rem;
   padding: 0.205rem 0.545rem;
-  border: 0.068rem solid #e1e3e4; }
+  border: 0.068rem solid #e4e1e6; }
 
 .sidebar-todo-newz,
 .sidebar-todo-new:focus {
-  background-color: #384f54; }
+  background-color: #494a5e; }
 
 .sidebar-todo-new:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #6f6176; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #52696f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #636479; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-todo-add {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -2947,6 +3450,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #d2e5f4;
@@ -2965,18 +3469,26 @@ tooltip {
   color: #cde7ed;
   border: 0.068rem solid #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e0e0f9;
+  border: 0.068rem solid #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-todo-add:hover,
 .sidebar-todo-add:focus {
-  background-color: #384f54; }
+  background-color: #494a5e; }
 
 .sidebar-todo-add:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #6f6176; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #52696f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #636479; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-todo-add-available {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -2984,6 +3496,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff;
@@ -3005,23 +3518,33 @@ tooltip {
   color: #00363f;
   border: 0.068rem solid #85e3f4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #d0d4ff;
+  color: #162088;
+  border: 0.068rem solid #d0d4ff; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-todo-add-available:hover,
 .sidebar-todo-add-available:focus {
-  background-color: #81deef; }
+  background-color: #cacffb; }
 
 .sidebar-todo-add-available:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #cba7e1; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #6ac0d0; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #abb0e7; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-todo-entry {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #31363a;
@@ -3037,10 +3560,16 @@ tooltip {
   color: #bfc8ca;
   caret-color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b;
+  color: #c7c5cf;
+  caret-color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   margin: 0rem 0.341rem;
   min-height: 1.773rem;
   min-width: 0rem;
   padding: 0.205rem 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.068rem solid #797f84; }
@@ -3059,11 +3588,18 @@ tooltip {
 .sidebar-todo-entry:focus {
   border: 0.068rem solid #b1b9bb; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border: 0.068rem solid #7e7d85; }
+
+.sidebar-todo-entry:focus {
+  border: 0.068rem solid #b8b7c0; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-module {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   padding: 0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
@@ -3073,11 +3609,15 @@ tooltip {
 =======
   background-color: rgba(25, 29, 31, 0.31); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(28, 28, 34, 0.31); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-module-btn-arrow {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   font-family: "Material Symbols Rounded", "Material Symbols Outlined", "Material Symbols Sharp";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
@@ -3087,6 +3627,9 @@ tooltip {
 =======
   background-color: rgba(47, 54, 56, 0.31);
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.31);
+>>>>>>> df621ae (Fixed foot)
   min-width: 1.705rem;
   min-height: 1.705rem; }
 
@@ -3096,6 +3639,7 @@ tooltip {
   padding: 0.341rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
@@ -3103,6 +3647,9 @@ tooltip {
 =======
   background-color: rgba(25, 29, 31, 0.31); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(28, 28, 34, 0.31); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-apiswitcher-icon {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3110,6 +3657,7 @@ tooltip {
   -gtk-outline-radius: 9999px;
   min-width: 2.182rem;
   min-height: 2.182rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #e1e2e5; }
@@ -3131,6 +3679,13 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+
+.sidebar-chat-apiswitcher-icon-enabled {
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-viewport {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3139,6 +3694,7 @@ tooltip {
 .sidebar-chat-textarea {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   border: 0.068rem solid #6b7075;
@@ -3164,6 +3720,14 @@ tooltip {
   color: #bfc8ca;
   caret-color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border: 0.068rem solid #6f6f76;
+  padding: 0.682rem; }
+
+.sidebar-chat-entry {
+  color: #c7c5cf;
+  caret-color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   min-height: 1.773rem;
   min-width: 0rem; }
 
@@ -3197,31 +3761,39 @@ tooltip {
   border-radius: 0.478rem; }
 =======
   border-radius: 0.478rem;
+<<<<<<< HEAD
   background-color: #697072; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #6f6f76; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-send:hover,
 .sidebar-chat-send:focus {
-  background-color: #6c7476; }
+  background-color: #72727a; }
 
 .sidebar-chat-send:active {
-  background-color: #7d888b; }
+  background-color: #868690; }
 
 .sidebar-chat-send-available {
-  background-color: #85e3f4;
-  color: #00363f; }
+  background-color: #d0d4ff;
+  color: #162088; }
 
 .sidebar-chat-send-available:hover,
 .sidebar-chat-send-available:focus {
-  background-color: #81deef; }
+  background-color: #cacffb; }
 
 .sidebar-chat-send-available:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #cba7e1; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #6ac0d0; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #abb0e7; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-message {
   margin: 0.682rem; }
@@ -3231,6 +3803,7 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 0.136rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #e1e2e5; }
@@ -3248,20 +3821,27 @@ tooltip {
 =======
   background-color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-indicator-user {
-  background-color: #e1e3e4; }
+  background-color: #e4e1e6; }
 
 .sidebar-chat-indicator-bot {
-  background-color: #85e3f4; }
+  background-color: #d0d4ff; }
 
 .sidebar-chat-indicator-System {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #d2c1d9; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #b1cbd1; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #c4c4dc; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-name {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
@@ -3282,6 +3862,7 @@ tooltip {
   -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(78, 83, 88, 0.31);
   color: #c1c7ce;
   margin: 0rem 0.682rem;
@@ -3298,11 +3879,18 @@ tooltip {
   margin: 0rem 0.682rem;
   border: 0.068rem solid rgba(205, 231, 237, 0.07); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(82, 82, 89, 0.31);
+  color: #c7c5cf;
+  margin: 0rem 0.682rem;
+  border: 0.068rem solid rgba(224, 224, 249, 0.07); }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-codeblock-topbar {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   margin: 0.273rem;
   margin-bottom: 0rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(96, 111, 121, 0.517);
@@ -3321,6 +3909,12 @@ tooltip {
   border-radius: 0.886rem;
   border: 0.068rem solid #425a5f;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(107, 107, 124, 0.517);
+  color: #e0e0f9;
+  border-radius: 0.886rem;
+  border: 0.068rem solid #545569;
+>>>>>>> df621ae (Fixed foot)
   border-top-left-radius: 0.886rem;
   border-top-right-radius: 0.886rem;
   padding: 0.341rem 0.477rem; }
@@ -3339,6 +3933,7 @@ tooltip {
 .sidebar-chat-codeblock-topbar-btn:focus {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #566875; }
 
 .sidebar-chat-codeblock-topbar-btn:active {
@@ -3355,6 +3950,12 @@ tooltip {
 .sidebar-chat-codeblock-topbar-btn:active {
   background-color: #71898e; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #636479; }
+
+.sidebar-chat-codeblock-topbar-btn:active {
+  background-color: #828399; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-codeblock-code {
   font-family: "JetBrains Mono NF", "JetBrains Mono Nerd Font", "JetBrains Mono NL", "SpaceMono NF", "SpaceMono Nerd Font", monospace;
@@ -3364,6 +3965,7 @@ tooltip {
   min-height: 1px;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #6b7075;
 =======
   background-color: #746d75;
@@ -3371,6 +3973,9 @@ tooltip {
 =======
   background-color: #697072;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #6f6f76;
+>>>>>>> df621ae (Fixed foot)
   margin: 0rem 0.545rem; }
 
 .sidebar-chat-welcome-txt {
@@ -3404,6 +4009,7 @@ tooltip {
 .sidebar-chat-chip-action {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #6b7075; }
 =======
   background-color: #242125;
@@ -3412,6 +4018,9 @@ tooltip {
 =======
   border: 0.068rem solid #697072; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  border: 0.068rem solid #6f6f76; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-chip-action:hover,
 .sidebar-chat-chip-action:focus {
@@ -3421,6 +4030,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-chat-chip-action-active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #6b7075;
@@ -3433,12 +4043,17 @@ tooltip {
   color: #697072;
   border: 0.068rem solid #697072; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #6f6f76;
+  border: 0.068rem solid #6f6f76; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-chip-toggle {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   padding: 0.341rem 0.477rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
@@ -3451,6 +4066,10 @@ tooltip {
   background-color: rgba(47, 54, 56, 0.31);
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.31);
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-chat-chip-toggle:focus,
 .sidebar-chat-chip-toggle:hover {
@@ -3467,6 +4086,7 @@ tooltip {
   min-width: 2.386rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -3474,6 +4094,9 @@ tooltip {
 =======
   color: #e1e3e4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e4e1e6; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-pin:hover,
 .sidebar-pin:focus {
@@ -3483,6 +4106,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-pin-enabled {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #a4deff; }
@@ -3500,20 +4124,27 @@ tooltip {
 =======
   background-color: #85e3f4; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #d0d4ff; }
+>>>>>>> df621ae (Fixed foot)
   .sidebar-pin-enabled label {
-    color: #00363f; }
+    color: #162088; }
 
 .sidebar-pin-enabled:hover,
 .sidebar-pin-enabled:focus {
-  background-color: #78d2e2; }
+  background-color: #bdc2f3; }
 
 .sidebar-pin-enabled:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #cba7e1; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #6ac0d0; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #abb0e7; }
+>>>>>>> df621ae (Fixed foot)
 
 .sidebar-waifu-heading {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
@@ -3573,6 +4204,7 @@ tooltip {
   min-height: 8.182rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a;
   color: #c1c7ce;
   font-size: 3rem; }
@@ -3591,13 +4223,18 @@ tooltip {
   background-color: #2f3638;
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b;
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   font-size: 3rem; }
 
 .session-button-focused {
-  background-color: #334a4f;
-  color: #cde7ed; }
+  background-color: #444559;
+  color: #e0e0f9; }
 
 .session-button-desc {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #2c282d;
   color: #dad2da;
@@ -3606,6 +4243,10 @@ tooltip {
   background-color: #242a2c;
   color: #d0d6d7;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #29292f;
+  color: #d6d3db;
+>>>>>>> df621ae (Fixed foot)
   border-bottom-left-radius: 1.705rem;
   border-bottom-right-radius: 1.705rem;
   padding: 0.205rem 0.341rem;
@@ -3618,6 +4259,7 @@ tooltip {
   min-height: 5.455rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a;
   color: #c1c7ce;
 =======
@@ -3628,11 +4270,16 @@ tooltip {
   background-color: #2f3638;
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #35353b;
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   font-size: 3rem; }
 
 .notif-low {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.45);
@@ -3645,6 +4292,10 @@ tooltip {
   background-color: rgba(47, 54, 56, 0.45);
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.45);
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -3653,6 +4304,7 @@ tooltip {
   -gtk-outline-radius: 1.159rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.45);
   color: #c1c7ce;
 =======
@@ -3663,12 +4315,17 @@ tooltip {
   background-color: rgba(47, 54, 56, 0.45);
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(53, 53, 59, 0.45);
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
 .notif-critical {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #374955;
@@ -3681,6 +4338,10 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9;
+>>>>>>> df621ae (Fixed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -3690,6 +4351,7 @@ tooltip {
   min-width: 30.682rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
   color: #c1c7ce;
 =======
@@ -3700,6 +4362,10 @@ tooltip {
   background-color: #0b0f10;
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #0e0e10;
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -3709,6 +4375,7 @@ tooltip {
   min-width: 30.682rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
   color: #c1c7ce;
 =======
@@ -3719,6 +4386,10 @@ tooltip {
   background-color: #0b0f10;
   color: #bfc8ca;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #0e0e10;
+  color: #c7c5cf;
+>>>>>>> df621ae (Fixed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -3726,6 +4397,7 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   min-width: 30.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #374955;
@@ -3738,10 +4410,15 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed;
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9;
+>>>>>>> df621ae (Fixed foot)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
 .notif-body-low {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #91979d; }
@@ -3756,17 +4433,24 @@ tooltip {
 =======
   color: #8f989a; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #97959e; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-body-normal {
-  color: #8f989a; }
+  color: #97959e; }
 
 .notif-body-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
   color: #baa9c1; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   color: #9ab3b9; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #adadc4; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-icon {
   border-radius: 9999px;
@@ -3775,6 +4459,7 @@ tooltip {
   min-height: 3.409rem; }
 
 .notif-icon-material {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #374955;
@@ -3798,16 +4483,21 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-icon-material-low {
-  background-color: #334a4f;
-  color: #cde7ed; }
+  background-color: #444559;
+  color: #e0e0f9; }
 
 .notif-icon-material-normal {
-  background-color: #334a4f;
-  color: #cde7ed; }
+  background-color: #444559;
+  color: #e0e0f9; }
 
 .notif-icon-material-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #eedcf5;
   color: #4f4256; }
@@ -3816,6 +4506,10 @@ tooltip {
   background-color: #cde7ed;
   color: #334a4f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #e0e0f9;
+  color: #444559; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-expand-btn {
   border-radius: 1.159rem;
@@ -3845,6 +4539,7 @@ tooltip {
 .notif-listaction-btn-enabled {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -3861,18 +4556,26 @@ tooltip {
   background-color: #334a4f;
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #444559;
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-listaction-btn-enabled:hover,
 .notif-listaction-btn-enabled:focus {
-  background-color: #425a5f; }
+  background-color: #545569; }
 
 .notif-listaction-btn-enabled:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #77697e; }
 >>>>>>> bf0d710 (ags: sync)
 =======
   background-color: #5a7177; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #6b6c81; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-notif {
   border-radius: 1.159rem;
@@ -3895,6 +4598,7 @@ tooltip {
   padding: 0rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
@@ -3902,6 +4606,9 @@ tooltip {
 =======
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-circprog-normal {
   transition: 0ms linear;
@@ -3910,6 +4617,7 @@ tooltip {
   padding: 0rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
@@ -3917,12 +4625,16 @@ tooltip {
 =======
   color: #cde7ed; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #e0e0f9; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-circprog-critical {
   transition: 0ms linear;
   min-width: 0.136rem;
   min-height: 3.136rem;
   padding: 0rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #374955; }
@@ -3932,6 +4644,9 @@ tooltip {
 =======
   color: #334a4f; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #444559; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-actions {
   min-height: 2.045rem; }
@@ -3943,6 +4658,7 @@ tooltip {
 .notif-action-low {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 46, 49, 0.31);
   color: #c1c7ce; }
 =======
@@ -3953,6 +4669,10 @@ tooltip {
   background-color: rgba(42, 46, 48, 0.31);
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(45, 45, 51, 0.31);
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-action-low:focus,
 .notif-action-low:hover {
@@ -3964,6 +4684,7 @@ tooltip {
 .notif-action-normal {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 46, 49, 0.31);
   color: #c1c7ce; }
 =======
@@ -3974,6 +4695,10 @@ tooltip {
   background-color: rgba(42, 46, 48, 0.31);
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(45, 45, 51, 0.31);
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-action-normal:focus,
 .notif-action-normal:hover {
@@ -3983,6 +4708,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .notif-action-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #475965;
@@ -4001,12 +4727,17 @@ tooltip {
   background-color: #425a5f;
   color: #bfc8ca; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #545569;
+  color: #c7c5cf; }
+>>>>>>> df621ae (Fixed foot)
 
 .notif-action-critical:focus,
 .notif-action-critical:hover {
-  background-color: #4f666b; }
+  background-color: #606176; }
 
 .notif-action-critical:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #74657b; }
 >>>>>>> bf0d710 (ags: sync)
@@ -4027,6 +4758,9 @@ tooltip {
 =======
   background-color: #566e73; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: #68697e; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4049,8 +4783,12 @@ tooltip {
 =======
   background-color: #0b0f10;
   padding: 0rem 1.023rem;
+<<<<<<< HEAD
   background: linear-gradient(127deg, rgba(37, 44, 45, 0.7), rgba(37, 44, 45, 0.55) 70.71%), linear-gradient(217deg, rgba(63, 72, 74, 0.7), rgba(63, 72, 74, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #334a4f 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(51, 74, 79, 0.7), rgba(51, 74, 79, 0.55) 70.71%), linear-gradient(#0b0f10, #0b0f10); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background: linear-gradient(127deg, rgba(42, 42, 48, 0.7), rgba(42, 42, 48, 0.55) 70.71%), linear-gradient(217deg, rgba(70, 70, 79, 0.7), rgba(70, 70, 79, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #444559 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(68, 69, 89, 0.7), rgba(68, 69, 89, 0.55) 70.71%), linear-gradient(#0e0e10, #0e0e10); }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-cover-fallback {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4058,6 +4796,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 7.5rem;
   min-height: 7.5rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31);
@@ -4070,6 +4809,10 @@ tooltip {
   background-color: rgba(25, 29, 31, 0.31);
   color: #d1d4d5; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(28, 28, 34, 0.31);
+  color: #d4d2d7; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-cover {
   border-radius: 0.818rem;
@@ -4097,6 +4840,7 @@ tooltip {
   font-size: 1.364rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d1d3d6; }
 =======
   color: #d7d1d6; }
@@ -4104,11 +4848,15 @@ tooltip {
 =======
   color: #d1d4d5; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #d4d2d7; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-artists {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   font-size: 0.955rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: rgba(196, 199, 202, 0.9); }
@@ -4118,6 +4866,9 @@ tooltip {
 =======
   color: rgba(196, 200, 201, 0.9); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: rgba(199, 197, 203, 0.9); }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-pill {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4128,6 +4879,7 @@ tooltip {
   padding: 0.273rem 0.682rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 49, 55, 0.5);
   color: #d1d3d6; }
 =======
@@ -4138,6 +4890,10 @@ tooltip {
   background-color: rgba(40, 50, 52, 0.5);
   color: #d1d4d5; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(47, 47, 56, 0.5);
+  color: #d4d2d7; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-controls {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4148,6 +4904,7 @@ tooltip {
   padding: 0.205rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 49, 55, 0.5);
   color: #d1d3d6; }
 =======
@@ -4158,6 +4915,10 @@ tooltip {
   background-color: rgba(40, 50, 52, 0.5);
   color: #d1d4d5; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(47, 47, 56, 0.5);
+  color: #d4d2d7; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-controlbtn {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4168,6 +4929,7 @@ tooltip {
 
 .osd-music-controlbtn:hover,
 .osd-music-controlbtn:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(84, 90, 95, 0.55); }
@@ -4186,6 +4948,12 @@ tooltip {
 .osd-music-controlbtn:active {
   background-color: rgba(99, 106, 108, 0.575); }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(88, 88, 96, 0.55); }
+
+.osd-music-controlbtn:active {
+  background-color: rgba(104, 103, 111, 0.575); }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-controlbtn-txt {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4201,6 +4969,7 @@ tooltip {
   padding: 0.273rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d1d3d6; }
 =======
   color: #d7d1d6; }
@@ -4208,12 +4977,16 @@ tooltip {
 =======
   color: #d1d4d5; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  color: #d4d2d7; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-playstate {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   min-height: 3.068rem;
   min-width: 3.068rem;
   border-radius: 10rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(42, 49, 55, 0.5);
@@ -4226,6 +4999,10 @@ tooltip {
   background-color: rgba(40, 50, 52, 0.5);
   color: #d1d4d5; }
 >>>>>>> 1f76dd9 (Doxed foot)
+=======
+  background-color: rgba(47, 47, 56, 0.5);
+  color: #d4d2d7; }
+>>>>>>> df621ae (Fixed foot)
 
 .osd-music-playstate-btn > label {
   transition: 50ms cubic-bezier(0.05, 0.7, 0.1, 1);
