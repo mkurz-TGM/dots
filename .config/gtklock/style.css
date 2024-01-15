@@ -3,7 +3,11 @@
   border: 0rem; }
 
 window {
+<<<<<<< HEAD
   background-color: rgba(15, 16, 18, 0.4);
+=======
+  background-color: rgba(16, 16, 17, 0.4);
+>>>>>>> 1cd5fe7 (Changed foot alpha to 0.5)
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -19,9 +23,15 @@ window {
   margin: -20rem; }
 
 #input-field {
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
   caret-color: #d2e5f4;
+=======
+  background-color: #3f4759;
+  color: #dae2f9;
+  caret-color: #dae2f9;
+>>>>>>> 1cd5fe7 (Changed foot alpha to 0.5)
   border-radius: 999px;
   font-size: 1.3rem;
   padding: 0.341rem 1.364rem;
@@ -44,14 +54,23 @@ window {
   padding: 0.5rem;
   margin: 0.6rem;
   margin-top: -35rem;
+<<<<<<< HEAD
   color: #d2e5f4;
+=======
+  color: #dae2f9;
+>>>>>>> 1cd5fe7 (Changed foot alpha to 0.5)
   text-shadow: 1px 1px 2px rgba(22, 22, 30, 0.5); }
 
 #poweroff-button,
 #reboot-button,
 #suspend-button {
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
+=======
+  background-color: #3f4759;
+  color: #dae2f9;
+>>>>>>> 1cd5fe7 (Changed foot alpha to 0.5)
   min-width: 3rem;
   min-height: 3rem;
   margin: 0.341rem;
@@ -63,9 +82,17 @@ window {
 #poweroff-button:focus,
 #reboot-button:focus,
 #suspend-button:focus {
+<<<<<<< HEAD
   background-color: #5f6d77; }
+=======
+  background-color: #656c7a; }
+>>>>>>> 1cd5fe7 (Changed foot alpha to 0.5)
 
 #poweroff-button:active,
 #reboot-button:active,
 #suspend-button:active {
+<<<<<<< HEAD
   background-color: #738088; }
+=======
+  background-color: #797e8b; }
+>>>>>>> 1cd5fe7 (Changed foot alpha to 0.5)
