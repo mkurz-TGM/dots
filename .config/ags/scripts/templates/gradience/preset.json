@@ -92,6 +92,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "accent_bg_color": "#7dd0ff",
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
@@ -120,6 +121,11 @@
         "accent_fg_color": "#003549",
         "accent_color": "#75d1ff",
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+        "accent_bg_color": "#bac3ff",
+        "accent_fg_color": "#192779",
+        "accent_color": "#bac3ff",
+>>>>>>> f98d676 (fixed terminal)
         "destructive_bg_color": "#ffb4a9",
         "destructive_fg_color": "#680003",
         "destructive_color": "#ffb4a9",
@@ -129,6 +135,7 @@
         "warning_fg_color": "rgba(0, 0, 0, 0.87)",
         "error_bg_color": "#ffb4a9",
         "error_fg_color": "#680003",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -168,23 +175,29 @@
 <<<<<<< HEAD
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
+=======
+>>>>>>> f98d676 (fixed terminal)
         "window_bg_color": "#101012",
         "window_fg_color": "#e4e1e6",
         "view_bg_color": "#1b1b1f",
         "view_fg_color": "#e4e1e6",
+<<<<<<< HEAD
 >>>>>>> df621ae (Fixed foot)
 =======
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+>>>>>>> f98d676 (fixed terminal)
         "headerbar_bg_color": "mix(@dialog_bg_color, @window_bg_color, 0.5)",
-        "headerbar_fg_color": "#d1e5f3",
-        "headerbar_border_color": "#364955",
+        "headerbar_fg_color": "#e0e1fa",
+        "headerbar_border_color": "#434559",
         "headerbar_backdrop_color": "@headerbar_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.09)",
-        "card_bg_color": "#0F1012",
-        "card_fg_color": "#d1e5f3",
+        "card_bg_color": "#101012",
+        "card_fg_color": "#e0e1fa",
         "card_shade_color": "rgba(0, 0, 0, 0.09)",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -217,6 +230,12 @@
         "popover_bg_color": "#364955",
         "popover_fg_color": "#d1e5f3",
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+        "dialog_bg_color": "#434559",
+        "dialog_fg_color": "#e0e1fa",
+        "popover_bg_color": "#434559",
+        "popover_fg_color": "#e0e1fa",
+>>>>>>> f98d676 (fixed terminal)
         "thumbnail_bg_color": "#1a1b26",
         "thumbnail_fg_color": "#AEE5FA",
         "shade_color": "rgba(0, 0, 0, 0.36)",

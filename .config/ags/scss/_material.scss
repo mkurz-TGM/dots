@@ -1,4 +1,6 @@
+Warning: Image not in RGB|RGBA format - Converting...
 $darkmode: true;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -62,10 +64,25 @@ $onTertiary: #312c4c;
 $tertiaryContainer: #484264;
 $onTertiaryContainer: #e6deff;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+$primary: #bac3ff;
+$onPrimary: #192779;
+$primaryContainer: #323f90;
+$onPrimaryContainer: #dde0ff;
+$secondary: #c4c5dd;
+$onSecondary: #2d2f42;
+$secondaryContainer: #434559;
+$onSecondaryContainer: #e0e1fa;
+$tertiary: #e6b9d7;
+$onTertiary: #45263d;
+$tertiaryContainer: #5d3c54;
+$onTertiaryContainer: #ffd7f2;
+>>>>>>> f98d676 (fixed terminal)
 $error: #ffb4a9;
 $onError: #680003;
 $errorContainer: #930006;
 $onErrorContainer: #ffb4a9;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -103,11 +120,14 @@ $inverseOnSurface: #2f3033;
 $inversePrimary: #315da8;
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
+=======
+>>>>>>> f98d676 (fixed terminal)
 $colorbarbg: #101012;
 $background: #101012;
 $onBackground: #e4e1e6;
 $surface: #1b1b1f;
 $onSurface: #e4e1e6;
+<<<<<<< HEAD
 $surfaceVariant: #46464f;
 $onSurfaceVariant: #c7c5cf;
 $outline: #91909a;
@@ -130,3 +150,12 @@ $inverseSurface: #e1e2e5;
 $inverseOnSurface: #2e3133;
 $inversePrimary: #00668b;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+$surfaceVariant: #46464e;
+$onSurfaceVariant: #c6c5cf;
+$outline: #91909a;
+$shadow: #000000;
+$inverseSurface: #e4e1e6;
+$inverseOnSurface: #303034;
+$inversePrimary: #4a57a9;
+>>>>>>> f98d676 (fixed terminal)
