@@ -44,6 +44,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 
 .txt-primary {
@@ -62,14 +63,18 @@
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .txt-primary {
-  color: #d0d4ff; }
+  color: #c5d8ff; }
 
 .txt-onSecondaryContainer {
-  color: #e0e0f9; }
+  color: #dae2f9; }
 
 .txt-onSurfaceVariant {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #cdc3ce; }
@@ -80,6 +85,9 @@
 =======
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .txt-shadow {
   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.69);
@@ -150,11 +158,15 @@
 
 .txt-action {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #c1c3c4; }
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
   color: #c4c1c6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #c4c2c6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .txt-semibold {
   font-weight: 500; }
@@ -193,6 +205,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #8b9298;
 =======
   background-color: #968e98;
@@ -203,6 +216,9 @@
 =======
   background-color: #91909a;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #8e9099;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-width: 0.068rem;
   min-height: 0.068rem; }
 
@@ -212,6 +228,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #8b9298;
 =======
   background-color: #968e98;
@@ -222,6 +239,9 @@
 =======
   background-color: #91909a;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #8e9099;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   margin: 0rem 0.682rem;
   min-width: 0.273rem;
   min-height: 0.273rem; }
@@ -482,6 +502,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   caret-color: #a4deff; }
   * selection {
     background-color: #b6c9d8;
@@ -504,6 +525,12 @@
     background-color: #c4c4dc;
     color: #2d2f42; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  caret-color: #c5d8ff; }
+  * selection {
+    background-color: #bec6dc;
+    color: #283041; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 @keyframes appear {
   from {
@@ -512,6 +539,7 @@
     opacity: 1; } }
 
 menu {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -549,6 +577,15 @@ menu {
   background: #35353b;
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-top: 1px solid rgba(56, 57, 60, 0.121);
+  border-left: 1px solid rgba(56, 57, 60, 0.121);
+  border-right: 1px solid rgba(42, 43, 46, 0.1105);
+  border-bottom: 1px solid rgba(42, 43, 46, 0.1105);
+  padding: 0.681rem;
+  background: #33353b;
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   animation-name: appear;
@@ -574,6 +611,7 @@ menu > menuitem:focus {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #3f4549; }
 
 menu > menuitem:active {
@@ -596,6 +634,12 @@ menu > menuitem:active {
 menu > menuitem:active {
   background-color: #525259; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #42444a; }
+
+menu > menuitem:active {
+  background-color: #505259; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 radio {
   border-radius: 9999px;
@@ -603,6 +647,7 @@ radio {
   margin: 0.273rem;
   min-width: 15px;
   min-height: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -616,10 +661,14 @@ radio {
 =======
   border: 0.068rem solid #91909a; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  border: 0.068rem solid #8e9099; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 radio:checked {
   min-width: 8px;
   min-height: 8px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -637,6 +686,10 @@ radio:checked {
   background-color: #162088;
   border: 0.477rem solid #d0d4ff; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #002e6c;
+  border: 0.477rem solid #c5d8ff; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 tooltip {
   animation-name: appear;
@@ -645,6 +698,7 @@ tooltip {
   animation-iteration-count: 1;
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -666,12 +720,18 @@ tooltip {
   color: #c7c5cf;
   border: 1px solid #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b;
+  color: #c4c6d0;
+  border: 1px solid #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .configtoggle-box {
   padding: 0.205rem 0.341rem;
   border: 0.136rem solid transparent; }
 
 .configtoggle-box:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -685,11 +745,15 @@ tooltip {
 =======
   border: 0.136rem solid #6c6b70; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  border: 0.136rem solid #6b6b6f; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .switch-bg {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -707,10 +771,15 @@ tooltip {
   background-color: #151519;
   border: 0.136rem solid #e4e1e6;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #151518;
+  border: 0.136rem solid #e4e2e6;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-width: 2.864rem;
   min-height: 1.637rem; }
 
 .switch-bg-true {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -728,11 +797,16 @@ tooltip {
   background-color: #d0d4ff;
   border: 0.136rem solid #d0d4ff; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c5d8ff;
+  border: 0.136rem solid #c5d8ff; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .switch-fg {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -750,11 +824,16 @@ tooltip {
   background-color: #e4e1e6;
   color: #1c1c22;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #e4e2e6;
+  color: #1b1c1f;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-width: 0.819rem;
   min-height: 0.819rem;
   margin-left: 0.477rem; }
 
 .switch-fg-true {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -772,6 +851,10 @@ tooltip {
   background-color: #162088;
   color: #d0d4ff;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #002e6c;
+  color: #c5d8ff;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-width: 1.431rem;
   min-height: 1.431rem;
   margin-left: 1.431rem; }
@@ -787,6 +870,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #8b9298; }
 =======
   border: 0.068rem solid #968e98; }
@@ -797,12 +881,16 @@ tooltip {
 =======
   border: 0.068rem solid #91909a; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  border: 0.068rem solid #8e9099; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .segment-container > *:first-child {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px; }
 
 .segment-container > * {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -816,6 +904,9 @@ tooltip {
 =======
   border-right: 0.068rem solid #91909a;
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-right: 0.068rem solid #8e9099;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   padding: 0.341rem 0.682rem; }
 
 .segment-container > *:last-child {
@@ -824,6 +915,7 @@ tooltip {
   border-bottom-right-radius: 9999px; }
 
 .segment-btn {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -837,12 +929,16 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .segment-btn:focus,
 .segment-btn:hover {
   background-color: rgba(128, 128, 128, 0.3); }
 
 .segment-btn-enabled {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -880,6 +976,15 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+
+.segment-btn-enabled:hover,
+.segment-btn-enabled:focus {
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .gap-v-5 {
   min-height: 0.341rem; }
@@ -924,6 +1029,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.45); }
 =======
   background-color: rgba(56, 52, 58, 0.45); }
@@ -934,6 +1040,9 @@ tooltip {
 =======
   background-color: rgba(53, 53, 59, 0.45); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.45); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-group-pad {
   padding: 0.205rem; }
@@ -995,6 +1104,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #616365;
   color: #6c6d70; }
 
@@ -1014,14 +1124,18 @@ tooltip {
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
   color: #646266;
+=======
+  color: #646366;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   color: #6e6d70; }
 >>>>>>> df621ae (Fixed foot)
 
 .bar-ws-active {
-  background-color: #444559;
-  color: #e0e0f9; }
+  background-color: #3f4759;
+  color: #dae2f9; }
 
 .bar-ws-occupied {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #38343a;
@@ -1035,12 +1149,17 @@ tooltip {
   background-color: #35353b;
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b;
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-separator {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 0.341rem;
   min-height: 0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1054,6 +1173,9 @@ tooltip {
 =======
   background-color: rgba(48, 48, 54, 0.31);
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(47, 48, 51, 0.31);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   margin: 0rem 0.341rem; }
 
 .bar-clock-box {
@@ -1069,6 +1191,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -1079,6 +1202,9 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-batt {
   border-radius: 9999px;
@@ -1086,6 +1212,7 @@ tooltip {
   min-height: 1.77rem;
   min-width: 1.77rem;
   border-radius: 10rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1103,6 +1230,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-sidemodule {
   min-width: 26rem; }
@@ -1123,6 +1254,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1137,6 +1269,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-batt-circprog-low {
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
@@ -1161,6 +1297,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1175,6 +1312,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-music-circprog {
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
@@ -1184,6 +1325,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1198,6 +1340,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-music-playstate-playing {
   min-height: 1.77rem;
@@ -1206,6 +1352,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1220,6 +1367,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-music-playstate-txt {
   transition: 100ms cubic-bezier(0.05, 0.7, 0.1, 1);
@@ -1290,6 +1441,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #d2e5f4; }
 =======
     background-color: #eedcf5; }
@@ -1300,6 +1452,9 @@ tooltip {
 =======
     background-color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+    background-color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-prog-batt-low progress {
   background-color: #930006; }
@@ -1318,6 +1473,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #c1c7ce; }
 =======
   background-color: #cdc3ce; }
@@ -1328,11 +1484,15 @@ tooltip {
 =======
   background-color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-batt-chargestate-charging-smaller {
   border-radius: 10rem;
   min-width: 0.409rem;
   min-height: 0.409rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1356,6 +1516,9 @@ tooltip {
 =======
   background-color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .corner {
   background-color: #0b0f10;
@@ -1449,6 +1612,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a; }
 
 .bar-util-btn:hover,
@@ -1465,12 +1629,16 @@ tooltip {
 =======
   background-color: #35353b; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bar-util-btn:hover,
 .bar-util-btn:focus {
-  background-color: #44434a; }
+  background-color: #42444a; }
 
 .bar-util-btn:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #565158; }
@@ -1481,10 +1649,14 @@ tooltip {
 =======
   background-color: #525259; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #505259; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .cheatsheet-bg {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1517,6 +1689,12 @@ tooltip {
   border-right: 1px solid rgba(128, 127, 132, 0.145);
   border-bottom: 1px solid rgba(128, 127, 132, 0.145);
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-top: 1px solid rgba(163, 162, 166, 0.19);
+  border-left: 1px solid rgba(163, 162, 166, 0.19);
+  border-right: 1px solid rgba(128, 127, 131, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 131, 0.145);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   margin-bottom: 0.682rem;
@@ -1532,6 +1710,7 @@ tooltip {
   padding: 0.136rem 0.205rem;
   border-radius: 0.409rem;
   -gtk-outline-radius: 0.409rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1553,12 +1732,18 @@ tooltip {
   border: 0.068rem solid #d0d4ff;
   box-shadow: 0rem 0.136rem 0rem #d0d4ff;
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #c5d8ff;
+  border: 0.068rem solid #c5d8ff;
+  box-shadow: 0rem 0.136rem 0rem #c5d8ff;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   font-weight: 500; }
 
 .cheatsheet-key-notkey {
   min-height: 1.364rem;
   padding: 0.136rem 0.205rem;
   margin: 0.17rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1572,6 +1757,9 @@ tooltip {
 =======
   color: #dee0ff; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #d6e2ff; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .cheatsheet-closebtn {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -1607,6 +1795,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -1617,6 +1806,9 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bg-time-date {
   font-family: 'Gabarito';
@@ -1624,6 +1816,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -1634,6 +1827,9 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bg-distro-box {
   border-radius: 1.705rem;
@@ -1647,6 +1843,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -1657,10 +1854,14 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bg-distro-name {
   font-family: 'Gabarito';
   font-size: 1.432rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1674,6 +1875,9 @@ tooltip {
 =======
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bg-graph {
   color: rgba(255, 255, 255, 0.5);
@@ -1682,6 +1886,7 @@ tooltip {
 
 .bg-quicklaunch-title {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1695,11 +1900,15 @@ tooltip {
 =======
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bg-quicklaunch-btn {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1719,6 +1928,10 @@ tooltip {
 =======
   background-color: #35353b;
   color: #c7c5cf;
+=======
+  background-color: #33353b;
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   border: 0.068rem solid #a4a2a6;
 >>>>>>> df621ae (Fixed foot)
   min-width: 4.432rem;
@@ -1727,6 +1940,7 @@ tooltip {
 
 .bg-quicklaunch-btn:hover,
 .bg-quicklaunch-btn:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1752,6 +1966,12 @@ tooltip {
 .bg-quicklaunch-btn:active {
   background-color: #44434a; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3a3c42; }
+
+.bg-quicklaunch-btn:active {
+  background-color: #42444a; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .bg-system-bg {
   border-radius: 1.159rem;
@@ -1766,6 +1986,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a; }
 =======
   background-color: #38343a; }
@@ -1776,6 +1997,9 @@ tooltip {
 =======
   background-color: #35353b; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .dock-bg {
   border-radius: 1.705rem;
@@ -1803,6 +2027,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(35, 39, 42, 0.31); }
 
 .dock-app-btn:active {
@@ -1825,6 +2050,12 @@ tooltip {
 .dock-app-btn:active {
   background-color: rgba(58, 58, 63, 0.31); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(37, 38, 41, 0.31); }
+
+.dock-app-btn:active {
+  background-color: rgba(57, 58, 61, 0.31); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .dock-app-icon {
   min-width: 3.409rem;
@@ -1832,6 +2063,7 @@ tooltip {
 
 .dock-separator {
   min-width: 0.068rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1845,12 +2077,16 @@ tooltip {
 =======
   background-color: #35353b; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-bg {
   min-width: 8.864rem;
   min-height: 3.409rem; }
 
 .osd-value {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1881,6 +2117,12 @@ tooltip {
   border-right: 1px solid rgba(128, 127, 132, 0.145);
   border-bottom: 1px solid rgba(128, 127, 132, 0.145);
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-top: 1px solid rgba(163, 162, 166, 0.19);
+  border-left: 1px solid rgba(163, 162, 166, 0.19);
+  border-right: 1px solid rgba(128, 127, 131, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 131, 0.145);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   background-color: #0b0f10;
@@ -1902,6 +2144,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #374955; }
 =======
     background-color: #4f4256; }
@@ -1912,12 +2155,16 @@ tooltip {
 =======
     background-color: #444559; }
 >>>>>>> df621ae (Fixed foot)
+=======
+    background-color: #3f4759; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   .osd-progress progress {
     transition: 200ms cubic-bezier(0.1, 1, 0, 1);
     min-height: 0.680rem;
     min-width: 0.680rem;
     margin: 0rem 0.137rem;
     border-radius: 10rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1943,10 +2190,17 @@ tooltip {
 .osd-icon {
   color: #dee0ff; }
 >>>>>>> df621ae (Fixed foot)
+=======
+    background-color: #dae2f9; }
+
+.osd-icon {
+  color: #d6e2ff; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-label {
   font-size: 1.023rem;
   font-weight: 500;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1960,12 +2214,16 @@ tooltip {
 =======
   color: #e4e1e6;
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   margin-top: 0.341rem; }
 
 .osd-value-txt {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
   font-size: 1.688rem;
   font-weight: 500;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1979,6 +2237,9 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-notifs {
   padding-top: 0.313rem; }
@@ -2011,6 +2272,7 @@ tooltip {
     margin: 0.409rem; }
 
 .osd-color-primary {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2065,43 +2327,48 @@ tooltip {
   background-color: #d0d4ff;
   color: #162088; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c5d8ff;
+  color: #002e6c; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   .osd-color-primary box {
-    background-color: #162088; }
+    background-color: #002e6c; }
 
 .osd-color-primaryContainer {
-  background-color: #464fa9;
-  color: #dee0ff; }
+  background-color: #255799;
+  color: #d6e2ff; }
   .osd-color-primaryContainer box {
-    background-color: #dee0ff; }
+    background-color: #d6e2ff; }
 
 .osd-color-secondary {
-  background-color: #c4c4dc;
-  color: #2d2f42; }
+  background-color: #bec6dc;
+  color: #283041; }
   .osd-color-secondary box {
-    background-color: #2d2f42; }
+    background-color: #283041; }
 
 .osd-color-secondaryContainer {
-  background-color: #444559;
-  color: #e0e0f9; }
+  background-color: #3f4759;
+  color: #dae2f9; }
   .osd-color-secondaryContainer box {
-    background-color: #e0e0f9; }
+    background-color: #dae2f9; }
 
 .osd-color-surfaceVariant {
-  background-color: #35353b;
-  color: #c7c5cf; }
+  background-color: #33353b;
+  color: #c4c6d0; }
   .osd-color-surfaceVariant box {
-    background-color: #c7c5cf; }
+    background-color: #c4c6d0; }
 
 .osd-color-surface {
-  background-color: #1c1c22;
-  color: #e4e1e6; }
+  background-color: #1b1c1f;
+  color: #e4e2e6; }
   .osd-color-surface box {
-    background-color: #e4e1e6; }
+    background-color: #e4e2e6; }
 
 .osd-color-background {
   background-color: #0e0e10;
-  color: #e4e1e6; }
+  color: #e4e2e6; }
   .osd-color-background box {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     background-color: #e7e0e5; }
@@ -2112,6 +2379,9 @@ tooltip {
 =======
     background-color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+    background-color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-show {
   transition: 200ms cubic-bezier(0.1, 1, 0, 1); }
@@ -2126,6 +2396,7 @@ tooltip {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2151,6 +2422,12 @@ tooltip {
   border-right: 1px solid rgba(128, 127, 132, 0.145);
   border-bottom: 1px solid rgba(128, 127, 132, 0.145);
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-top: 1px solid rgba(163, 162, 166, 0.19);
+  border-left: 1px solid rgba(163, 162, 166, 0.19);
+  border-right: 1px solid rgba(128, 127, 131, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 131, 0.145);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   min-width: 13.636rem;
@@ -2182,16 +2459,20 @@ tooltip {
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
   background-color: #0e0e10;
+<<<<<<< HEAD
   color: #e4e1e6;
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   caret-color: transparent; }
   .overview-search-box selection {
-    background-color: #c4c4dc;
-    color: #2d2f42; }
+    background-color: #bec6dc;
+    color: #283041; }
 
 .overview-search-box-extended {
   min-width: 25.909rem;
-  caret-color: #e0e0f9; }
+  caret-color: #dae2f9; }
 
 .overview-search-prompt {
 <<<<<<< HEAD
@@ -2218,6 +2499,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -2240,6 +2522,12 @@ tooltip {
   border-right: 1px solid rgba(128, 127, 132, 0.145);
   border-bottom: 1px solid rgba(128, 127, 132, 0.145);
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-top: 1px solid rgba(163, 162, 166, 0.19);
+  border-left: 1px solid rgba(163, 162, 166, 0.19);
+  border-right: 1px solid rgba(128, 127, 131, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 131, 0.145);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   min-width: 28.773rem;
@@ -2259,8 +2547,12 @@ tooltip {
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
   background-color: #0e0e10;
+<<<<<<< HEAD
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .overview-search-results-icon {
   margin: 0rem 0.682rem;
@@ -2297,6 +2589,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -2333,17 +2626,28 @@ tooltip {
   border-left: 1px solid rgba(164, 162, 167, 0.19);
   border-right: 1px solid rgba(128, 127, 132, 0.145);
   border-bottom: 1px solid rgba(128, 127, 132, 0.145);
+=======
+  border-top: 1px solid rgba(163, 162, 166, 0.19);
+  border-left: 1px solid rgba(163, 162, 166, 0.19);
+  border-right: 1px solid rgba(128, 127, 131, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 131, 0.145);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   padding: 0.341rem;
   background-color: #0e0e10;
+<<<<<<< HEAD
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .overview-tasks-workspace {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   margin: 0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2373,11 +2677,19 @@ tooltip {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   color: rgba(214, 211, 216, 0.31); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(48, 48, 52, 0.1147); }
+
+.overview-tasks-workspace-number {
+  font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
+  color: rgba(214, 212, 216, 0.31); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .overview-tasks-window {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2408,15 +2720,21 @@ tooltip {
   color: #e0e0f9;
   border: 0.068rem solid rgba(224, 224, 249, 0.07); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(63, 71, 89, 0.5);
+  color: #dae2f9;
+  border: 0.068rem solid rgba(218, 226, 249, 0.07); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .overview-tasks-window:hover,
 .overview-tasks-window:focus {
-  background-color: rgba(87, 89, 112, 0.525); }
+  background-color: rgba(81, 91, 112, 0.525); }
 
 .overview-tasks-window:active {
-  background-color: rgba(103, 105, 131, 0.55); }
+  background-color: rgba(97, 107, 131, 0.55); }
 
 .overview-tasks-window-selected {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(118, 100, 128, 0.55); }
@@ -2427,6 +2745,9 @@ tooltip {
 =======
   background-color: rgba(103, 105, 131, 0.55); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(97, 107, 131, 0.55); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .overview-tasks-window-dragging {
   opacity: 0.2; }
@@ -2434,6 +2755,7 @@ tooltip {
 .osk-window {
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2464,6 +2786,12 @@ tooltip {
   border-right: 1px solid rgba(128, 127, 132, 0.145);
   border-bottom: 1px solid rgba(128, 127, 132, 0.145);
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-top: 1px solid rgba(163, 162, 166, 0.19);
+  border-left: 1px solid rgba(163, 162, 166, 0.19);
+  border-right: 1px solid rgba(128, 127, 131, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 131, 0.145);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   background-color: #0b0f10; }
@@ -2487,6 +2815,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a;
 =======
   background-color: #38343a;
@@ -2497,6 +2826,9 @@ tooltip {
 =======
   background-color: #35353b;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-height: 0.273rem;
   min-width: 10.227rem;
   margin-top: 0.545rem;
@@ -2504,6 +2836,7 @@ tooltip {
 
 .osk-key {
   border-radius: 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2521,6 +2854,10 @@ tooltip {
   background-color: rgba(53, 53, 59, 0.31);
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.31);
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   padding: 0.188rem;
   font-weight: 500;
   font-size: 1.091rem; }
@@ -2565,6 +2902,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #c1c7ce;
 =======
@@ -2579,12 +2917,17 @@ tooltip {
   background-color: rgba(53, 53, 59, 0.31);
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.31);
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   font-weight: 500;
   font-size: 1.091rem;
   padding: 0.682rem; }
 
 .osk-control-button:hover,
 .osk-control-button:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2610,10 +2953,17 @@ tooltip {
 .osk-control-button:active {
   background-color: rgba(97, 96, 103, 0.31);
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(66, 68, 74, 0.31); }
+
+.osk-control-button:active {
+  background-color: rgba(95, 97, 104, 0.31);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   font-size: 1.091rem; }
 
 .sidebar-right {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2639,6 +2989,12 @@ tooltip {
   border-right: 1px solid rgba(128, 127, 132, 0.145);
   border-bottom: 1px solid rgba(128, 127, 132, 0.145);
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-top: 1px solid rgba(163, 162, 166, 0.19);
+  border-left: 1px solid rgba(163, 162, 166, 0.19);
+  border-right: 1px solid rgba(128, 127, 131, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 131, 0.145);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   border-radius: 1.297rem;
@@ -2666,6 +3022,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border-top: 1px solid rgba(161, 163, 166, 0.19);
   border-left: 1px solid rgba(161, 163, 166, 0.19);
   border-right: 1px solid rgba(125, 128, 131, 0.145);
@@ -2688,6 +3045,12 @@ tooltip {
   border-right: 1px solid rgba(128, 127, 132, 0.145);
   border-bottom: 1px solid rgba(128, 127, 132, 0.145);
 >>>>>>> df621ae (Fixed foot)
+=======
+  border-top: 1px solid rgba(163, 162, 166, 0.19);
+  border-left: 1px solid rgba(163, 162, 166, 0.19);
+  border-right: 1px solid rgba(128, 127, 131, 0.145);
+  border-bottom: 1px solid rgba(128, 127, 131, 0.145);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   border-radius: 1.297rem;
@@ -2717,6 +3080,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
@@ -2727,6 +3091,9 @@ tooltip {
 =======
   background-color: rgba(28, 28, 34, 0.31); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(27, 28, 31, 0.31); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-group-nopad {
   border-radius: 1.159rem;
@@ -2734,6 +3101,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
@@ -2744,6 +3112,9 @@ tooltip {
 =======
   background-color: rgba(28, 28, 34, 0.31); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(27, 28, 31, 0.31); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-group-invisible {
   padding: 0.341rem; }
@@ -2758,6 +3129,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(25, 29, 32, 0.31); }
 =======
   background-color: rgba(31, 28, 32, 0.31); }
@@ -2768,11 +3140,15 @@ tooltip {
 =======
   background-color: rgba(28, 28, 34, 0.31); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(27, 28, 31, 0.31); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-iconbutton {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2786,6 +3162,9 @@ tooltip {
 =======
   color: #e4e1e6;
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-width: 2.727rem;
   min-height: 2.727rem; }
 
@@ -2802,6 +3181,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -2836,6 +3216,15 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+
+.sidebar-button-nopad {
+  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-button:hover,
 .sidebar-button:focus {
@@ -2871,6 +3260,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b; }
 
@@ -2891,12 +3281,17 @@ tooltip {
   background-color: #d0d4ff;
   color: #162088; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c5d8ff;
+  color: #002e6c; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-button-active:hover,
 .sidebar-button-active:focus {
-  background-color: rgba(202, 206, 246, 0.79); }
+  background-color: rgba(192, 210, 246, 0.79); }
 
 .sidebar-button-active:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: rgba(213, 187, 228, 0.58); }
@@ -2907,10 +3302,14 @@ tooltip {
 =======
   background-color: rgba(191, 194, 228, 0.58); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(183, 198, 228, 0.58); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-buttons-separator {
   min-width: 0.068rem;
   min-height: 0.068rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2924,6 +3323,9 @@ tooltip {
 =======
   background-color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-navrail {
   padding: 0rem 1.159rem; }
@@ -2941,6 +3343,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-navrail-btn-active > box > label:first-child {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2978,6 +3381,15 @@ tooltip {
   background-color: rgba(69, 70, 90, 0.93);
   color: rgba(222, 222, 247, 0.93); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+
+.sidebar-navrail-btn-active:hover > box > label:first-child,
+.sidebar-navrail-btn-active:focus > box > label:first-child {
+  background-color: rgba(64, 72, 90, 0.93);
+  color: rgba(216, 224, 247, 0.93); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-sysinfo-grouppad {
   padding: 1.159rem; }
@@ -2990,6 +3402,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -3004,6 +3417,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   font-size: 0px; }
 
 .sidebar-memory-swap-circprog {
@@ -3015,6 +3432,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -3029,6 +3447,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   font-size: 0px; }
 
 .sidebar-cpu-circprog {
@@ -3038,6 +3460,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -3052,6 +3475,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
   font-size: 0px; }
 
@@ -3066,6 +3493,7 @@ tooltip {
   -gtk-outline-radius: 9999px;
   min-width: 0.273rem;
   min-height: 2.045rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3085,12 +3513,16 @@ tooltip {
 =======
   background-color: rgba(199, 197, 207, 0.31); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(196, 198, 208, 0.31); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-scrollbar slider:hover,
 .sidebar-scrollbar slider:focus {
-  background-color: rgba(199, 197, 207, 0.448); }
+  background-color: rgba(196, 198, 208, 0.448); }
 
 .sidebar-scrollbar slider:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #837c84; }
@@ -3101,6 +3533,9 @@ tooltip {
 =======
   background-color: #7e7d85; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #7c7e86; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-calendar-btn {
   border-radius: 9999px;
@@ -3108,6 +3543,7 @@ tooltip {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   min-height: 2.523rem;
   min-width: 2.523rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3121,6 +3557,9 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-calendar-btn:hover,
 .sidebar-calendar-btn:focus {
@@ -3134,6 +3573,7 @@ tooltip {
   margin-right: -10.341rem; }
 
 .sidebar-calendar-btn-today {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3160,15 +3600,20 @@ tooltip {
   background-color: #d0d4ff;
   color: #162088; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c5d8ff;
+  color: #002e6c; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-calendar-btn-today:hover,
 .sidebar-calendar-btn-today:focus {
-  background-color: rgba(202, 206, 246, 0.79); }
+  background-color: rgba(192, 210, 246, 0.79); }
 
 .sidebar-calendar-btn-today:active {
-  background-color: rgba(191, 194, 228, 0.58); }
+  background-color: rgba(183, 198, 228, 0.58); }
 
 .sidebar-calendar-btn-othermonth {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #837e83; }
@@ -3179,6 +3624,9 @@ tooltip {
 =======
   color: #807f84; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #807f83; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-calendar-header {
   margin: 0.341rem; }
@@ -3187,6 +3635,7 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   padding: 0rem 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3204,10 +3653,15 @@ tooltip {
   background-color: rgba(53, 53, 59, 0.31);
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.31);
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-calendar-monthyear-btn:hover,
 .sidebar-calendar-monthyear-btn:focus {
   background-color: rgba(128, 128, 128, 0.3);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3237,12 +3691,20 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7);
   color: #b1afb9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #bdbfc9; }
+
+.sidebar-calendar-monthyear-btn:active {
+  background-color: rgba(128, 128, 128, 0.7);
+  color: #aeb0ba; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-calendar-monthshift-btn {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 2.045rem;
   min-height: 2.045rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3267,13 +3729,18 @@ tooltip {
   background-color: rgba(53, 53, 59, 0.31);
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.31);
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-calendar-monthshift-btn:hover {
   background-color: rgba(128, 128, 128, 0.3);
-  color: #c0bec8; }
+  color: #bdbfc9; }
 
 .sidebar-calendar-monthshift-btn:active {
   background-color: rgba(128, 128, 128, 0.7);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #b7aeb8; }
@@ -3284,12 +3751,16 @@ tooltip {
 =======
   color: #b1afb9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #aeb0ba; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-selector-tab {
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   min-height: 2.5rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3303,6 +3774,9 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-selector-tab:hover,
 .sidebar-selector-tab:focus {
@@ -3312,6 +3786,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-selector-tab-active > box > label {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3325,6 +3800,9 @@ tooltip {
 =======
   color: #d0d4ff; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #c5d8ff; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-selector-highlight-offset {
   margin-top: -0.205rem;
@@ -3332,6 +3810,7 @@ tooltip {
 
 .sidebar-selector-highlight {
   transition: 180ms ease-in-out;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3345,12 +3824,16 @@ tooltip {
 =======
   color: #d0d4ff;
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #c5d8ff;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-height: 0.205rem; }
 
 .sidebar-todo-item {
   padding-right: 0.545rem; }
 
 .sidebar-todo-item-even {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3364,6 +3847,9 @@ tooltip {
 =======
   background-color: rgba(53, 53, 59, 0.1); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.1); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-todo-item-action {
   border-radius: 9999px;
@@ -3385,6 +3871,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #e1e2e5; }
 =======
   background-color: #e7e0e5; }
@@ -3395,6 +3882,9 @@ tooltip {
 =======
   background-color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-todo-crosser-removed {
   background-color: #ffb4a9; }
@@ -3402,6 +3892,7 @@ tooltip {
 .sidebar-todo-new {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3424,15 +3915,19 @@ tooltip {
 =======
   color: #e0e0f9;
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #dae2f9;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   margin: 0.341rem;
   padding: 0.205rem 0.545rem;
-  border: 0.068rem solid #e4e1e6; }
+  border: 0.068rem solid #e4e2e6; }
 
 .sidebar-todo-newz,
 .sidebar-todo-new:focus {
-  background-color: #494a5e; }
+  background-color: #444c5e; }
 
 .sidebar-todo-new:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #6f6176; }
@@ -3443,6 +3938,9 @@ tooltip {
 =======
   background-color: #636479; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #5e6679; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-todo-add {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3450,6 +3948,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3473,12 +3972,17 @@ tooltip {
   color: #e0e0f9;
   border: 0.068rem solid #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #dae2f9;
+  border: 0.068rem solid #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-todo-add:hover,
 .sidebar-todo-add:focus {
-  background-color: #494a5e; }
+  background-color: #444c5e; }
 
 .sidebar-todo-add:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #6f6176; }
@@ -3489,6 +3993,9 @@ tooltip {
 =======
   background-color: #636479; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #5e6679; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-todo-add-available {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3496,6 +4003,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3523,12 +4031,18 @@ tooltip {
   color: #162088;
   border: 0.068rem solid #d0d4ff; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c5d8ff;
+  color: #002e6c;
+  border: 0.068rem solid #c5d8ff; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-todo-add-available:hover,
 .sidebar-todo-add-available:focus {
-  background-color: #cacffb; }
+  background-color: #bfd3fb; }
 
 .sidebar-todo-add-available:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #cba7e1; }
@@ -3539,11 +4053,15 @@ tooltip {
 =======
   background-color: #abb0e7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #9eb6e2; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-todo-entry {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3565,10 +4083,16 @@ tooltip {
   color: #c7c5cf;
   caret-color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b;
+  color: #c4c6d0;
+  caret-color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   margin: 0rem 0.341rem;
   min-height: 1.773rem;
   min-width: 0rem;
   padding: 0.205rem 0.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3594,11 +4118,18 @@ tooltip {
 .sidebar-todo-entry:focus {
   border: 0.068rem solid #b8b7c0; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  border: 0.068rem solid #7c7e86; }
+
+.sidebar-todo-entry:focus {
+  border: 0.068rem solid #b6b8c1; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-module {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   padding: 0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3612,11 +4143,15 @@ tooltip {
 =======
   background-color: rgba(28, 28, 34, 0.31); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(27, 28, 31, 0.31); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-module-btn-arrow {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   font-family: "Material Symbols Rounded", "Material Symbols Outlined", "Material Symbols Sharp";
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3630,6 +4165,9 @@ tooltip {
 =======
   background-color: rgba(53, 53, 59, 0.31);
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.31);
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-width: 1.705rem;
   min-height: 1.705rem; }
 
@@ -3637,6 +4175,7 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   padding: 0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3650,6 +4189,9 @@ tooltip {
 =======
   background-color: rgba(28, 28, 34, 0.31); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(27, 28, 31, 0.31); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-apiswitcher-icon {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3657,6 +4199,7 @@ tooltip {
   -gtk-outline-radius: 9999px;
   min-width: 2.182rem;
   min-height: 2.182rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3686,6 +4229,13 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+
+.sidebar-chat-apiswitcher-icon-enabled {
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-viewport {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -3694,6 +4244,7 @@ tooltip {
 .sidebar-chat-textarea {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3728,6 +4279,14 @@ tooltip {
   color: #c7c5cf;
   caret-color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  border: 0.068rem solid #6d6f77;
+  padding: 0.682rem; }
+
+.sidebar-chat-entry {
+  color: #c4c6d0;
+  caret-color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   min-height: 1.773rem;
   min-width: 0rem; }
 
@@ -3738,6 +4297,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-radius: 0.478rem;
+<<<<<<< HEAD
   background-color: #6b7075; }
 
 .sidebar-chat-send:hover,
@@ -3767,23 +4327,27 @@ tooltip {
 =======
   background-color: #6f6f76; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #6d6f77; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-send:hover,
 .sidebar-chat-send:focus {
-  background-color: #72727a; }
+  background-color: #70727b; }
 
 .sidebar-chat-send:active {
-  background-color: #868690; }
+  background-color: #838691; }
 
 .sidebar-chat-send-available {
-  background-color: #d0d4ff;
-  color: #162088; }
+  background-color: #c5d8ff;
+  color: #002e6c; }
 
 .sidebar-chat-send-available:hover,
 .sidebar-chat-send-available:focus {
-  background-color: #cacffb; }
+  background-color: #bfd3fb; }
 
 .sidebar-chat-send-available:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #cba7e1; }
@@ -3794,6 +4358,9 @@ tooltip {
 =======
   background-color: #abb0e7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #9eb6e2; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-message {
   margin: 0.682rem; }
@@ -3803,6 +4370,7 @@ tooltip {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 0.136rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3824,14 +4392,18 @@ tooltip {
 =======
   background-color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-indicator-user {
-  background-color: #e4e1e6; }
+  background-color: #e4e2e6; }
 
 .sidebar-chat-indicator-bot {
-  background-color: #d0d4ff; }
+  background-color: #c5d8ff; }
 
 .sidebar-chat-indicator-System {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #d2c1d9; }
@@ -3842,6 +4414,9 @@ tooltip {
 =======
   background-color: #c4c4dc; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #bec6dc; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-name {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
@@ -3860,6 +4435,7 @@ tooltip {
 .sidebar-chat-codeblock {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3885,11 +4461,18 @@ tooltip {
   margin: 0rem 0.682rem;
   border: 0.068rem solid rgba(224, 224, 249, 0.07); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(80, 82, 89, 0.31);
+  color: #c4c6d0;
+  margin: 0rem 0.682rem;
+  border: 0.068rem solid rgba(218, 226, 249, 0.07); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-codeblock-topbar {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   margin: 0.273rem;
   margin-bottom: 0rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3915,6 +4498,12 @@ tooltip {
   border-radius: 0.886rem;
   border: 0.068rem solid #545569;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(103, 109, 125, 0.517);
+  color: #dae2f9;
+  border-radius: 0.886rem;
+  border: 0.068rem solid #4f5769;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   border-top-left-radius: 0.886rem;
   border-top-right-radius: 0.886rem;
   padding: 0.341rem 0.477rem; }
@@ -3931,6 +4520,7 @@ tooltip {
 
 .sidebar-chat-codeblock-topbar-btn:hover,
 .sidebar-chat-codeblock-topbar-btn:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3956,6 +4546,12 @@ tooltip {
 .sidebar-chat-codeblock-topbar-btn:active {
   background-color: #828399; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #5e6679; }
+
+.sidebar-chat-codeblock-topbar-btn:active {
+  background-color: #7d8599; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-codeblock-code {
   font-family: "JetBrains Mono NF", "JetBrains Mono Nerd Font", "JetBrains Mono NL", "SpaceMono NF", "SpaceMono Nerd Font", monospace;
@@ -3963,6 +4559,7 @@ tooltip {
 
 .sidebar-chat-divider {
   min-height: 1px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3976,6 +4573,9 @@ tooltip {
 =======
   background-color: #6f6f76;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #6d6f77;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   margin: 0rem 0.545rem; }
 
 .sidebar-chat-welcome-txt {
@@ -4010,6 +4610,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #6b7075; }
 =======
   background-color: #242125;
@@ -4021,6 +4622,9 @@ tooltip {
 =======
   border: 0.068rem solid #6f6f76; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  border: 0.068rem solid #6d6f77; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-chip-action:hover,
 .sidebar-chat-chip-action:focus {
@@ -4030,6 +4634,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-chat-chip-action-active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4047,12 +4652,17 @@ tooltip {
   color: #6f6f76;
   border: 0.068rem solid #6f6f76; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #6d6f77;
+  border: 0.068rem solid #6d6f77; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-chip-toggle {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   padding: 0.341rem 0.477rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4070,6 +4680,10 @@ tooltip {
   background-color: rgba(53, 53, 59, 0.31);
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.31);
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-chat-chip-toggle:focus,
 .sidebar-chat-chip-toggle:hover {
@@ -4087,6 +4701,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #e1e2e5; }
 =======
   color: #e7e0e5; }
@@ -4097,6 +4712,9 @@ tooltip {
 =======
   color: #e4e1e6; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #e4e2e6; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-pin:hover,
 .sidebar-pin:focus {
@@ -4106,6 +4724,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-pin-enabled {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4127,14 +4746,18 @@ tooltip {
 =======
   background-color: #d0d4ff; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #c5d8ff; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   .sidebar-pin-enabled label {
-    color: #162088; }
+    color: #002e6c; }
 
 .sidebar-pin-enabled:hover,
 .sidebar-pin-enabled:focus {
-  background-color: #bdc2f3; }
+  background-color: #b1c7f0; }
 
 .sidebar-pin-enabled:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #cba7e1; }
@@ -4145,6 +4768,9 @@ tooltip {
 =======
   background-color: #abb0e7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #9eb6e2; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .sidebar-waifu-heading {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
@@ -4205,6 +4831,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #31363a;
   color: #c1c7ce;
   font-size: 3rem; }
@@ -4227,13 +4854,18 @@ tooltip {
   background-color: #35353b;
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b;
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   font-size: 3rem; }
 
 .session-button-focused {
-  background-color: #444559;
-  color: #e0e0f9; }
+  background-color: #3f4759;
+  color: #dae2f9; }
 
 .session-button-desc {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #2c282d;
@@ -4247,6 +4879,10 @@ tooltip {
   background-color: #29292f;
   color: #d6d3db;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #27292d;
+  color: #d4d4db;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   border-bottom-left-radius: 1.705rem;
   border-bottom-right-radius: 1.705rem;
   padding: 0.205rem 0.341rem;
@@ -4257,6 +4893,7 @@ tooltip {
   -gtk-outline-radius: 1.705rem;
   min-width: 8.182rem;
   min-height: 5.455rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4274,11 +4911,16 @@ tooltip {
   background-color: #35353b;
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #33353b;
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   font-size: 3rem; }
 
 .notif-low {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4296,6 +4938,10 @@ tooltip {
   background-color: rgba(53, 53, 59, 0.45);
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.45);
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -4305,6 +4951,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.45);
   color: #c1c7ce;
 =======
@@ -4319,12 +4966,17 @@ tooltip {
   background-color: rgba(53, 53, 59, 0.45);
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(51, 53, 59, 0.45);
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
 .notif-critical {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4342,6 +4994,10 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -4364,8 +5020,12 @@ tooltip {
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
   background-color: #0e0e10;
+<<<<<<< HEAD
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -4388,8 +5048,12 @@ tooltip {
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
   background-color: #0e0e10;
+<<<<<<< HEAD
   color: #c7c5cf;
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #c4c6d0;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -4397,6 +5061,7 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   min-width: 30.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4414,10 +5079,15 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9;
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9;
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
 .notif-body-low {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4436,11 +5106,15 @@ tooltip {
 =======
   color: #97959e; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #94969f; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-body-normal {
-  color: #97959e; }
+  color: #94969f; }
 
 .notif-body-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   color: #baa9c1; }
@@ -4451,6 +5125,9 @@ tooltip {
 =======
   color: #adadc4; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #a7afc4; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-icon {
   border-radius: 9999px;
@@ -4459,6 +5136,7 @@ tooltip {
   min-height: 3.409rem; }
 
 .notif-icon-material {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4487,16 +5165,21 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-icon-material-low {
-  background-color: #444559;
-  color: #e0e0f9; }
+  background-color: #3f4759;
+  color: #dae2f9; }
 
 .notif-icon-material-normal {
-  background-color: #444559;
-  color: #e0e0f9; }
+  background-color: #3f4759;
+  color: #dae2f9; }
 
 .notif-icon-material-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #eedcf5;
@@ -4510,6 +5193,10 @@ tooltip {
   background-color: #e0e0f9;
   color: #444559; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #dae2f9;
+  color: #3f4759; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-expand-btn {
   border-radius: 1.159rem;
@@ -4540,6 +5227,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -4560,12 +5248,17 @@ tooltip {
   background-color: #444559;
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #3f4759;
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-listaction-btn-enabled:hover,
 .notif-listaction-btn-enabled:focus {
-  background-color: #545569; }
+  background-color: #4f5769; }
 
 .notif-listaction-btn-enabled:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #77697e; }
@@ -4576,6 +5269,9 @@ tooltip {
 =======
   background-color: #6b6c81; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #666e81; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-notif {
   border-radius: 1.159rem;
@@ -4599,6 +5295,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
@@ -4609,6 +5306,9 @@ tooltip {
 =======
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-circprog-normal {
   transition: 0ms linear;
@@ -4618,6 +5318,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
@@ -4628,12 +5329,16 @@ tooltip {
 =======
   color: #e0e0f9; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #dae2f9; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-circprog-critical {
   transition: 0ms linear;
   min-width: 0.136rem;
   min-height: 3.136rem;
   padding: 0rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4647,6 +5352,9 @@ tooltip {
 =======
   color: #444559; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #3f4759; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-actions {
   min-height: 2.045rem; }
@@ -4659,6 +5367,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 46, 49, 0.31);
   color: #c1c7ce; }
 =======
@@ -4673,6 +5382,10 @@ tooltip {
   background-color: rgba(45, 45, 51, 0.31);
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(44, 45, 49, 0.31);
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-action-low:focus,
 .notif-action-low:hover {
@@ -4685,6 +5398,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 46, 49, 0.31);
   color: #c1c7ce; }
 =======
@@ -4699,6 +5413,10 @@ tooltip {
   background-color: rgba(45, 45, 51, 0.31);
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(44, 45, 49, 0.31);
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-action-normal:focus,
 .notif-action-normal:hover {
@@ -4708,6 +5426,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .notif-action-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4731,12 +5450,17 @@ tooltip {
   background-color: #545569;
   color: #c7c5cf; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #4f5769;
+  color: #c4c6d0; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .notif-action-critical:focus,
 .notif-action-critical:hover {
-  background-color: #606176; }
+  background-color: #5b6376; }
 
 .notif-action-critical:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #74657b; }
@@ -4761,6 +5485,9 @@ tooltip {
 =======
   background-color: #68697e; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: #636b7e; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4784,11 +5511,15 @@ tooltip {
   background-color: #0b0f10;
   padding: 0rem 1.023rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background: linear-gradient(127deg, rgba(37, 44, 45, 0.7), rgba(37, 44, 45, 0.55) 70.71%), linear-gradient(217deg, rgba(63, 72, 74, 0.7), rgba(63, 72, 74, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #334a4f 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(51, 74, 79, 0.7), rgba(51, 74, 79, 0.55) 70.71%), linear-gradient(#0b0f10, #0b0f10); }
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
   background: linear-gradient(127deg, rgba(42, 42, 48, 0.7), rgba(42, 42, 48, 0.55) 70.71%), linear-gradient(217deg, rgba(70, 70, 79, 0.7), rgba(70, 70, 79, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #444559 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(68, 69, 89, 0.7), rgba(68, 69, 89, 0.55) 70.71%), linear-gradient(#0e0e10, #0e0e10); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background: linear-gradient(127deg, rgba(41, 43, 48, 0.7), rgba(41, 43, 48, 0.55) 70.71%), linear-gradient(217deg, rgba(68, 71, 79, 0.7), rgba(68, 71, 79, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #3f4759 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(63, 71, 89, 0.7), rgba(63, 71, 89, 0.55) 70.71%), linear-gradient(#0e0e10, #0e0e10); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-cover-fallback {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4796,6 +5527,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 7.5rem;
   min-height: 7.5rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4813,6 +5545,10 @@ tooltip {
   background-color: rgba(28, 28, 34, 0.31);
   color: #d4d2d7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(27, 28, 31, 0.31);
+  color: #d4d3d7; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-cover {
   border-radius: 0.818rem;
@@ -4841,6 +5577,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d1d3d6; }
 =======
   color: #d7d1d6; }
@@ -4851,11 +5588,15 @@ tooltip {
 =======
   color: #d4d2d7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #d4d3d7; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-artists {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   font-size: 0.955rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4869,6 +5610,9 @@ tooltip {
 =======
   color: rgba(199, 197, 203, 0.9); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: rgba(199, 199, 203, 0.9); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-pill {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4880,6 +5624,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 49, 55, 0.5);
   color: #d1d3d6; }
 =======
@@ -4894,6 +5639,10 @@ tooltip {
   background-color: rgba(47, 47, 56, 0.5);
   color: #d4d2d7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(45, 49, 56, 0.5);
+  color: #d4d3d7; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-controls {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4905,6 +5654,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(42, 49, 55, 0.5);
   color: #d1d3d6; }
 =======
@@ -4919,6 +5669,10 @@ tooltip {
   background-color: rgba(47, 47, 56, 0.5);
   color: #d4d2d7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(45, 49, 56, 0.5);
+  color: #d4d3d7; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-controlbtn {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4929,6 +5683,7 @@ tooltip {
 
 .osd-music-controlbtn:hover,
 .osd-music-controlbtn:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4954,6 +5709,12 @@ tooltip {
 .osd-music-controlbtn:active {
   background-color: rgba(104, 103, 111, 0.575); }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(87, 90, 96, 0.55); }
+
+.osd-music-controlbtn:active {
+  background-color: rgba(103, 105, 111, 0.575); }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-controlbtn-txt {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4970,6 +5731,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d1d3d6; }
 =======
   color: #d7d1d6; }
@@ -4980,12 +5742,16 @@ tooltip {
 =======
   color: #d4d2d7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  color: #d4d3d7; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-playstate {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
   min-height: 3.068rem;
   min-width: 3.068rem;
   border-radius: 10rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5003,6 +5769,10 @@ tooltip {
   background-color: rgba(47, 47, 56, 0.5);
   color: #d4d2d7; }
 >>>>>>> df621ae (Fixed foot)
+=======
+  background-color: rgba(45, 49, 56, 0.5);
+  color: #d4d3d7; }
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 
 .osd-music-playstate-btn > label {
   transition: 50ms cubic-bezier(0.05, 0.7, 0.1, 1);

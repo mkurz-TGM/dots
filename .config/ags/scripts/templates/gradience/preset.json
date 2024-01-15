@@ -90,6 +90,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "accent_bg_color": "#7dd0ff",
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
@@ -108,6 +109,11 @@
         "accent_fg_color": "#162088",
         "accent_color": "#bcc2ff",
 >>>>>>> df621ae (Fixed foot)
+=======
+        "accent_bg_color": "#acc7ff",
+        "accent_fg_color": "#002e6c",
+        "accent_color": "#acc7ff",
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
         "destructive_bg_color": "#ffb4a9",
         "destructive_fg_color": "#680003",
         "destructive_color": "#ffb4a9",
@@ -117,6 +123,7 @@
         "warning_fg_color": "rgba(0, 0, 0, 0.87)",
         "error_bg_color": "#ffb4a9",
         "error_fg_color": "#680003",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -142,10 +149,13 @@
         "view_bg_color": "#1d1b1e",
         "view_fg_color": "#e7e0e5",
 =======
+=======
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
         "window_bg_color": "#101011",
         "window_fg_color": "#e4e2e6",
         "view_bg_color": "#1b1b1d",
         "view_fg_color": "#e4e2e6",
+<<<<<<< HEAD
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
         "window_bg_color": "#101012",
@@ -153,14 +163,17 @@
         "view_bg_color": "#1b1b1f",
         "view_fg_color": "#e4e1e6",
 >>>>>>> df621ae (Fixed foot)
+=======
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
         "headerbar_bg_color": "mix(@dialog_bg_color, @window_bg_color, 0.5)",
-        "headerbar_fg_color": "#e0e0f9",
-        "headerbar_border_color": "#444559",
+        "headerbar_fg_color": "#dae2f9",
+        "headerbar_border_color": "#3f4759",
         "headerbar_backdrop_color": "@headerbar_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.09)",
-        "card_bg_color": "#101012",
-        "card_fg_color": "#e0e0f9",
+        "card_bg_color": "#101011",
+        "card_fg_color": "#dae2f9",
         "card_shade_color": "rgba(0, 0, 0, 0.09)",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
         "dialog_bg_color": "#4f4256",
@@ -169,10 +182,13 @@
         "popover_fg_color": "#eedcf5",
 >>>>>>> bf0d710 (ags: sync)
 =======
+=======
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
         "dialog_bg_color": "#3f4759",
         "dialog_fg_color": "#dae2f9",
         "popover_bg_color": "#3f4759",
         "popover_fg_color": "#dae2f9",
+<<<<<<< HEAD
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
         "dialog_bg_color": "#444559",
@@ -180,6 +196,8 @@
         "popover_bg_color": "#444559",
         "popover_fg_color": "#e0e0f9",
 >>>>>>> df621ae (Fixed foot)
+=======
+>>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
         "thumbnail_bg_color": "#1a1b26",
         "thumbnail_fg_color": "#AEE5FA",
         "shade_color": "rgba(0, 0, 0, 0.36)",
