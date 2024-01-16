@@ -91,6 +91,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "accent_bg_color": "#7dd0ff",
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
@@ -114,6 +115,11 @@
         "accent_fg_color": "#002e6c",
         "accent_color": "#acc7ff",
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
+=======
+        "accent_bg_color": "#75d1ff",
+        "accent_fg_color": "#003549",
+        "accent_color": "#75d1ff",
+>>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
         "destructive_bg_color": "#ffb4a9",
         "destructive_fg_color": "#680003",
         "destructive_color": "#ffb4a9",
@@ -127,10 +133,14 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
         "window_bg_color": "#0F1012",
         "window_fg_color": "#e1e2e5",
         "view_bg_color": "#191c1e",
         "view_fg_color": "#e1e2e5",
+<<<<<<< HEAD
         "headerbar_bg_color": "mix(@dialog_bg_color, @window_bg_color, 0.5)",
         "headerbar_fg_color": "#d2e5f4",
         "headerbar_border_color": "#374955",
@@ -165,14 +175,17 @@
 >>>>>>> df621ae (Fixed foot)
 =======
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
+=======
+>>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
         "headerbar_bg_color": "mix(@dialog_bg_color, @window_bg_color, 0.5)",
-        "headerbar_fg_color": "#dae2f9",
-        "headerbar_border_color": "#3f4759",
+        "headerbar_fg_color": "#d1e5f3",
+        "headerbar_border_color": "#364955",
         "headerbar_backdrop_color": "@headerbar_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.09)",
-        "card_bg_color": "#101011",
-        "card_fg_color": "#dae2f9",
+        "card_bg_color": "#0F1012",
+        "card_fg_color": "#d1e5f3",
         "card_shade_color": "rgba(0, 0, 0, 0.09)",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -198,6 +211,12 @@
 >>>>>>> df621ae (Fixed foot)
 =======
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
+=======
+        "dialog_bg_color": "#364955",
+        "dialog_fg_color": "#d1e5f3",
+        "popover_bg_color": "#364955",
+        "popover_fg_color": "#d1e5f3",
+>>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
         "thumbnail_bg_color": "#1a1b26",
         "thumbnail_fg_color": "#AEE5FA",
         "shade_color": "rgba(0, 0, 0, 0.36)",
