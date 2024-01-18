@@ -23,8 +23,15 @@
 ## Instructions
 
 If you don't want to compile ags from source, you can use the -git version
-```
+```bash
 yay -S aylurs-gtk-shell-git
+```
+
+For random wallpaper changer to work install [wayland-random-wallpaper](https://github.com/tiagofmcosta/wayland-random-wallpaper)
+```bash
+cd ~/Downloads
+git clone git@github.com:tiagofmcosta/wayland-random-wallpaper.git
+./ wayland-random-wallpaper/setup
 ```
 
 - See the wiki for instructions > [illogical_impulse](https://github.com/end-4/dots-hyprland/wiki/illogical_impulse) 
