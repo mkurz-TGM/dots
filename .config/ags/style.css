@@ -171,6 +171,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a1a2a5; }
 
 .txt-action {
@@ -200,8 +201,9 @@
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
   color: #a4a2a6; }
 =======
+=======
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   color: #a9a29b; }
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 
 .txt-action {
 <<<<<<< HEAD
@@ -1305,6 +1307,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
@@ -1321,6 +1324,9 @@ tooltip {
   background-color: #100e0a;
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a;
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   min-height: 2.727rem; }
 
 .bar-sidespace {
@@ -1994,6 +2000,7 @@ tooltip {
 
 .corner {
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0e0e10;
 <<<<<<< HEAD
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
@@ -2002,6 +2009,9 @@ tooltip {
   background-color: #100e0a;
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a;
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem; }
 
@@ -2013,6 +2023,7 @@ tooltip {
 .bar-topdesc {
   margin-top: -0.136rem;
   margin-bottom: -0.341rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2033,6 +2044,9 @@ tooltip {
   color: #a9a29b; }
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  color: #a9a29b; }
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
 
 .bar-space-button {
   padding: 0.341rem; }
@@ -2079,6 +2093,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #212325; }
 
 .bar-statusicons-active {
@@ -2106,12 +2121,17 @@ tooltip {
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
 =======
 =======
+=======
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   background-color: #26231f; }
 
 .bar-statusicons-active {
   background-color: #3c3833; }
+<<<<<<< HEAD
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
 
 .bar-util-btn {
   border-radius: 9999px;
@@ -2244,6 +2264,7 @@ tooltip {
   margin: 0.476rem;
   margin-bottom: 0.682rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0e0e10;
 <<<<<<< HEAD
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
@@ -2252,6 +2273,9 @@ tooltip {
   background-color: #100e0a;
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a;
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   padding: 1.364rem; }
 
 .cheatsheet-key {
@@ -2674,6 +2698,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
@@ -2690,6 +2715,9 @@ tooltip {
   background-color: #100e0a;
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a;
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   padding: 0.682rem; }
 
 .dock-app-btn {
@@ -2839,6 +2867,7 @@ tooltip {
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0e0e10;
 <<<<<<< HEAD
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
@@ -2847,6 +2876,9 @@ tooltip {
   background-color: #100e0a;
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a;
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   border-radius: 1.023rem;
   padding: 0.625rem 1.023rem;
   padding-top: 0.313rem; }
@@ -3019,6 +3051,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
@@ -3035,6 +3068,9 @@ tooltip {
   background-color: #100e0a;
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a;
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   padding: 1.023rem;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem; }
@@ -3277,6 +3313,7 @@ tooltip {
 
 .overview-search-prompt {
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a1a2a5; }
 =======
   background-color: #0f0e10;
@@ -3326,6 +3363,9 @@ tooltip {
   color: #a9a29b; }
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  color: #a9a29b; }
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
 
 .overview-search-icon {
   margin: 0rem 1.023rem; }
@@ -3748,6 +3788,7 @@ tooltip {
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0e0e10; }
 <<<<<<< HEAD
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
@@ -3756,6 +3797,9 @@ tooltip {
   background-color: #100e0a; }
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a; }
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
 
 .osk-body {
   padding: 1.023rem;
@@ -4026,6 +4070,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
@@ -4042,6 +4087,9 @@ tooltip {
   background-color: #100e0a;
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a;
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   padding: 1.023rem; }
 
 .sideright-show {
@@ -4106,6 +4154,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
 =======
   background-color: #0f0e10;
@@ -4122,6 +4171,9 @@ tooltip {
   background-color: #100e0a;
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: #100e0a;
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   padding: 1.023rem; }
 
 .sideleft-show {
@@ -6598,6 +6650,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(12, 14, 16, 0.64); }
 =======
   background-color: rgba(15, 14, 16, 0.64); }
@@ -6614,6 +6667,9 @@ tooltip {
   background-color: rgba(16, 14, 10, 0.64); }
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: rgba(16, 14, 10, 0.64); }
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
 
 .session-button {
   border-radius: 1.705rem;
@@ -7281,6 +7337,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(12, 14, 16, 0.46);
 =======
   background-color: rgba(15, 14, 16, 0.46);
@@ -7297,6 +7354,9 @@ tooltip {
   background-color: rgba(16, 14, 10, 0.46);
 >>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
+=======
+  background-color: rgba(16, 14, 10, 0.46);
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   min-width: 30.682rem; }
 
 .notif-circprog-low {
@@ -7604,6 +7664,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #0c0e10;
   padding: 0rem 1.023rem;
   background: linear-gradient(127deg, rgba(39, 43, 47, 0.7), rgba(39, 43, 47, 0.55) 70.71%), linear-gradient(217deg, rgba(65, 72, 77, 0.7), rgba(65, 72, 77, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #374955 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(55, 73, 85, 0.7), rgba(55, 73, 85, 0.55) 70.71%), linear-gradient(#0c0e10, #0c0e10); }
@@ -7637,8 +7698,9 @@ tooltip {
 =======
   background-color: #0e0e10;
 =======
+=======
+>>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   padding: 0rem 1.023rem;
   background: linear-gradient(127deg, rgba(48, 42, 34, 0.7), rgba(48, 42, 34, 0.55) 70.71%), linear-gradient(217deg, rgba(79, 69, 57, 0.7), rgba(79, 69, 57, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #56442b 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(86, 68, 43, 0.7), rgba(86, 68, 43, 0.55) 70.71%), linear-gradient(#100e0a, #100e0a); }
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
