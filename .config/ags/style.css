@@ -104,11 +104,7 @@
   font-size: 0px; }
 
 .txt-subtext {
-<<<<<<< HEAD
-  color: #a4a2a6; }
-=======
   color: #a9a29b; }
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 
 .txt-action {
   color: #c9c1ba; }
@@ -576,11 +572,7 @@ tooltip {
   min-height: 2.727rem; }
 
 .bar-bg {
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   min-height: 2.727rem; }
 
 .bar-sidespace {
@@ -837,11 +829,7 @@ tooltip {
   background-color: #d3c4b4; }
 
 .corner {
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem; }
 
@@ -853,11 +841,7 @@ tooltip {
 .bar-topdesc {
   margin-top: -0.136rem;
   margin-bottom: -0.341rem;
-<<<<<<< HEAD
-  color: #a4a2a6; }
-=======
   color: #a9a29b; }
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 
 .bar-space-button {
   padding: 0.341rem; }
@@ -900,17 +884,10 @@ tooltip {
   padding: 0rem 0.614rem; }
 
 .bar-statusicons-hover {
-<<<<<<< HEAD
-  background-color: #232325; }
-
-.bar-statusicons-active {
-  background-color: #39383b; }
-=======
   background-color: #26231f; }
 
 .bar-statusicons-active {
   background-color: #3c3833; }
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 
 .bar-util-btn {
   border-radius: 9999px;
@@ -936,11 +913,7 @@ tooltip {
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
   margin-bottom: 0.682rem;
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   padding: 1.364rem; }
 
 .cheatsheet-key {
@@ -1060,11 +1033,7 @@ tooltip {
   -gtk-outline-radius: 1.705rem;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   padding: 0.682rem; }
 
 .dock-app-btn {
@@ -1098,11 +1067,7 @@ tooltip {
   border-bottom: 1px solid rgba(134, 127, 120, 0.145);
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   border-radius: 1.023rem;
   padding: 0.625rem 1.023rem;
   padding-top: 0.313rem; }
@@ -1146,11 +1111,7 @@ tooltip {
 
 .osd-colorscheme {
   border-radius: 1.023rem;
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   padding: 1.023rem;
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem; }
@@ -1244,11 +1205,7 @@ tooltip {
   caret-color: #fadebc; }
 
 .overview-search-prompt {
-<<<<<<< HEAD
-  color: #a4a2a6; }
-=======
   color: #a9a29b; }
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 
 .overview-search-icon {
   margin: 0rem 1.023rem; }
@@ -1357,11 +1314,7 @@ tooltip {
   border-bottom: 1px solid rgba(134, 127, 120, 0.145);
   box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.45);
   margin: 0.476rem;
-<<<<<<< HEAD
-  background-color: #0e0e10; }
-=======
   background-color: #100e0a; }
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 
 .osk-body {
   padding: 1.023rem;
@@ -1453,11 +1406,7 @@ tooltip {
   margin: 0.476rem;
   border-radius: 1.297rem;
   min-width: 27.818rem;
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   padding: 1.023rem; }
 
 .sideright-show {
@@ -1477,11 +1426,7 @@ tooltip {
   margin: 0.476rem;
   border-radius: 1.297rem;
   min-width: 27.818rem;
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   padding: 1.023rem; }
 
 .sideleft-show {
@@ -2124,11 +2069,7 @@ tooltip {
 
 .session-bg {
   margin-top: -2.727rem;
-<<<<<<< HEAD
-  background-color: rgba(14, 14, 16, 0.64); }
-=======
   background-color: rgba(16, 14, 10, 0.64); }
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
 
 .session-button {
   border-radius: 1.705rem;
@@ -2281,11 +2222,7 @@ tooltip {
 .osd-notif {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
-<<<<<<< HEAD
-  background-color: rgba(14, 14, 16, 0.46);
-=======
   background-color: rgba(16, 14, 10, 0.46);
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   min-width: 30.682rem; }
 
 .notif-circprog-low {
@@ -2357,11 +2294,7 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   min-width: 29.659rem;
-<<<<<<< HEAD
-  background-color: #0e0e10;
-=======
   background-color: #100e0a;
->>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
   padding: 0rem 1.023rem;
   background: linear-gradient(127deg, rgba(48, 42, 34, 0.7), rgba(48, 42, 34, 0.55) 70.71%), linear-gradient(217deg, rgba(79, 69, 57, 0.7), rgba(79, 69, 57, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #56442b 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(86, 68, 43, 0.7), rgba(86, 68, 43, 0.55) 70.71%), linear-gradient(#100e0a, #100e0a); }
 
