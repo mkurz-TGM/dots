@@ -93,6 +93,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "accent_bg_color": "#7dd0ff",
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
@@ -126,6 +127,11 @@
         "accent_fg_color": "#192779",
         "accent_color": "#bac3ff",
 >>>>>>> f98d676 (fixed terminal)
+=======
+        "accent_bg_color": "#7dd0ff",
+        "accent_fg_color": "#00344b",
+        "accent_color": "#7dd0ff",
+>>>>>>> 257066d (Changed colors)
         "destructive_bg_color": "#ffb4a9",
         "destructive_fg_color": "#680003",
         "destructive_color": "#ffb4a9",
@@ -190,13 +196,14 @@
 =======
 >>>>>>> f98d676 (fixed terminal)
         "headerbar_bg_color": "mix(@dialog_bg_color, @window_bg_color, 0.5)",
-        "headerbar_fg_color": "#e0e1fa",
-        "headerbar_border_color": "#434559",
+        "headerbar_fg_color": "#d2e5f4",
+        "headerbar_border_color": "#374955",
         "headerbar_backdrop_color": "@headerbar_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.09)",
-        "card_bg_color": "#101012",
-        "card_fg_color": "#e0e1fa",
+        "card_bg_color": "#0F1012",
+        "card_fg_color": "#d2e5f4",
         "card_shade_color": "rgba(0, 0, 0, 0.09)",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -236,6 +243,12 @@
         "popover_bg_color": "#434559",
         "popover_fg_color": "#e0e1fa",
 >>>>>>> f98d676 (fixed terminal)
+=======
+        "dialog_bg_color": "#374955",
+        "dialog_fg_color": "#d2e5f4",
+        "popover_bg_color": "#374955",
+        "popover_fg_color": "#d2e5f4",
+>>>>>>> 257066d (Changed colors)
         "thumbnail_bg_color": "#1a1b26",
         "thumbnail_fg_color": "#AEE5FA",
         "shade_color": "rgba(0, 0, 0, 0.36)",

@@ -50,6 +50,7 @@
 
 .txt-primary {
   color: #a4deff; }
+<<<<<<< HEAD
 
 .txt-onSecondaryContainer {
   color: #d2e5f4; }
@@ -73,11 +74,14 @@
 
 .txt-primary {
   color: #9edfff; }
+=======
+>>>>>>> 257066d (Changed colors)
 
 .txt-onSecondaryContainer {
-  color: #d1e5f3; }
+  color: #d2e5f4; }
 
 .txt-onSurfaceVariant {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -96,6 +100,9 @@
 =======
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .txt-shadow {
   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.69);
@@ -222,6 +229,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #8b9298;
 =======
   background-color: #968e98;
@@ -238,6 +246,9 @@
 =======
   background-color: #8b9297;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #8b9298;
+>>>>>>> 257066d (Changed colors)
   min-width: 0.068rem;
   min-height: 0.068rem; }
 
@@ -249,6 +260,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #8b9298;
 =======
   background-color: #968e98;
@@ -265,6 +277,9 @@
 =======
   background-color: #8b9297;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #8b9298;
+>>>>>>> 257066d (Changed colors)
   margin: 0rem 0.682rem;
   min-width: 0.273rem;
   min-height: 0.273rem; }
@@ -527,6 +542,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   caret-color: #a4deff; }
   * selection {
     background-color: #b6c9d8;
@@ -561,6 +577,12 @@
     background-color: #b5c9d7;
     color: #20333e; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  caret-color: #a4deff; }
+  * selection {
+    background-color: #b6c9d8;
+    color: #21333e; }
+>>>>>>> 257066d (Changed colors)
 
 @keyframes appear {
   from {
@@ -623,8 +645,12 @@ menu {
 =======
   padding: 0.681rem;
   background: #31363a;
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   animation-name: appear;
@@ -684,8 +710,12 @@ menu > menuitem:active {
   background-color: #3f4549; }
 
 menu > menuitem:active {
+<<<<<<< HEAD
   background-color: #4e5357; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #4e5358; }
+>>>>>>> 257066d (Changed colors)
 
 radio {
   border-radius: 9999px;
@@ -693,6 +723,7 @@ radio {
   margin: 0.273rem;
   min-width: 15px;
   min-height: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -714,10 +745,14 @@ radio {
 =======
   border: 0.068rem solid #8b9297; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  border: 0.068rem solid #8b9298; }
+>>>>>>> 257066d (Changed colors)
 
 radio:checked {
   min-width: 8px;
   min-height: 8px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -745,6 +780,10 @@ radio:checked {
   background-color: #003549;
   border: 0.477rem solid #9edfff; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #00344b;
+  border: 0.477rem solid #a4deff; }
+>>>>>>> 257066d (Changed colors)
 
 tooltip {
   animation-name: appear;
@@ -783,9 +822,14 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: #31363a;
+<<<<<<< HEAD
   color: #c0c7cd;
   border: 1px solid #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+  border: 1px solid #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .configtoggle-box {
   padding: 0.205rem 0.341rem;
@@ -854,6 +898,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #a4deff;
   border: 0.136rem solid #a4deff; }
 =======
@@ -876,6 +921,10 @@ tooltip {
   background-color: #9edfff;
   border: 0.136rem solid #9edfff; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #a4deff;
+  border: 0.136rem solid #a4deff; }
+>>>>>>> 257066d (Changed colors)
 
 .switch-fg {
   border-radius: 9999px;
@@ -918,6 +967,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #00344b;
   color: #a4deff;
 =======
@@ -940,6 +990,10 @@ tooltip {
   background-color: #003549;
   color: #9edfff;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #00344b;
+  color: #a4deff;
+>>>>>>> 257066d (Changed colors)
   min-width: 1.431rem;
   min-height: 1.431rem;
   margin-left: 1.431rem; }
@@ -952,6 +1006,7 @@ tooltip {
 .segment-container {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -973,12 +1028,16 @@ tooltip {
 =======
   border: 0.068rem solid #8b9297; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  border: 0.068rem solid #8b9298; }
+>>>>>>> 257066d (Changed colors)
 
 .segment-container > *:first-child {
   border-top-left-radius: 9999px;
   border-bottom-left-radius: 9999px; }
 
 .segment-container > * {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1000,6 +1059,9 @@ tooltip {
 =======
   border-right: 0.068rem solid #8b9297;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  border-right: 0.068rem solid #8b9298;
+>>>>>>> 257066d (Changed colors)
   padding: 0.341rem 0.682rem; }
 
 .segment-container > *:last-child {
@@ -1040,6 +1102,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -1092,6 +1155,15 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+
+.segment-btn-enabled:hover,
+.segment-btn-enabled:focus {
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .gap-v-5 {
   min-height: 0.341rem; }
@@ -1227,6 +1299,7 @@ tooltip {
 .bar-ws-active {
   background-color: #374955;
   color: #d2e5f4; }
+<<<<<<< HEAD
 
 .bar-ws-occupied {
   background-color: #31363a;
@@ -1253,6 +1326,8 @@ tooltip {
 .bar-ws-active {
   background-color: #364955;
   color: #d1e5f3; }
+=======
+>>>>>>> 257066d (Changed colors)
 
 .bar-ws-occupied {
 <<<<<<< HEAD
@@ -1276,8 +1351,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: #31363a;
+<<<<<<< HEAD
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .bar-separator {
   border-radius: 9999px;
@@ -1350,6 +1429,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1372,6 +1452,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .bar-sidemodule {
   min-width: 26rem; }
@@ -1394,6 +1478,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1416,6 +1501,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .bar-batt-circprog-low {
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
@@ -1442,6 +1531,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1464,6 +1554,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .bar-music-circprog {
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
@@ -1475,6 +1569,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1497,6 +1592,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .bar-music-playstate-playing {
   min-height: 1.77rem;
@@ -1507,6 +1606,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 =======
@@ -1529,6 +1629,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .bar-music-playstate-txt {
   transition: 100ms cubic-bezier(0.05, 0.7, 0.1, 1);
@@ -1601,6 +1705,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #d2e5f4; }
 =======
     background-color: #eedcf5; }
@@ -1617,6 +1722,9 @@ tooltip {
 =======
     background-color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+    background-color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .bar-prog-batt-low progress {
   background-color: #930006; }
@@ -1632,6 +1740,7 @@ tooltip {
   border-radius: 10rem;
   min-width: 0.681rem;
   min-height: 0.681rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1653,11 +1762,15 @@ tooltip {
 =======
   background-color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .bar-batt-chargestate-charging-smaller {
   border-radius: 10rem;
   min-width: 0.409rem;
   min-height: 0.409rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1692,6 +1805,9 @@ tooltip {
 >>>>>>> 1f76dd9 (Doxed foot)
 =======
   background-color: #c0c7cd; }
+=======
+  background-color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .corner {
   background-color: #0e0e10;
@@ -1806,6 +1922,7 @@ tooltip {
 
 .bar-util-btn:active {
   background-color: #4e5358; }
+<<<<<<< HEAD
 =======
   background-color: #38343a; }
 =======
@@ -1844,6 +1961,8 @@ tooltip {
 =======
   background-color: #4e5357; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+>>>>>>> 257066d (Changed colors)
 
 .cheatsheet-bg {
   border-radius: 1.705rem;
@@ -1917,6 +2036,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a4deff;
   border: 0.068rem solid #a4deff;
   box-shadow: 0rem 0.136rem 0rem #a4deff;
@@ -1945,12 +2065,18 @@ tooltip {
   border: 0.068rem solid #9edfff;
   box-shadow: 0rem 0.136rem 0rem #9edfff;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #a4deff;
+  border: 0.068rem solid #a4deff;
+  box-shadow: 0rem 0.136rem 0rem #a4deff;
+>>>>>>> 257066d (Changed colors)
   font-weight: 500; }
 
 .cheatsheet-key-notkey {
   min-height: 1.364rem;
   padding: 0.136rem 0.205rem;
   margin: 0.17rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -1972,6 +2098,9 @@ tooltip {
 =======
   color: #c1e8ff; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c3e7ff; }
+>>>>>>> 257066d (Changed colors)
 
 .cheatsheet-closebtn {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -2090,6 +2219,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
@@ -2106,6 +2236,9 @@ tooltip {
 =======
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .bg-graph {
   color: rgba(255, 255, 255, 0.5);
@@ -2114,6 +2247,7 @@ tooltip {
 
 .bg-quicklaunch-title {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2135,6 +2269,9 @@ tooltip {
 =======
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .bg-quicklaunch-btn {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
@@ -2169,7 +2306,7 @@ tooltip {
 >>>>>>> df621ae (Fixed foot)
 =======
   background-color: #31363a;
-  color: #c0c7cd;
+  color: #c1c7ce;
   border: 0.068rem solid #a1a2a5;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
   min-width: 4.432rem;
@@ -2419,6 +2556,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     background-color: #374955; }
 =======
     background-color: #4f4256; }
@@ -2435,12 +2573,16 @@ tooltip {
 =======
     background-color: #364955; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+    background-color: #374955; }
+>>>>>>> 257066d (Changed colors)
   .osd-progress progress {
     transition: 200ms cubic-bezier(0.1, 1, 0, 1);
     min-height: 0.680rem;
     min-width: 0.680rem;
     margin: 0rem 0.137rem;
     border-radius: 10rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -2480,6 +2622,12 @@ tooltip {
 .osd-icon {
   color: #c1e8ff; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+    background-color: #d2e5f4; }
+
+.osd-icon {
+  color: #c3e7ff; }
+>>>>>>> 257066d (Changed colors)
 
 .osd-label {
   font-size: 1.023rem;
@@ -2573,6 +2721,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b; }
   .osd-color-primary box {
@@ -2632,32 +2781,36 @@ tooltip {
   background-color: #9edfff;
   color: #003549; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #a4deff;
+  color: #00344b; }
+>>>>>>> 257066d (Changed colors)
   .osd-color-primary box {
-    background-color: #003549; }
+    background-color: #00344b; }
 
 .osd-color-primaryContainer {
-  background-color: #1a5e78;
-  color: #c1e8ff; }
+  background-color: #1a5e7a;
+  color: #c3e7ff; }
   .osd-color-primaryContainer box {
-    background-color: #c1e8ff; }
+    background-color: #c3e7ff; }
 
 .osd-color-secondary {
-  background-color: #b5c9d7;
-  color: #20333e; }
+  background-color: #b6c9d8;
+  color: #21333e; }
   .osd-color-secondary box {
-    background-color: #20333e; }
+    background-color: #21333e; }
 
 .osd-color-secondaryContainer {
-  background-color: #364955;
-  color: #d1e5f3; }
+  background-color: #374955;
+  color: #d2e5f4; }
   .osd-color-secondaryContainer box {
-    background-color: #d1e5f3; }
+    background-color: #d2e5f4; }
 
 .osd-color-surfaceVariant {
   background-color: #31363a;
-  color: #c0c7cd; }
+  color: #c1c7ce; }
   .osd-color-surfaceVariant box {
-    background-color: #c0c7cd; }
+    background-color: #c1c7ce; }
 
 .osd-color-surface {
   background-color: #191d20;
@@ -2755,6 +2908,7 @@ tooltip {
   .overview-search-box selection {
     background-color: #b6c9d8;
     color: #21333e; }
+<<<<<<< HEAD
 
 .overview-search-box-extended {
   min-width: 25.909rem;
@@ -2785,10 +2939,12 @@ tooltip {
   .overview-search-box selection {
     background-color: #b5c9d7;
     color: #20333e; }
+=======
+>>>>>>> 257066d (Changed colors)
 
 .overview-search-box-extended {
   min-width: 25.909rem;
-  caret-color: #d1e5f3; }
+  caret-color: #d2e5f4; }
 
 .overview-search-prompt {
 <<<<<<< HEAD
@@ -3044,6 +3200,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: rgba(49, 54, 58, 0.31);
   color: #d2e5f4;
   border: 0.068rem solid rgba(210, 229, 244, 0.07); }
@@ -3081,15 +3238,21 @@ tooltip {
   color: #d1e5f3;
   border: 0.068rem solid rgba(209, 229, 243, 0.07); }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: rgba(55, 73, 85, 0.5);
+  color: #d2e5f4;
+  border: 0.068rem solid rgba(210, 229, 244, 0.07); }
+>>>>>>> 257066d (Changed colors)
 
 .overview-tasks-window:hover,
 .overview-tasks-window:focus {
-  background-color: rgba(68, 93, 108, 0.525); }
+  background-color: rgba(70, 93, 108, 0.525); }
 
 .overview-tasks-window:active {
-  background-color: rgba(80, 111, 128, 0.55); }
+  background-color: rgba(82, 110, 128, 0.55); }
 
 .overview-tasks-window-selected {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3108,6 +3271,9 @@ tooltip {
 =======
   background-color: rgba(80, 111, 128, 0.55); }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: rgba(82, 110, 128, 0.55); }
+>>>>>>> 257066d (Changed colors)
 
 .overview-tasks-window-dragging {
   opacity: 0.2; }
@@ -3234,8 +3400,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(49, 54, 58, 0.31);
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   padding: 0.188rem;
   font-weight: 500;
   font-size: 1.091rem; }
@@ -3302,8 +3472,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(49, 54, 58, 0.31);
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   font-weight: 500;
   font-size: 1.091rem;
   padding: 0.682rem; }
@@ -3609,6 +3783,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4; }
 
@@ -3661,6 +3836,15 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+
+.sidebar-button-nopad {
+  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-button:hover,
 .sidebar-button:focus {
@@ -3698,6 +3882,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b; }
 
@@ -3726,12 +3911,17 @@ tooltip {
   background-color: #9edfff;
   color: #003549; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #a4deff;
+  color: #00344b; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-button-active:hover,
 .sidebar-button-active:focus {
-  background-color: rgba(156, 216, 246, 0.79); }
+  background-color: rgba(161, 215, 246, 0.79); }
 
 .sidebar-button-active:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3750,10 +3940,14 @@ tooltip {
 =======
   background-color: rgba(152, 203, 228, 0.58); }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: rgba(156, 202, 228, 0.58); }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-buttons-separator {
   min-width: 0.068rem;
   min-height: 0.068rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3775,6 +3969,9 @@ tooltip {
 =======
   background-color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-navrail {
   padding: 0rem 1.159rem; }
@@ -3792,6 +3989,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-navrail-btn-active > box > label:first-child {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3849,6 +4047,15 @@ tooltip {
   background-color: rgba(55, 74, 86, 0.93);
   color: rgba(207, 227, 241, 0.93); }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+
+.sidebar-navrail-btn-active:hover > box > label:first-child,
+.sidebar-navrail-btn-active:focus > box > label:first-child {
+  background-color: rgba(56, 74, 86, 0.93);
+  color: rgba(208, 227, 242, 0.93); }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-sysinfo-grouppad {
   padding: 1.159rem; }
@@ -3863,6 +4070,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -3885,6 +4093,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4;
+>>>>>>> 257066d (Changed colors)
   font-size: 0px; }
 
 .sidebar-memory-swap-circprog {
@@ -3898,6 +4110,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -3920,6 +4133,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4;
+>>>>>>> 257066d (Changed colors)
   font-size: 0px; }
 
 .sidebar-cpu-circprog {
@@ -3931,6 +4148,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
 =======
@@ -3953,6 +4171,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4;
+>>>>>>> 257066d (Changed colors)
   transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
   font-size: 0px; }
 
@@ -3967,6 +4189,7 @@ tooltip {
   -gtk-outline-radius: 9999px;
   min-width: 0.273rem;
   min-height: 2.045rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -3994,10 +4217,13 @@ tooltip {
 =======
   background-color: rgba(192, 199, 205, 0.31); }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: rgba(193, 199, 206, 0.31); }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-scrollbar slider:hover,
 .sidebar-scrollbar slider:focus {
-  background-color: rgba(192, 199, 205, 0.448); }
+  background-color: rgba(193, 199, 206, 0.448); }
 
 .sidebar-scrollbar slider:active {
 <<<<<<< HEAD
@@ -4064,6 +4290,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #a4deff;
   color: #00344b; }
 
@@ -4095,13 +4322,17 @@ tooltip {
   background-color: #9edfff;
   color: #003549; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #a4deff;
+  color: #00344b; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-calendar-btn-today:hover,
 .sidebar-calendar-btn-today:focus {
-  background-color: rgba(156, 216, 246, 0.79); }
+  background-color: rgba(161, 215, 246, 0.79); }
 
 .sidebar-calendar-btn-today:active {
-  background-color: rgba(152, 203, 228, 0.58); }
+  background-color: rgba(156, 202, 228, 0.58); }
 
 .sidebar-calendar-btn-othermonth {
 <<<<<<< HEAD
@@ -4155,12 +4386,17 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(49, 54, 58, 0.31);
+<<<<<<< HEAD
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-calendar-monthyear-btn:hover,
 .sidebar-calendar-monthyear-btn:focus {
   background-color: rgba(128, 128, 128, 0.3);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4206,6 +4442,13 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7);
   color: #abb1b7; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #bac0c7; }
+
+.sidebar-calendar-monthyear-btn:active {
+  background-color: rgba(128, 128, 128, 0.7);
+  color: #abb1b8; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-calendar-monthshift-btn {
   border-radius: 9999px;
@@ -4244,15 +4487,20 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(49, 54, 58, 0.31);
+<<<<<<< HEAD
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-calendar-monthshift-btn:hover {
   background-color: rgba(128, 128, 128, 0.3);
-  color: #b9c0c6; }
+  color: #bac0c7; }
 
 .sidebar-calendar-monthshift-btn:active {
   background-color: rgba(128, 128, 128, 0.7);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4271,6 +4519,9 @@ tooltip {
 =======
   color: #abb1b7; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #abb1b8; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-selector-tab {
   border-radius: 0.818rem;
@@ -4312,6 +4563,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #a4deff; }
 =======
   color: #eccbff; }
@@ -4328,6 +4580,9 @@ tooltip {
 =======
   color: #9edfff; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #a4deff; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-selector-highlight-offset {
   margin-top: -0.205rem;
@@ -4335,6 +4590,7 @@ tooltip {
 
 .sidebar-selector-highlight {
   transition: 180ms ease-in-out;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4356,6 +4612,9 @@ tooltip {
 =======
   color: #9edfff;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #a4deff;
+>>>>>>> 257066d (Changed colors)
   min-height: 0.205rem; }
 
 .sidebar-todo-item {
@@ -4434,6 +4693,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4;
   margin: 0.341rem;
   padding: 0.205rem 0.545rem;
@@ -4459,15 +4719,19 @@ tooltip {
 =======
   color: #d1e5f3;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #d2e5f4;
+>>>>>>> 257066d (Changed colors)
   margin: 0.341rem;
   padding: 0.205rem 0.545rem;
   border: 0.068rem solid #e1e2e5; }
 
 .sidebar-todo-newz,
 .sidebar-todo-new:focus {
-  background-color: #3b4e5a; }
+  background-color: #3c4e5a; }
 
 .sidebar-todo-new:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4486,6 +4750,9 @@ tooltip {
 =======
   background-color: #556875; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #566875; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-todo-add {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4493,6 +4760,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4524,14 +4792,18 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   color: #d1e5f3;
+=======
+  color: #d2e5f4;
+>>>>>>> 257066d (Changed colors)
   border: 0.068rem solid #e1e2e5; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
 
 .sidebar-todo-add:hover,
 .sidebar-todo-add:focus {
-  background-color: #3b4e5a; }
+  background-color: #3c4e5a; }
 
 .sidebar-todo-add:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4550,6 +4822,9 @@ tooltip {
 =======
   background-color: #556875; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #566875; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-todo-add-available {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4557,6 +4832,7 @@ tooltip {
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
   min-height: 1.705rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4596,12 +4872,18 @@ tooltip {
   color: #003549;
   border: 0.068rem solid #9edfff; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #a4deff;
+  color: #00344b;
+  border: 0.068rem solid #a4deff; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-todo-add-available:hover,
 .sidebar-todo-add-available:focus {
-  background-color: #99dafa; }
+  background-color: #9fd9fa; }
 
 .sidebar-todo-add-available:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4620,6 +4902,9 @@ tooltip {
 =======
   background-color: #7ebddb; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #83bcdb; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-todo-entry {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4655,9 +4940,14 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: #31363a;
+<<<<<<< HEAD
   color: #c0c7cd;
   caret-color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+  caret-color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   margin: 0rem 0.341rem;
   min-height: 1.773rem;
   min-width: 0rem;
@@ -4699,8 +4989,12 @@ tooltip {
   border: 0.068rem solid #797f84; }
 
 .sidebar-todo-entry:focus {
+<<<<<<< HEAD
   border: 0.068rem solid #b2b9be; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  border: 0.068rem solid #b3b9bf; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-module {
   border-radius: 1.159rem;
@@ -4830,9 +5124,14 @@ tooltip {
   color: #e1e2e5; }
 
 .sidebar-chat-apiswitcher-icon-enabled {
+<<<<<<< HEAD
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-viewport {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -4841,6 +5140,7 @@ tooltip {
 .sidebar-chat-textarea {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4893,6 +5193,14 @@ tooltip {
   color: #c0c7cd;
   caret-color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  border: 0.068rem solid #6b7075;
+  padding: 0.682rem; }
+
+.sidebar-chat-entry {
+  color: #c1c7ce;
+  caret-color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   min-height: 1.773rem;
   min-width: 0rem; }
 
@@ -4903,6 +5211,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
   border-radius: 0.478rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #6b7075; }
@@ -4940,23 +5249,27 @@ tooltip {
 =======
   background-color: #6a7075; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #6b7075; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-send:hover,
 .sidebar-chat-send:focus {
-  background-color: #6d7479; }
+  background-color: #6e7479; }
 
 .sidebar-chat-send:active {
-  background-color: #7f878e; }
+  background-color: #80878e; }
 
 .sidebar-chat-send-available {
-  background-color: #9edfff;
-  color: #003549; }
+  background-color: #a4deff;
+  color: #00344b; }
 
 .sidebar-chat-send-available:hover,
 .sidebar-chat-send-available:focus {
-  background-color: #99dafa; }
+  background-color: #9fd9fa; }
 
 .sidebar-chat-send-available:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4975,6 +5288,9 @@ tooltip {
 =======
   background-color: #7ebddb; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #83bcdb; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-message {
   margin: 0.682rem; }
@@ -4996,6 +5312,7 @@ tooltip {
 
 .sidebar-chat-indicator-bot {
   background-color: #a4deff; }
+<<<<<<< HEAD
 
 .sidebar-chat-indicator-System {
   background-color: #b6c9d8; }
@@ -5039,6 +5356,11 @@ tooltip {
 =======
   background-color: #b5c9d7; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+
+.sidebar-chat-indicator-System {
+  background-color: #b6c9d8; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-name {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
@@ -5057,6 +5379,7 @@ tooltip {
 .sidebar-chat-codeblock {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5096,11 +5419,18 @@ tooltip {
   margin: 0rem 0.682rem;
   border: 0.068rem solid rgba(209, 229, 243, 0.07); }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: rgba(78, 83, 88, 0.31);
+  color: #c1c7ce;
+  margin: 0rem 0.682rem;
+  border: 0.068rem solid rgba(210, 229, 244, 0.07); }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-codeblock-topbar {
   font-family: "Rubik", "Geist", "AR One Sans", "Reddit Sans", "Inter", "Roboto", "Ubuntu", "Noto Sans", sans-serif;
   margin: 0.273rem;
   margin-bottom: 0rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5140,6 +5470,12 @@ tooltip {
   border-radius: 0.886rem;
   border: 0.068rem solid #465965;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: rgba(96, 111, 121, 0.517);
+  color: #d2e5f4;
+  border-radius: 0.886rem;
+  border: 0.068rem solid #475965;
+>>>>>>> 257066d (Changed colors)
   border-top-left-radius: 0.886rem;
   border-top-right-radius: 0.886rem;
   padding: 0.341rem 0.477rem; }
@@ -5156,6 +5492,7 @@ tooltip {
 
 .sidebar-chat-codeblock-topbar-btn:hover,
 .sidebar-chat-codeblock-topbar-btn:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5195,6 +5532,12 @@ tooltip {
 .sidebar-chat-codeblock-topbar-btn:active {
   background-color: #748794; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #566875; }
+
+.sidebar-chat-codeblock-topbar-btn:active {
+  background-color: #758795; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-codeblock-code {
   font-family: "JetBrains Mono NF", "JetBrains Mono Nerd Font", "JetBrains Mono NL", "SpaceMono NF", "SpaceMono Nerd Font", monospace;
@@ -5202,6 +5545,7 @@ tooltip {
 
 .sidebar-chat-divider {
   min-height: 1px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5223,6 +5567,9 @@ tooltip {
 =======
   background-color: #6a7075;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #6b7075;
+>>>>>>> 257066d (Changed colors)
   margin: 0rem 0.545rem; }
 
 .sidebar-chat-welcome-txt {
@@ -5259,6 +5606,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   border: 0.068rem solid #6b7075; }
 =======
   background-color: #242125;
@@ -5276,6 +5624,9 @@ tooltip {
 =======
   border: 0.068rem solid #6a7075; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  border: 0.068rem solid #6b7075; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-chip-action:hover,
 .sidebar-chat-chip-action:focus {
@@ -5285,6 +5636,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-chat-chip-action-active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5312,6 +5664,10 @@ tooltip {
   color: #6a7075;
   border: 0.068rem solid #6a7075; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #6b7075;
+  border: 0.068rem solid #6b7075; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-chip-toggle {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -5343,8 +5699,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(49, 54, 58, 0.31);
+<<<<<<< HEAD
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-chat-chip-toggle:focus,
 .sidebar-chat-chip-toggle:hover {
@@ -5394,6 +5754,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #a4deff; }
   .sidebar-pin-enabled label {
     color: #00344b; }
@@ -5418,14 +5779,18 @@ tooltip {
 =======
   background-color: #9edfff; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #a4deff; }
+>>>>>>> 257066d (Changed colors)
   .sidebar-pin-enabled label {
-    color: #003549; }
+    color: #00344b; }
 
 .sidebar-pin-enabled:hover,
 .sidebar-pin-enabled:focus {
-  background-color: #8eceed; }
+  background-color: #94cded; }
 
 .sidebar-pin-enabled:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5444,6 +5809,9 @@ tooltip {
 =======
   background-color: #7ebddb; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #83bcdb; }
+>>>>>>> 257066d (Changed colors)
 
 .sidebar-waifu-heading {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
@@ -5538,13 +5906,17 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: #31363a;
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   font-size: 3rem; }
 
 .session-button-focused {
-  background-color: #364955;
-  color: #d1e5f3; }
+  background-color: #374955;
+  color: #d2e5f4; }
 
 .session-button-desc {
 <<<<<<< HEAD
@@ -5568,8 +5940,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: #252a2d;
+<<<<<<< HEAD
   color: #d1d5d9;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #d1d5da;
+>>>>>>> 257066d (Changed colors)
   border-bottom-left-radius: 1.705rem;
   border-bottom-right-radius: 1.705rem;
   padding: 0.205rem 0.341rem;
@@ -5605,8 +5981,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: #31363a;
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   font-size: 3rem; }
 
 .notif-low {
@@ -5637,8 +6017,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(49, 54, 58, 0.45);
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -5670,14 +6054,19 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(49, 54, 58, 0.45);
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
 .notif-critical {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5705,6 +6094,10 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4;
+>>>>>>> 257066d (Changed colors)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -5736,8 +6129,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: #0c0e10;
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -5769,8 +6166,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: #0c0e10;
+<<<<<<< HEAD
   color: #c0c7cd;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce;
+>>>>>>> 257066d (Changed colors)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
@@ -5778,6 +6179,7 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   min-width: 30.682rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5805,10 +6207,15 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3;
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4;
+>>>>>>> 257066d (Changed colors)
   padding: 0.818rem;
   padding-right: 1.363rem; }
 
 .notif-body-low {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5835,11 +6242,15 @@ tooltip {
 =======
   color: #91979c; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #91979d; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-body-normal {
-  color: #91979c; }
+  color: #91979d; }
 
 .notif-body-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5858,6 +6269,9 @@ tooltip {
 =======
   color: #9eb2bf; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #9fb2c0; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-icon {
   border-radius: 9999px;
@@ -5866,6 +6280,7 @@ tooltip {
   min-height: 3.409rem; }
 
 .notif-icon-material {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5904,16 +6319,21 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-icon-material-low {
-  background-color: #364955;
-  color: #d1e5f3; }
+  background-color: #374955;
+  color: #d2e5f4; }
 
 .notif-icon-material-normal {
-  background-color: #364955;
-  color: #d1e5f3; }
+  background-color: #374955;
+  color: #d2e5f4; }
 
 .notif-icon-material-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5937,6 +6357,10 @@ tooltip {
   background-color: #d1e5f3;
   color: #364955; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #d2e5f4;
+  color: #374955; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-expand-btn {
   border-radius: 1.159rem;
@@ -5964,6 +6388,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .notif-listaction-btn-enabled {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -5997,12 +6422,17 @@ tooltip {
   background-color: #364955;
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #374955;
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-listaction-btn-enabled:hover,
 .notif-listaction-btn-enabled:focus {
-  background-color: #465965; }
+  background-color: #475965; }
 
 .notif-listaction-btn-enabled:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6021,6 +6451,9 @@ tooltip {
 =======
   background-color: #5d707d; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #5e707d; }
+>>>>>>> 257066d (Changed colors)
 
 .osd-notif {
   border-radius: 1.159rem;
@@ -6050,6 +6483,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
@@ -6066,6 +6500,9 @@ tooltip {
 =======
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-circprog-normal {
   transition: 0ms linear;
@@ -6077,6 +6514,7 @@ tooltip {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4; }
 =======
   color: #eedcf5; }
@@ -6093,12 +6531,16 @@ tooltip {
 =======
   color: #d1e5f3; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #d2e5f4; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-circprog-critical {
   transition: 0ms linear;
   min-width: 0.136rem;
   min-height: 3.136rem;
   padding: 0rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6120,6 +6562,9 @@ tooltip {
 =======
   color: #364955; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #374955; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-actions {
   min-height: 2.045rem; }
@@ -6154,8 +6599,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(42, 46, 49, 0.31);
+<<<<<<< HEAD
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-action-low:focus,
 .notif-action-low:hover {
@@ -6190,8 +6639,12 @@ tooltip {
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
   background-color: rgba(42, 46, 49, 0.31);
+<<<<<<< HEAD
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-action-normal:focus,
 .notif-action-normal:hover {
@@ -6201,6 +6654,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .notif-action-critical {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6234,12 +6688,17 @@ tooltip {
   background-color: #465965;
   color: #c0c7cd; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #475965;
+  color: #c1c7ce; }
+>>>>>>> 257066d (Changed colors)
 
 .notif-action-critical:focus,
 .notif-action-critical:hover {
-  background-color: #526571; }
+  background-color: #536572; }
 
 .notif-action-critical:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -6272,6 +6731,9 @@ tooltip {
 =======
   background-color: #5a6d79; }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background-color: #5b6d7a; }
+>>>>>>> 257066d (Changed colors)
 
 .osd-music {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -6308,8 +6770,12 @@ tooltip {
 =======
   background-color: #0e0e10;
   padding: 0rem 1.023rem;
+<<<<<<< HEAD
   background: linear-gradient(127deg, rgba(39, 43, 47, 0.7), rgba(39, 43, 47, 0.55) 70.71%), linear-gradient(217deg, rgba(65, 72, 77, 0.7), rgba(65, 72, 77, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #364955 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(54, 73, 85, 0.7), rgba(54, 73, 85, 0.55) 70.71%), linear-gradient(#0c0e10, #0c0e10); }
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
+=======
+  background: linear-gradient(127deg, rgba(39, 43, 47, 0.7), rgba(39, 43, 47, 0.55) 70.71%), linear-gradient(217deg, rgba(65, 72, 77, 0.7), rgba(65, 72, 77, 0.55) 70.71%), radial-gradient(circle at 0% 100%, #374955 13%, rgba(0, 0, 0, 0) 100%), linear-gradient(336deg, rgba(55, 73, 85, 0.7), rgba(55, 73, 85, 0.55) 70.71%), linear-gradient(#0c0e10, #0c0e10); }
+>>>>>>> 257066d (Changed colors)
 
 .osd-music-cover-fallback {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
