@@ -15,21 +15,71 @@ lvim.plugins = {
               "<space>.",
               function()
                 require("md-pdf").convert_md_to_pdf()
-              end,
+      
+        end,
               desc = "Markdown preview",
-            },
+    
       },
+  
+    },
     opts = {},
+
   },
   {
     "folke/todo-comments.nvim",
     dependencies = { "nvim-lua/plenary.nvim" },
+  
     opts = {
       }
   },
+
   {"github/copilot.vim"},
   {"vim-test/vim-test"},
+{
+  "rebelot/kanagawa.nvim",  -- neorg needs a colorscheme with treesitter support
+  {
+    "nvim-treesitter/nvim-treesitter",
+    build = ":TSUpdate",
+    opts = {
+      highlight = { enable = true },
+    },
+    config = function(_, opts)
+      require("nvim-treesitter.configs").setup(opts)
+    end,
+  },
+  {
+    "nvim-neorg/neorg",
+    build = ":Neorg sync-parsers",
+    dependencies = { "nvim-lua/plenary.nvim" },
+    config = function()
+      require("neorg").setup {
+        load = {
+          ["core.export"] ={},
+          ["core.export.markdow"] = {},
+          ["core.defaults"] = {},
+          ["core.concealer"] = {},
+          ["core.dirman"] = {
+            config = {
+              workspaces = {
+                notes = "~/notes",
+              },
+              default_workspace = "notes",
+            },
+          },
+          ["core.keybinds"] = {
+            config = {
+              default_keybinds = true,
+              neorg_leader = "<Leader><Leader>",
+            },
+          },
+        },
+      }
 
+      vim.wo.foldlevel = 99
+      vim.wo.conceallevel = 2
+    end,
+    }
+  }
 }
 
 require("md-pdf").setup({
@@ -43,3 +93,4 @@ vim.keymap.set('i', '<C-J>', 'copilot#Accept("<CR>")', {
   expr = true,
   replace_keycodes = false
 })
+lvim.keys.normal_mode["tc"] = ":Neorg toggle-concealer<CR>"
