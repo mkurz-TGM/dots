@@ -3,7 +3,7 @@
   border: 0rem; }
 
 window {
-  background-color: rgba(15, 16, 18, 0.4);
+  background-color: rgba(18, 16, 13, 0.4);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -21,6 +21,7 @@ window {
 #input-field {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
   caret-color: #d2e5f4;
@@ -34,6 +35,11 @@ window {
   color: #d2e5f4;
   caret-color: #d2e5f4;
 >>>>>>> 257066d (Changed colors)
+=======
+  background-color: #56442b;
+  color: #fadebc;
+  caret-color: #fadebc;
+>>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
   border-radius: 999px;
   font-size: 1.3rem;
   padding: 0.341rem 1.364rem;
@@ -58,6 +64,7 @@ window {
   margin-top: -35rem;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4;
 =======
   color: #d1e5f3;
@@ -65,11 +72,15 @@ window {
 =======
   color: #d2e5f4;
 >>>>>>> 257066d (Changed colors)
+=======
+  color: #fadebc;
+>>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
   text-shadow: 1px 1px 2px rgba(22, 22, 30, 0.5); }
 
 #poweroff-button,
 #reboot-button,
 #suspend-button {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #374955;
@@ -82,6 +93,10 @@ window {
   background-color: #374955;
   color: #d2e5f4;
 >>>>>>> 257066d (Changed colors)
+=======
+  background-color: #56442b;
+  color: #fadebc;
+>>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
   min-width: 3rem;
   min-height: 3rem;
   margin: 0.341rem;
@@ -95,6 +110,7 @@ window {
 #suspend-button:focus {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #5f6d77; }
 =======
   background-color: #5e6d77; }
@@ -102,10 +118,14 @@ window {
 =======
   background-color: #5f6d77; }
 >>>>>>> 257066d (Changed colors)
+=======
+  background-color: #786955; }
+>>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
 
 #poweroff-button:active,
 #reboot-button:active,
 #suspend-button:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #738088; }
@@ -115,3 +135,6 @@ window {
 =======
   background-color: #738088; }
 >>>>>>> 257066d (Changed colors)
+=======
+  background-color: #897c6b; }
+>>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)

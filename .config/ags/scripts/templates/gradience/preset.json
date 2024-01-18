@@ -94,6 +94,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "accent_bg_color": "#7dd0ff",
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
@@ -132,6 +133,11 @@
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
 >>>>>>> 257066d (Changed colors)
+=======
+        "accent_bg_color": "#ffb94d",
+        "accent_fg_color": "#462b00",
+        "accent_color": "#ffb94d",
+>>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
         "destructive_bg_color": "#ffb4a9",
         "destructive_fg_color": "#680003",
         "destructive_color": "#ffb4a9",
@@ -147,6 +153,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
         "window_bg_color": "#0F1012",
@@ -154,14 +161,27 @@
         "view_bg_color": "#191c1e",
         "view_fg_color": "#e1e2e5",
 <<<<<<< HEAD
+=======
+        "window_bg_color": "#101012",
+        "window_fg_color": "#e4e1e6",
+        "view_bg_color": "#1b1b1f",
+        "view_fg_color": "#e4e1e6",
+=======
+        "window_bg_color": "#12100D",
+        "window_fg_color": "#eae1d9",
+        "view_bg_color": "#1f1b16",
+        "view_fg_color": "#eae1d9",
+>>>>>>> 86f04a0 (Dynamicly change hyprbars color depending on wallpaper)
+>>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
         "headerbar_bg_color": "mix(@dialog_bg_color, @window_bg_color, 0.5)",
-        "headerbar_fg_color": "#d2e5f4",
-        "headerbar_border_color": "#374955",
+        "headerbar_fg_color": "#fadebc",
+        "headerbar_border_color": "#56442b",
         "headerbar_backdrop_color": "@headerbar_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.09)",
-        "card_bg_color": "#0F1012",
-        "card_fg_color": "#d2e5f4",
+        "card_bg_color": "#12100D",
+        "card_fg_color": "#fadebc",
         "card_shade_color": "rgba(0, 0, 0, 0.09)",
+<<<<<<< HEAD
         "dialog_bg_color": "#374955",
         "dialog_fg_color": "#d2e5f4",
         "popover_bg_color": "#374955",
@@ -249,6 +269,12 @@
         "popover_bg_color": "#374955",
         "popover_fg_color": "#d2e5f4",
 >>>>>>> 257066d (Changed colors)
+=======
+        "dialog_bg_color": "#56442b",
+        "dialog_fg_color": "#fadebc",
+        "popover_bg_color": "#56442b",
+        "popover_fg_color": "#fadebc",
+>>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
         "thumbnail_bg_color": "#1a1b26",
         "thumbnail_fg_color": "#AEE5FA",
         "shade_color": "rgba(0, 0, 0, 0.36)",
