@@ -23,6 +23,7 @@ window {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-color: #374955;
   color: #d2e5f4;
   caret-color: #d2e5f4;
@@ -46,6 +47,11 @@ window {
   color: #d2e5f4;
   caret-color: #d2e5f4;
 >>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
+=======
+  background-color: #364955;
+  color: #d1e5f3;
+  caret-color: #d1e5f3;
+>>>>>>> 2ef5095 (colors and nviim)
   border-radius: 999px;
   font-size: 1.3rem;
   padding: 0.341rem 1.364rem;
@@ -72,6 +78,7 @@ window {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   color: #d2e5f4;
 =======
   color: #d1e5f3;
@@ -85,11 +92,15 @@ window {
 =======
   color: #d2e5f4;
 >>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
+=======
+  color: #d1e5f3;
+>>>>>>> 2ef5095 (colors and nviim)
   text-shadow: 1px 1px 2px rgba(22, 22, 30, 0.5); }
 
 #poweroff-button,
 #reboot-button,
 #suspend-button {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -112,6 +123,10 @@ window {
   background-color: #374955;
   color: #d2e5f4;
 >>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
+=======
+  background-color: #364955;
+  color: #d1e5f3;
+>>>>>>> 2ef5095 (colors and nviim)
   min-width: 3rem;
   min-height: 3rem;
   margin: 0.341rem;
@@ -123,6 +138,7 @@ window {
 #poweroff-button:focus,
 #reboot-button:focus,
 #suspend-button:focus {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -140,10 +156,14 @@ window {
 =======
   background-color: #5f6d77; }
 >>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
+=======
+  background-color: #5e6d77; }
+>>>>>>> 2ef5095 (colors and nviim)
 
 #poweroff-button:active,
 #reboot-button:active,
 #suspend-button:active {
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -161,3 +181,6 @@ window {
 =======
   background-color: #738088; }
 >>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
+=======
+  background-color: #728088; }
+>>>>>>> 2ef5095 (colors and nviim)

@@ -96,6 +96,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         "accent_bg_color": "#7dd0ff",
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
@@ -144,6 +145,11 @@
         "accent_fg_color": "#00344b",
         "accent_color": "#7dd0ff",
 >>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
+=======
+        "accent_bg_color": "#75d1ff",
+        "accent_fg_color": "#003549",
+        "accent_color": "#75d1ff",
+>>>>>>> 2ef5095 (colors and nviim)
         "destructive_bg_color": "#ffb4a9",
         "destructive_fg_color": "#680003",
         "destructive_color": "#ffb4a9",
@@ -192,13 +198,14 @@
 >>>>>>> b58fcc0 (Dynamic hyprtrails usey primary color)
 >>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
         "headerbar_bg_color": "mix(@dialog_bg_color, @window_bg_color, 0.5)",
-        "headerbar_fg_color": "#d2e5f4",
-        "headerbar_border_color": "#374955",
+        "headerbar_fg_color": "#d1e5f3",
+        "headerbar_border_color": "#364955",
         "headerbar_backdrop_color": "@headerbar_bg_color",
         "headerbar_shade_color": "rgba(0, 0, 0, 0.09)",
         "card_bg_color": "#0F1012",
-        "card_fg_color": "#d2e5f4",
+        "card_fg_color": "#d1e5f3",
         "card_shade_color": "rgba(0, 0, 0, 0.09)",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -274,10 +281,13 @@
 =======
 >>>>>>> 4ab5ed7 (Changed foot alpha to 0.5)
 =======
+=======
+>>>>>>> 2ef5095 (colors and nviim)
         "dialog_bg_color": "#364955",
         "dialog_fg_color": "#d1e5f3",
         "popover_bg_color": "#364955",
         "popover_fg_color": "#d1e5f3",
+<<<<<<< HEAD
 >>>>>>> 5cc2cc1 (Added hyprtrails plugin (Doesnt include .so file use `hyprpm`))
 =======
         "dialog_bg_color": "#434559",
@@ -299,6 +309,8 @@
 >>>>>>> 3833cca (Dynamicly change hyprbars color depending on wallpaper)
 =======
 >>>>>>> ff86297 (Dynamic hyprtrails usey primary color)
+=======
+>>>>>>> 2ef5095 (colors and nviim)
         "thumbnail_bg_color": "#1a1b26",
         "thumbnail_fg_color": "#AEE5FA",
         "shade_color": "rgba(0, 0, 0, 0.36)",
