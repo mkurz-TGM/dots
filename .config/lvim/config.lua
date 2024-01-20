@@ -55,7 +55,6 @@ lvim.plugins = {
       require("neorg").setup {
         load = {
           ["core.export"] ={},
-          ["core.export.markdow"] = {},
           ["core.defaults"] = {},
           ["core.concealer"] = {},
           ["core.dirman"] = {
