@@ -118,6 +118,13 @@
 .txt-italic {
   font-style: italic; }
 
+.btn-primary {
+  border-radius: 9999px;
+  -gtk-outline-radius: 9999px;
+  background-color: #c5d8ff;
+  color: #002e6c;
+  padding: 0.682rem 1.023rem; }
+
 .titlefont {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif; }
 
