@@ -22,10 +22,7 @@
 
 ## Instructions
 
-If you don't want to compile ags from source, you can use the -git version
-```bash
-yay -S aylurs-gtk-shell-git
-```
+Compile ags from source AUR not up to date!
 
 For random wallpaper changer to work install [wayland-random-wallpaper](https://github.com/tiagofmcosta/wayland-random-wallpaper)
 ```bash
