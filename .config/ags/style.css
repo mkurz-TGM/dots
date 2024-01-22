@@ -121,8 +121,8 @@
 .btn-primary {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
-  background-color: #c5d8ff;
-  color: #002e6c;
+  background-color: #9edfff;
+  color: #003549;
   padding: 0.682rem 1.023rem; }
 
 .titlefont {
@@ -830,6 +830,10 @@ tooltip {
   min-height: 0.409rem;
   background-color: #c0c7cd; }
 
+.bar-corner-spacing {
+  min-width: 1.705rem;
+  min-height: 1.705rem; }
+
 .corner {
   background-color: #0c0e10;
   border-radius: 1.705rem;
@@ -954,6 +958,10 @@ tooltip {
 .cheatsheet-category-title {
   font-family: "Gabarito", "Poppins", "Lexend", sans-serif;
   font-size: 1.705rem; }
+
+.bg-wallpaper-transition {
+  transition: 1000ms cubic-bezier(0.05, 0.7, 0.1, 1);
+  font-size: 1px; }
 
 .bg-time-box {
   border-radius: 1.705rem;
@@ -1286,7 +1294,7 @@ tooltip {
   border-radius: 1.159rem;
   -gtk-outline-radius: 1.159rem;
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
-  background-color: rgba(54, 73, 85, 0.5);
+  background-color: rgba(49, 54, 58, 0.31);
   color: #d1e5f3;
   border: 0.068rem solid rgba(209, 229, 243, 0.07); }
 
@@ -2282,6 +2290,20 @@ tooltip {
 
 .notif-action-critical:active {
   background-color: #5a6d79; }
+
+@keyframes flyin-top {
+  from {
+    margin-top: -2.795rem; }
+  to {
+    margin-top: 0rem; } }
+
+@keyframes flyin-bottom {
+  from {
+    margin-top: 4.841rem;
+    margin-bottom: -4.841rem; }
+  to {
+    margin-bottom: 0rem;
+    margin-top: 0rem; } }
 
 .osd-music {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);

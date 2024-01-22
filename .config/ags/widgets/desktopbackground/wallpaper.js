@@ -10,7 +10,7 @@ import Wallpaper from '../../services/wallpaper.js';
 import { setupCursorHover } from '../../lib/cursorhover.js';
 
 const SWITCHWALL_SCRIPT_PATH = `${App.configDir}/scripts/color_generation/switchwall.sh`;
-const WALLPAPER_ZOOM_SCALE = 1.25; // For scrolling when we switch workspace
+const WALLPAPER_ZOOM_SCALE = 1; // For scrolling when we switch workspace
 const MAX_WORKSPACES = 10;
 
 const WALLPAPER_OFFSCREEN_X = (WALLPAPER_ZOOM_SCALE - 1) * SCREEN_WIDTH;
