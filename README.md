@@ -1,6 +1,5 @@
 <div align="center">
     <h1>「 illogical_impulse 」</h1>
-    <h3> Next-level hype with AGS </h3>
 </div>
 
 <div align="center">
@@ -22,10 +21,7 @@
 
 ## Instructions
 
-If you don't want to compile ags from source, you can use the -git version
-```bash
-yay -S aylurs-gtk-shell-git
-```
+Compile ags from source AUR not up to date!
 
 For random wallpaper changer to work install [wayland-random-wallpaper](https://github.com/tiagofmcosta/wayland-random-wallpaper)
 ```bash
