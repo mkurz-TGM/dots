@@ -119,8 +119,6 @@ export const ModuleInvertColors = async (props = {}) => {
                 Hyprland.sendMessage('j/getoption decoration:screen_shader')
                     .then((output) => {
                         const shaderPath = JSON.parse(output)["str"].trim();
-                        console.log(output)
-                        console.log(shaderPath)
                         if (shaderPath != "[[EMPTY]]" && shaderPath != "") {
                             execAsync(['bash', '-c', `hyprctl keyword decoration:screen_shader '[[EMPTY]]'`]).catch(print);
                             button.toggleClassName('sidebar-button-active', false);
