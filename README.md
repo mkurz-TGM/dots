@@ -11,15 +11,6 @@
 
 </div>
 
-<div align="center">
-  
-  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/czlabinger/dots/illogical-impulse)
-  ![GitHub Repo stars](https://img.shields.io/github/stars/czlabinger/dots)
-  ![GitHub repo size](https://img.shields.io/github/repo-size/czlabinger/dots)
-  ![GitHub issues](https://img.shields.io/github/issues/czlabinger/dots)
-
-</div>
-
 ## Description
 - [AGS](https://github.com/Aylur/ags/)-powered.
 - Scalable. Light/Dark mode support. Material colors that adapt to your wallpaper
