@@ -90,7 +90,7 @@ const BarBattery = () => Box({
             transitionDuration: 150,
             revealChild: false,
             transition: 'slide_right',
-            child: MaterialIcon('bolt', 'norm'),
+            child: MaterialIcon('bolt', 'norm', {tooltipText: "Charging"}),
             setup: (self) => self.hook(Battery, revealer => {
                 self.revealChild = Battery.charging;
             }),
@@ -117,25 +117,6 @@ const BarBattery = () => Box({
             overlays: [
                 BatBatteryProgress(),
             ]
-        }),
-    ]
-});
-
-const BarResourceValue = (name, icon, command) => Widget.Box({
-    vpack: 'center',
-    className: 'bar-batt spacing-h-5',
-    children: [
-        MaterialIcon(icon, 'small'),
-        Widget.ProgressBar({ // Progress
-            vpack: 'center', hexpand: true,
-            className: 'bar-prog-batt',
-            setup: (self) => self.poll(5000, (progress) => execAsync(['bash', '-c', command])
-                .then((output) => {
-                    progress.value = Number(output) / 100;
-                    progress.tooltipText = `${name}: ${Number(output)}%`
-                })
-                .catch(print)
-            ),
         }),
     ]
 });
@@ -186,18 +167,18 @@ const BarGroup = ({ child }) => Widget.Box({
     ]
 });
 
-const moveToRelativeWorkspace = async (self, num) => {
+const switchToRelativeWorkspace = async (self, num) => {
     try {
         const Hyprland = (await import('resource:///com/github/Aylur/ags/service/hyprland.js')).default;
         Hyprland.sendMessage(`dispatch workspace ${num > 0 ? '+' : ''}${num}`);
     } catch {
-        console.log(`TODO: Sway workspace ${num > 0 ? '+' : ''}${num}`);
+        execAsync([`${App.configDir}/scripts/sway/swayToRelativeWs.sh`, `${num}`]).catch(print);
     }
 }
 
-export const ModuleSystem = () => Widget.EventBox({
-    onScrollUp: (self) => moveToRelativeWorkspace(self, -1),
-    onScrollDown: (self) => moveToRelativeWorkspace(self, +1),
+export default () => Widget.EventBox({
+    onScrollUp: (self) => switchToRelativeWorkspace(self, -1),
+    onScrollDown: (self) => switchToRelativeWorkspace(self, +1),
     onPrimaryClick: () => App.toggleWindow('sideright'),
     child: Widget.Box({
         className: 'spacing-h-5',

@@ -6,7 +6,7 @@ import * as Utils from 'resource:///com/github/Aylur/ags/utils.js'
 // Widgets
 import { Bar, BarCornerTopleft, BarCornerTopright } from './widgets/bar/main.js';
 import Cheatsheet from './widgets/cheatsheet/main.js';
-import DesktopBackground from './widgets/desktopbackground/main.js';
+// import DesktopBackground from './widgets/desktopbackground/main.js';
 // import Dock from './widgets/dock/main.js';
 import Corner from './widgets/screencorners/main.js';
 import Indicator from './widgets/indicators/main.js';
@@ -34,7 +34,7 @@ function applyStyle() {
 applyStyle();
 
 const Windows = () => [
-    forMonitors(DesktopBackground),
+    // forMonitors(DesktopBackground),
     // Dock(),
     Overview(),
     forMonitors(Indicator),
@@ -43,9 +43,9 @@ const Windows = () => [
     SideRight(),
     Osk(),
     Session(),
-    Bar(),
-    BarCornerTopleft(),
-    BarCornerTopright(),
+    // forMonitors(Bar),
+    // forMonitors(BarCornerTopleft),
+    // forMonitors(BarCornerTopright),
     forMonitors((id) => Corner(id, 'top left')),
     forMonitors((id) => Corner(id, 'top right')),
     forMonitors((id) => Corner(id, 'bottom left')),
@@ -62,3 +62,9 @@ export default {
     },
     windows: Windows().flat(1),
 };
+
+// Stuff that don't need to be toggled. And they're async so ugh...
+// Bar().catch(print);
+forMonitors(Bar);
+forMonitors(BarCornerTopleft);
+forMonitors(BarCornerTopright);

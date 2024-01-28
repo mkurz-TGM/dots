@@ -17,8 +17,11 @@ $character
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module we are configuring is "character"
 success_symbol = "[🭧🭒](bold fg:blue)[ ➜ ](bold bg:blue fg:#000000)[](bold fg:blue)"
-
 error_symbol = "[🭧🭒](bold fg:red)[ ✗ ](bold bg:red fg:#000000)[](bold fg:red)"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
 
 [elixir]
 symbol = " "
@@ -50,9 +53,6 @@ symbol = " "
 
 [nix_shell]
 symbol = " "
-
-[package]
-symbol = " "
 
 [perl]
 symbol = " "

@@ -10,7 +10,7 @@ import Wallpaper from '../../services/wallpaper.js';
 import { setupCursorHover } from '../../lib/cursorhover.js';
 
 const SWITCHWALL_SCRIPT_PATH = `${App.configDir}/scripts/color_generation/switchwall.sh`;
-const WALLPAPER_ZOOM_SCALE = 1; // For scrolling when we switch workspace
+const WALLPAPER_ZOOM_SCALE = 1.25; // For scrolling when we switch workspace
 const MAX_WORKSPACES = 10;
 
 const WALLPAPER_OFFSCREEN_X = (WALLPAPER_ZOOM_SCALE - 1) * SCREEN_WIDTH;
@@ -35,10 +35,11 @@ export default (monitor = 0) => {
         setup: (self) => {
             self.set_size_request(SCREEN_WIDTH, SCREEN_HEIGHT);
             self
-                .hook(Hyprland.active.workspace, (self) => {
-                    self.attribute.workspace = Hyprland.active.workspace.id
-                    self.attribute.updatePos(self);
-                })
+                // TODO: reduced updates using timeouts to reduce lag
+                // .hook(Hyprland.active.workspace, (self) => {
+                //     self.attribute.workspace = Hyprland.active.workspace.id
+                //     self.attribute.updatePos(self);
+                // })
                 // .hook(App, (box, name, visible) => { // Update on open
                 //     if (self.attribute[name] === undefined) return;
                 //     self.attribute[name] = (visible ? 1 : 0);
