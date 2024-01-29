@@ -34,4 +34,4 @@ git clone git@github.com:tiagofmcosta/wayland-random-wallpaper.git
 
 # ⭐ Stargazers over time
 
-[![Stargazers over time](https://starchart.cc/czlabinger/dots.svg)](https://starchart.cc/czlabinger/dots)
+[![Stargazers over time](https://starchart.cc/czlabinger/dots.svg?variant=adaptive)](https://starchart.cc/czlabinger/dots)
