@@ -17,8 +17,11 @@ alias ...="cd ../.."
 alias nvim="bash $HOME/.local/bin/nvim.sh"
 
 starship init fish | source
+if test -f ~/.cache/ags/user/colorschemes/sequences
+    cat ~/.cache/ags/user/colorschemes/sequences
+end
 
 # function fish_prompt
-#   set_color cyan; echo (pwd) 
+#   set_color cyan; echo (pwd)
 #   set_color green; echo '> '
 # end
