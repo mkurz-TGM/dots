@@ -2,7 +2,7 @@ import PopupWindow from '../../lib/popupwindow.js';
 import SidebarLeft from "./sideleft.js";
 
 export default () => PopupWindow({
-    keymode: 'exclusive',
+    focusable: true,
     anchor: ['left', 'top', 'bottom'],
     name: 'sideleft',
     layer: 'top',
