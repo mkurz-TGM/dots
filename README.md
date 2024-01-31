@@ -15,10 +15,6 @@
 - [AGS](https://github.com/Aylur/ags/)-powered.
 - Scalable. Light/Dark mode support. Material colors that adapt to your wallpaper
 
-## Preview
-![image](./assets/illogical_impulse_dark.png)
-![image](./assets/illogical_impulse_light.png)
-
 ## Instructions
 
 Compile ags from source AUR not up to date!
