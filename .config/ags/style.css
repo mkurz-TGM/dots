@@ -488,7 +488,7 @@ tooltip {
   border: 0.136rem solid #696c6f; }
 
 .switch-bg {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   background-color: #131618;
@@ -603,20 +603,6 @@ tooltip {
   padding-right: 1.023rem;
   padding-left: 0.341rem; }
 
-.bar-group-pad-left {
-  padding-left: 1.364rem;
-  padding-right: 0.681rem; }
-
-.bar-group-pad-right {
-  padding-left: 0.681rem;
-  padding-right: 1.364rem; }
-
-.bar-group-pad-leftonly {
-  padding-left: 0.681rem; }
-
-.bar-group-pad-rightonly {
-  padding-right: 0.681rem; }
-
 .bar-group-standalone {
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
@@ -681,6 +667,7 @@ tooltip {
 .bar-batt {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-height: 1.77rem;
   min-width: 1.77rem;
   border-radius: 10rem;
@@ -707,22 +694,15 @@ tooltip {
   color: #d1e5f3; }
 
 .bar-batt-circprog-low {
-  transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
-  min-width: 0.068rem;
-  min-height: 1.636rem;
-  padding: 0rem;
   background-color: #ffb4a9;
   color: #930006; }
 
 .bar-batt-circprog-full {
-  transition: 1000ms cubic-bezier(0.1, 1, 0, 1);
-  min-width: 0.068rem;
-  min-height: 1.636rem;
-  padding: 0rem;
   background-color: #374b3e;
   color: #d1e9d6; }
 
 .bar-music-playstate {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-height: 1.77rem;
   min-width: 1.77rem;
   border-radius: 10rem;
@@ -761,20 +741,6 @@ tooltip {
 .bar-music-extended-ctl-bg {
   border-radius: 1.364rem;
   background-color: rgba(30, 30, 30, 0.6); }
-
-.bar-music-bottom-bg {
-  border-radius: 1.364rem;
-  min-width: 34.091rem; }
-
-.bar-music-bottom-ctl-bg {
-  border-radius: 1.364rem;
-  background-color: rgba(30, 30, 30, 0.6); }
-
-.bar-music-extended-textbox {
-  margin: 1.023rem; }
-
-.bar-music-bottom-cover {
-  border-radius: 10rem; }
 
 .bar-music-hide-false {
   transition: 300ms cubic-bezier(0.1, 1, 0, 1);
@@ -883,13 +849,14 @@ tooltip {
 .bar-systray-item {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-height: 1.032rem;
   min-width: 1.032rem; }
 
 .bar-statusicons {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   margin: 0.273rem;
   padding: 0rem 0.614rem; }
 
@@ -902,6 +869,7 @@ tooltip {
 .bar-util-btn {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-height: 1.77rem;
   min-width: 1.77rem;
   background-color: #31363a; }
@@ -946,7 +914,7 @@ tooltip {
   color: #c1e8ff; }
 
 .cheatsheet-closebtn {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 2.386rem;
@@ -1190,7 +1158,7 @@ tooltip {
   margin-top: 2.727rem; }
 
 .overview-search-box {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 1.705rem;
   -gtk-outline-radius: 1.705rem;
   border-top: 1px solid rgba(161, 163, 166, 0.19);
@@ -1485,7 +1453,7 @@ tooltip {
   background-color: rgba(128, 128, 128, 0.7); }
 
 .sidebar-button {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   padding: 0rem 0.818rem;
   background-color: #364955;
   color: #d1e5f3; }
@@ -1501,29 +1469,6 @@ tooltip {
 
 .sidebar-button:active {
   background-color: rgba(128, 128, 128, 0.7); }
-
-.sidebar-button-nopad:hover,
-.sidebar-button-nopad:focus {
-  background-color: rgba(128, 128, 128, 0.3); }
-
-.sidebar-button-nopad:active {
-  background-color: rgba(128, 128, 128, 0.7); }
-
-.sidebar-button-left {
-  border-top-left-radius: 0.818rem;
-  border-bottom-left-radius: 0.818rem; }
-
-.sidebar-button-right {
-  border-top-right-radius: 0.818rem;
-  border-bottom-right-radius: 0.955rem; }
-
-.sidebar-button-alone {
-  border-radius: 0.818rem;
-  -gtk-outline-radius: 0.818rem; }
-
-.sidebar-button-alone-normal {
-  border-radius: 0.818rem;
-  -gtk-outline-radius: 0.818rem; }
 
 .sidebar-button-active {
   background-color: #9edfff;
@@ -1605,6 +1550,7 @@ tooltip {
 .sidebar-scrollbar slider {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-width: 0.273rem;
   min-height: 2.045rem;
   background-color: rgba(192, 199, 205, 0.31); }
@@ -1619,7 +1565,7 @@ tooltip {
 .sidebar-calendar-btn {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-height: 2.523rem;
   min-width: 2.523rem;
   color: #e1e2e5; }
@@ -1655,6 +1601,7 @@ tooltip {
 .sidebar-calendar-monthyear-btn {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   padding: 0rem 0.682rem;
   background-color: rgba(49, 54, 58, 0.31);
   color: #c0c7cd; }
@@ -1671,6 +1618,7 @@ tooltip {
 .sidebar-calendar-monthshift-btn {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-width: 2.045rem;
   min-height: 2.045rem;
   background-color: rgba(49, 54, 58, 0.31);
@@ -1687,7 +1635,7 @@ tooltip {
 .sidebar-selector-tab {
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-height: 2.5rem;
   color: #e1e2e5; }
 
@@ -1717,6 +1665,7 @@ tooltip {
   background-color: rgba(49, 54, 58, 0.1); }
 
 .sidebar-todo-item-action {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 9999px;
   min-width: 1.705rem;
   min-height: 1.705rem; }
@@ -1746,7 +1695,7 @@ tooltip {
   padding: 0.205rem 0.545rem;
   border: 0.068rem solid #e1e2e5; }
 
-.sidebar-todo-newz,
+.sidebar-todo-new,
 .sidebar-todo-new:focus {
   background-color: #3b4e5a; }
 
@@ -1754,7 +1703,7 @@ tooltip {
   background-color: #556875; }
 
 .sidebar-todo-add {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
@@ -1770,7 +1719,7 @@ tooltip {
   background-color: #556875; }
 
 .sidebar-todo-add-available {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   min-width: 1.705rem;
@@ -1787,7 +1736,7 @@ tooltip {
   background-color: #7ebddb; }
 
 .sidebar-todo-entry {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   background-color: #31363a;
@@ -1823,7 +1772,7 @@ tooltip {
   background-color: rgba(25, 29, 32, 0.31); }
 
 .sidebar-chat-apiswitcher-icon {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 2.182rem;
@@ -1835,7 +1784,7 @@ tooltip {
   color: #d1e5f3; }
 
 .sidebar-chat-viewport {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   padding: 0.682rem 0rem; }
 
 .sidebar-chat-textarea {
@@ -1858,7 +1807,7 @@ tooltip {
   min-height: 7.500rem; }
 
 .sidebar-chat-send {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-width: 1.705rem;
   min-height: 1.705rem;
   border-radius: 0.478rem; }
@@ -1885,7 +1834,7 @@ tooltip {
   margin: 0.682rem; }
 
 .sidebar-chat-indicator {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
   min-width: 0.136rem;
@@ -1942,6 +1891,7 @@ tooltip {
 .sidebar-chat-codeblock-topbar-btn {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   padding: 0.273rem 0.477rem; }
 
 .sidebar-chat-codeblock-topbar-btn:hover,
@@ -1974,7 +1924,7 @@ tooltip {
 .sidebar-chat-welcome-logo {
   border-radius: 9999px;
   -gtk-outline-radius: 9999px;
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-height: 4.773rem;
   min-width: 4.773rem;
   font-family: "Material Symbols Rounded", "Material Symbols Outlined", "Material Symbols Sharp";
@@ -1983,7 +1933,7 @@ tooltip {
   color: #0c0e10; }
 
 .sidebar-chat-chip {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   padding: 0.341rem 0.477rem; }
@@ -2004,7 +1954,7 @@ tooltip {
   border: 0.068rem solid #6a7075; }
 
 .sidebar-chat-chip-toggle {
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
   padding: 0.341rem 0.477rem;
@@ -2021,7 +1971,7 @@ tooltip {
 .sidebar-pin {
   border-radius: 0.818rem;
   -gtk-outline-radius: 0.818rem;
-  transition: 300ms cubic-bezier(0.1, 1, 0, 1);
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   min-height: 2.386rem;
   min-width: 2.386rem;
   color: #e1e2e5; }
@@ -2067,6 +2017,7 @@ tooltip {
   background-position: center; }
 
 .sidebar-waifu-image-actions {
+  transition: 300ms cubic-bezier(0, 0.55, 0.45, 1);
   padding: 0.313rem; }
 
 .sidebar-waifu-image-action {

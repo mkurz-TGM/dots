@@ -40,9 +40,25 @@ const APIS = [
 let currentApiId = 0;
 APIS[currentApiId].tabIcon.toggleClassName('sidebar-chat-apiswitcher-icon-enabled', true);
 
-export const chatEntry = Entry({
-    className: 'sidebar-chat-entry',
+function apiSendMessage(textView) {
+    // Get text
+    const buffer = textView.get_buffer();
+    const [start, end] = buffer.get_bounds();
+    const text = buffer.get_text(start, end, true).trimStart();
+    if (!text || text.length == 0) return;
+    // Send
+    APIS[currentApiId].sendCommand(text)
+    // Reset
+    buffer.set_text("", -1);
+    chatEntryWrapper.toggleClassName('sidebar-chat-wrapper-extended', false);
+    chatEntry.set_valign(Gtk.Align.CENTER);
+}
+
+export const chatEntry = TextView({
     hexpand: true,
+    wrapMode: Gtk.WrapMode.WORD_CHAR,
+    acceptsTab: false,
+    className: 'sidebar-chat-entry txt txt-smallie',
     setup: (self) => self
         .hook(ChatGPT, (self) => {
             if (APIS[currentApiId].name != 'Assistant (ChatGPT 3.5)') return;
@@ -53,13 +69,29 @@ export const chatEntry = Entry({
             self.placeholderText = (Gemini.key.length > 0 ? 'Message Gemini...' : 'Enter Google AI API Key...');
         }, 'hasKey')
     ,
-    onChange: (entry) => {
-        chatSendButton.toggleClassName('sidebar-chat-send-available', entry.text.length > 0);
-    },
-    onAccept: (entry) => {
-        APIS[currentApiId].sendCommand(entry.text)
-        entry.text = '';
-    },
+});
+
+chatEntry.get_buffer().connect("changed", (buffer) => {
+    const bufferText = buffer.get_text(buffer.get_start_iter(), buffer.get_end_iter(), true);
+    chatSendButton.toggleClassName('sidebar-chat-send-available', bufferText.length > 0);
+    chatPlaceholderRevealer.revealChild = (bufferText.length == 0);
+    if (buffer.get_line_count() > 1 || bufferText.length > EXPAND_INPUT_THRESHOLD) {
+        chatEntryWrapper.toggleClassName('sidebar-chat-wrapper-extended', true);
+        chatEntry.set_valign(Gtk.Align.FILL);
+        chatPlaceholder.set_valign(Gtk.Align.FILL);
+    }
+    else {
+        chatEntryWrapper.toggleClassName('sidebar-chat-wrapper-extended', false);
+        chatEntry.set_valign(Gtk.Align.CENTER);
+        chatPlaceholder.set_valign(Gtk.Align.CENTER);
+    }
+});
+
+const chatEntryWrapper = Scrollable({
+    className: 'sidebar-chat-wrapper',
+    hscroll: 'never',
+    vscroll: 'always',
+    child: chatEntry,
 });
 
 const chatSendButton = Button({
@@ -73,10 +105,29 @@ const chatSendButton = Button({
     },
 });
 
+const chatPlaceholder = Label({
+    className: 'txt-subtext txt-smallie margin-left-5',
+    hpack: 'start',
+    vpack: 'center',
+    label: APIS[currentApiId].placeholderText,
+});
+
+const chatPlaceholderRevealer = Revealer({
+    revealChild: true,
+    transition: 'crossfade',
+    transitionDuration: 200,
+    child: chatPlaceholder,
+});
+
 const textboxArea = Box({ // Entry area
     className: 'sidebar-chat-textarea spacing-h-10',
     children: [
-        chatEntry,
+        Overlay({
+            passThrough: true,
+            child: chatEntryWrapper,
+            overlays: [chatPlaceholderRevealer],
+        }),
+        Box({ className: 'width-10' }),
         chatSendButton,
     ]
 });
@@ -97,8 +148,8 @@ function switchToTab(id) {
     APIS[id].tabIcon.toggleClassName('sidebar-chat-apiswitcher-icon-enabled', true);
     apiContentStack.shown = APIS[id].name;
     apiCommandStack.shown = APIS[id].name;
-    chatEntry.placeholderText = APIS[id].placeholderText,
-        currentApiId = id;
+    chatPlaceholder.label = APIS[id].placeholderText;
+    currentApiId = id;
 }
 
 const apiSwitcher = CenterBox({

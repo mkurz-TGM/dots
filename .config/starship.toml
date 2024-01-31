@@ -5,10 +5,6 @@ add_newline = false
 # Wedges 🭧🭒 🭣🭧🭓
 # Random noise 🬖🬥🬔🬗
 
-right_format = """\
-$cmd_duration
-"""
-
 format = """
 $username$hostname$directory$rust$git_branch$git_status$package$golang$terraform$docker_context$python$docker_context$nodejs
 $character
@@ -30,6 +26,7 @@ symbol = " "
 symbol = " "
 
 [git_branch]
+style = "bg: green"
 format = " on [$symbol$branch(:$remote_branch)]($style) "
 symbol = " "
 
