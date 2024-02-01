@@ -6,6 +6,7 @@ const { execAsync, exec } = Utils;
 import { AnimatedCircProg } from "../../lib/animatedcircularprogress.js";
 import { MaterialIcon } from '../../lib/materialicon.js';
 import { showMusicControls } from '../../variables.js';
+import system from './system.js';
 
 function trimTrackTitle(title) {
     if (!title) return '';
@@ -56,6 +57,7 @@ const BarResource = (name, icon, command) => {
         setup: (self) => self
             .poll(5000, () => execAsync(['bash', '-c', command])
                 .then((output) => {
+                    output = output.replace(',', '.');
                     resourceCircProg.css = `font-size: ${Number(output)}px;`;
                     resourceLabel.label = `${Math.round(Number(output))}%`;
                     widget.tooltipText = `${name}: ${Math.round(Number(output))}%`;
