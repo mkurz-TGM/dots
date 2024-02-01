@@ -2,8 +2,10 @@
 # This script depends on `functions' .
 # This is NOT a script for execution, but for loading functions, so NOT need execution permission.
 # NOTE that you NOT need to `cd ..' because the `$0' is NOT this file, but the script file which will source this file.
-cd "$(dirname "$0")"
-export base="$(pwd)"
+
+# The script that use this file should have two lines on its top as follows:
+# cd "$(dirname "$0")"
+# export base="$(pwd)"
 
 install-yay() {
   x sudo pacman -Sy --needed --noconfirm base-devel
@@ -22,6 +24,7 @@ install-ags (){
   try git init -b main
   try git remote add origin https://github.com/Aylur/ags.git
   x git pull origin main && git submodule update --init --recursive
+  x git checkout 8e94d3b465e76372056c76242e5c013950113be9 # "update changelog"
   x npm install
   x meson setup build
   x meson install -C build
