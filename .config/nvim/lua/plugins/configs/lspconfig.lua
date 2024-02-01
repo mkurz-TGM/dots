@@ -63,4 +63,6 @@ require("lspconfig").lua_ls.setup {
 
 require("lspconfig").asm_lsp.setup {}
 
+require("lspconfig").clangd.setup({})
+
 return M
