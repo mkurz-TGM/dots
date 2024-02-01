@@ -148,7 +148,7 @@ export default () => {
         child: Box({
             className: 'spacing-h-10',
             children: [
-                BarResource('RAM Usage', 'memory', `free | awk '/^Mem/ {printf("%.2f\\n", ($3/$2) * 100)}'`),
+                BarResource('RAM Usage', 'memory_alt', `free | awk '/^Mem/ {printf("%.2f\\n", ($3/$2) * 100)}'`),
                 Revealer({
                     revealChild: true,
                     transition: 'slide_left',
@@ -157,7 +157,7 @@ export default () => {
                         className: 'spacing-h-10',
                         children: [
                             BarResource('Swap Usage', 'swap_horiz', `free | awk '/^Swap/ {printf("%.2f\\n", ($3/$2) * 100)}'`),
-                            BarResource('CPU Usage', 'settings_motion_mode', `top -bn1 | grep Cpu | awk '{print $2}'`),
+                            BarResource('CPU Usage', 'memory', `top -bn1 | grep Cpu | awk '{print $2}'`),
                         ]
                     }),
                     setup: (self) => self.hook(Mpris, label => {
