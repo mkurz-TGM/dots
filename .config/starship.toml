@@ -5,8 +5,12 @@ add_newline = false
 # Wedges 🭧🭒 🭣🭧🭓
 # Random noise 🬖🬥🬔🬗
 
+# format = """
+# $cmd_duration$username$hostname $directory $git_branch
+# $character
+# """
 format = """
-$username$hostname$directory$rust$git_branch$git_status$package$golang$terraform$docker_context$python$docker_context$nodejs
+$cmd_duration$username$hostname $directory $git_branch
 $character
 """
 
@@ -113,31 +117,19 @@ show_always = true
 [directory]
 home_symbol = " "
 read_only = "  "
-style = "bold bg:green  fg:#000000"
+style = "bg:blue fg:black"
 truncation_length = 2
 truncation_symbol = "./"
-format = '[$path]($style)[🭞](fg:green )'
+format = '[](bold fg:blue)[$path]($style)[](bold fg:blue)'
 
 
 [directory.substitutions]
-"Documents" = " "
-"/" = "/"
+"Documents" = " "
+"/" = "|"
 "Downloads" = " "
-"Music" = " "
-"Pictures" = " "
+"Music" = " "
+"Pictures" = " "
 
 [cmd_duration]
-min_time = 0
-format = '[🬈🬖🬥🬅 ](bold bg:cyan fg:#000000)[time:$duration](bold bg:cyan fg:#000000)[ 🬖🬥🬔🬗](bold bg:cyan fg:#000000)'
-
-[git_status]
-conflicted = "🏳"
-ahead = "🏎💨"
-behind = "😰"
-diverged = "😵"
-untracked = "🤷"
-stashed = "📦"
-modified = "📝"
-staged = '[++\($count\)](blue)'
-renamed = "✍️"
-deleted = "🗑"
+min_time = 1
+format = '[](bold fg:yellow)[ $duration](bold bg:yellow fg:black)[](bold fg:yellow) •• '
