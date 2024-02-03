@@ -144,60 +144,9 @@ const BatteryModule = () => Stack({
             ]
         })],
         ['desktop', BarGroup({
-<<<<<<< HEAD
             className: 'spacing-h-5', children: [
                 BarWeather(),
             ]
-=======
-            child: Box({
-                hexpand: true,
-                hpack: 'center',
-                className: 'spacing-h-5',
-                children: [
-                    MaterialIcon('device_thermostat', 'small'),
-                    Label({
-                        label: 'Weather',
-                    })
-                ],
-                setup: (self) => self.poll(900000, async (self) => {
-                    const WEATHER_CACHE_PATH = WEATHER_CACHE_FOLDER + '/wttr.in.txt';
-                    Utils.execAsync('curl ipinfo.io')
-                        .then(output => {
-                            return JSON.parse(output)['city'].toLowerCase();
-                        })
-                        .then((city) => execAsync(`curl https://wttr.in/${city}?format=j1`)
-                            .then(output => {
-                                const weather = JSON.parse(output);
-                                Utils.writeFile(JSON.stringify(weather), WEATHER_CACHE_PATH)
-                                    .catch(print);
-                                const weatherCode = weather.current_condition[0].weatherCode;
-                                const weatherDesc = weather.current_condition[0].weatherDesc[0].value;
-                                const temperature = weather.current_condition[0].temp_C;
-                                const feelsLike = weather.current_condition[0].FeelsLikeC;
-                                const weatherSymbol = WEATHER_SYMBOL[WWO_CODE[weatherCode]];
-                                self.children[0].label = weatherSymbol;
-                                self.children[1].label = `${temperature}℃ • Feels like ${feelsLike}℃`;
-                                self.tooltipText = weatherDesc;
-                            }).catch((err) => {
-                                try { // Read from cache
-                                    const weather = JSON.parse(
-                                        Utils.readFile(WEATHER_CACHE_PATH)
-                                    );
-                                    const weatherCode = weather.current_condition[0].weatherCode;
-                                    const weatherDesc = weather.current_condition[0].weatherDesc[0].value;
-                                    const temperature = weather.current_condition[0].temp_C;
-                                    const feelsLike = weather.current_condition[0].FeelsLikeC;
-                                    const weatherSymbol = WEATHER_SYMBOL[WWO_CODE[weatherCode]];
-                                    self.children[0].label = weatherSymbol;
-                                    self.children[1].label = `${temperature}℃ • Feels like ${feelsLike}℃`;
-                                    self.tooltipText = weatherDesc;
-                                } catch (err) {
-                                    print(err);
-                                }
-                            }));
-                }),
-            })
->>>>>>> end-4-illogical-impulse
         })],
     ],
     setup: (stack) => Utils.timeout(10, () => {
@@ -267,16 +216,9 @@ const switchToRelativeWorkspace = async (self, num) => {
     }
 }
 
-<<<<<<< HEAD
-
-export default () => Widget.EventBox({
-    onScrollUp: (self) => switchToRelativeWorkspace(self, -1),
-    onScrollDown: (self) => switchToRelativeWorkspace(self, +1),
-=======
-export const ModuleSystem = () => Widget.EventBox({
+export default() => Widget.EventBox({
     onScrollUp: (self) => moveToRelativeWorkspace(self, -1),
     onScrollDown: (self) => moveToRelativeWorkspace(self, +1),
->>>>>>> end-4-illogical-impulse
     onPrimaryClick: () => App.toggleWindow('sideright'),
     child: Widget.Box({
         className: 'spacing-h-5',
