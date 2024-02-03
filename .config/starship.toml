@@ -5,10 +5,10 @@ add_newline = false
 # Wedges 🭧🭒 🭣🭧🭓
 # Random noise 🬖🬥🬔🬗
 
-right_format = """\
-$cmd_duration
-"""
-
+# format = """
+# $cmd_duration$username$hostname $directory $git_branch
+# $character
+# """
 format = """
 $username$hostname$directory$rust$git_branch$git_status$package$golang$terraform$docker_context$python$docker_context$nodejs
 $character
@@ -16,15 +16,12 @@ $character
 
 # Replace the "❯" symbol in the prompt with "➜"
 [character]                            # The name of the module we are configuring is "character"
-success_symbol = "[• ](bold fg:blue) "
-error_symbol = "[• 󰅙](bold fg:red) "
+success_symbol = "[🭧🭒](bold fg:blue)[ ➜ ](bold bg:blue fg:#000000)[](bold fg:blue)"
+error_symbol = "[🭧🭒](bold fg:red)[ ✗ ](bold bg:red fg:#000000)[](bold fg:red)"
 
 # Disable the package module, hiding it from the prompt completely
 [package]
 disabled = true
-success_symbol = "[🭧🭒](bold fg:blue)[ ➜ ](bold bg:blue fg:#000000)[](bold fg:blue)"
-
-error_symbol = "[🭧🭒](bold fg:red)[ ✗ ](bold bg:red fg:#000000)[](bold fg:red)"
 
 [elixir]
 symbol = " "
@@ -33,6 +30,7 @@ symbol = " "
 symbol = " "
 
 [git_branch]
+style = "bg: green"
 format = " on [$symbol$branch(:$remote_branch)]($style) "
 symbol = " "
 
