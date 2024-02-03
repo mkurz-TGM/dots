@@ -146,7 +146,6 @@ export default () => {
     })
     const systemResources = BarGroup({
         child: Box({
-            className: 'spacing-h-10',
             children: [
                 BarResource('RAM Usage', 'memory_alt', `free | awk '/^Mem/ {printf("%.2f\\n", ($3/$2) * 100)}'`),
                 Revealer({
@@ -154,10 +153,15 @@ export default () => {
                     transition: 'slide_left',
                     transitionDuration: 200,
                     child: Box({
-                        className: 'spacing-h-10',
+                        className: 'spacing-h-10 margin-left-10',
                         children: [
+<<<<<<< HEAD
                             BarResource('Swap Usage', 'swap_horiz', `free | awk '/^Swap/ {printf("%.2f\\n", ($3/$2) * 100)}'`),
                             BarResource('CPU Usage', 'memory', `top -bn1 | grep Cpu | awk '{print $2}'`),
+=======
+                            BarResource('Swap Usage', 'swap_horiz', `free | awk '/^Swap/ {if ($2 > 0) printf("%.2f\\n", ($3/$2) * 100); else print "0";}'`),
+                            BarResource('CPU Usage', 'settings_motion_mode', `top -bn1 | grep Cpu | awk '{print $2}'`),
+>>>>>>> end-4-illogical-impulse
                         ]
                     }),
                     setup: (self) => self.hook(Mpris, label => {
