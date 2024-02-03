@@ -91,6 +91,7 @@ local plugins = {
   },
   {"nvim-telescope/telescope-project.nvim"},
   {"cljoly/telescope-repo.nvim"},
+  {"mfussenegger/nvim-jdtls"}
 
   -- To make a plugin not be loaded
   -- {

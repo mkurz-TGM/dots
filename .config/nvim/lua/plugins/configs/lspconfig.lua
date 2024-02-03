@@ -38,7 +38,11 @@ M.capabilities.textDocument.completion.completionItem = {
   },
 }
 
-require("lspconfig").lua_ls.setup {
+--Setup language servers
+
+local lsp = require("lspconfig")
+
+lsp.lua_ls.setup {
   on_attach = M.on_attach,
   capabilities = M.capabilities,
 
@@ -61,9 +65,11 @@ require("lspconfig").lua_ls.setup {
   },
 }
 
-require("lspconfig").asm_lsp.setup {}
+lsp.jdtls.setup {}
 
-require("lspconfig").clangd.setup({})
+lsp.asm_lsp.setup {}
+
+lsp.clangd.setup({})
 
 require("rust-tools").setup({
   server = {
@@ -76,6 +82,12 @@ require("rust-tools").setup({
   },
 })
 
-require("lspconfig").rust_analyzer.setup {}
+lsp.rust_analyzer.setup {}
+
+lsp.bashls.setup {}
+
+lsp.csharp_ls.setup {}
+
+lsp.pylsp.setup {}
 
 return M
