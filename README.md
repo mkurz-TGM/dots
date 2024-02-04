@@ -4,10 +4,10 @@
 
 <div align="center">
   
-  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/mkurz-TGM/dots/illogical-impulse)
-  ![GitHub Repo stars](https://img.shields.io/github/stars/mkurz-TGM/dots)
-  ![GitHub repo size](https://img.shields.io/github/repo-size/mkurz-TGM/dots)
-  ![GitHub issues](https://img.shields.io/github/issues/mkurz-TGM/dots)
+  ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/czlabinger/dots/illogical-impulse)
+  ![GitHub Repo stars](https://img.shields.io/github/stars/czlabinger/dots)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/czlabinger/dots)
+  ![GitHub issues](https://img.shields.io/github/issues/czlabinger/dots)
 
 </div>
 
