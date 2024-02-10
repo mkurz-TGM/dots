@@ -18,3 +18,4 @@ require("nvim-tree").setup {
     timeout = 500,
   }
 }
+

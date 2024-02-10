@@ -65,7 +65,8 @@ lsp.lua_ls.setup {
   },
 }
 
-lsp.jdtls.setup {}
+lsp.jdtls.setup({})
+
 
 lsp.asm_lsp.setup {}
 
@@ -82,6 +83,21 @@ require("rust-tools").setup({
   },
 })
 
+require("nvim-treesitter.configs").setup {
+  ensure_installed = { "lua", "rust", "toml" },
+  auto_install = true,
+  highlight = {
+    enable = true,
+    additional_vim_regex_highlighting=false,
+  },
+  ident = { enable = true },
+  rainbow = {
+    enable = true,
+    extended_mode = true,
+    max_file_lines = nil,
+  }
+}
+
 lsp.rust_analyzer.setup {}
 
 lsp.bashls.setup {}
@@ -89,5 +105,7 @@ lsp.bashls.setup {}
 lsp.csharp_ls.setup {}
 
 lsp.pylsp.setup {}
+
+
 
 return M
