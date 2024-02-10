@@ -106,6 +106,7 @@ lsp.csharp_ls.setup {}
 
 lsp.pylsp.setup {}
 
+lsp.tsserver.setup {}
 
 
 return M
